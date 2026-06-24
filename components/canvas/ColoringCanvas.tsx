@@ -10,12 +10,40 @@ import { LayersPanel } from "./LayersPanel";
 import { GalleryModal } from "./GalleryModal";
 import { TextInputOverlay } from "./TextInputOverlay";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { Sun, Moon, Keyboard } from "lucide-react";
 
 export function ColoringCanvas() {
   const canvas = useColoringCanvas();
   const isMobile = useIsMobile();
   const [showLayers, setShowLayers] = useState(false);
   const [showGallery, setShowGallery] = useState(false);
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [showHelp, setShowHelp] = useState(false);
+
+  // Initialize theme from localStorage + system preference
+  useEffect(() => {
+    const stored = localStorage.getItem("theme");
+    if (stored === "dark" || (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      setTheme("dark");
+      document.documentElement.classList.add("dark");
+    } else {
+      setTheme("light");
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    setTheme((prev) => {
+      const next = prev === "light" ? "dark" : "light";
+      localStorage.setItem("theme", next);
+      if (next === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+      return next;
+    });
+  };
 
   // Load template from URL if provided
   useEffect(() => {
@@ -81,11 +109,51 @@ export function ColoringCanvas() {
   return (
     <div className="flex flex-col h-screen w-screen bg-background overflow-hidden">
       {/* Header */}
-      <header className="flex items-center justify-center px-4 py-2 shrink-0">
-        <h1 className="text-xl font-extrabold text-foreground tracking-tight">
+      <header className="flex items-center justify-between px-4 py-2 shrink-0 border-b border-toolbar-foreground/10">
+        <h1 className="text-xl font-extrabold text-foreground tracking-tight truncate">
           🎨 Coloring Book
         </h1>
+        <div className="flex items-center gap-1">
+          {/* Keyboard shortcuts help */}
+          <button
+            onClick={() => setShowHelp((v) => !v)}
+            title="Keyboard shortcuts"
+            aria-label="Keyboard shortcuts"
+            className="flex items-center justify-center w-8 h-8 rounded-lg text-toolbar-foreground/60 hover:text-toolbar-foreground hover:bg-toolbar-hover transition-colors"
+          >
+            <Keyboard size={18} />
+          </button>
+          {/* Theme toggle */}
+          <button
+            onClick={toggleTheme}
+            title={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
+            aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
+            className="flex items-center justify-center w-8 h-8 rounded-lg text-toolbar-foreground/60 hover:text-toolbar-foreground hover:bg-toolbar-hover transition-colors"
+          >
+            {theme === "light" ? <Moon size={18} /> : <Sun size={18} />}
+          </button>
+        </div>
       </header>
+
+      {/* Help tooltip */}
+      {showHelp && (
+        <div className="absolute top-12 right-4 z-50 bg-card rounded-xl toolbar-shadow p-4 text-sm text-card-foreground max-w-xs animate-fade-in">
+          <h3 className="font-bold mb-2">⌨️ Keyboard Shortcuts</h3>
+          <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-xs">
+            <span className="text-muted-foreground">B</span><span>Brush</span>
+            <span className="text-muted-foreground">E</span><span>Eraser</span>
+            <span className="text-muted-foreground">G</span><span>Fill</span>
+            <span className="text-muted-foreground">S</span><span>Spray</span>
+            <span className="text-muted-foreground">I</span><span>Eyedropper</span>
+            <span className="text-muted-foreground">T</span><span>Text</span>
+            <span className="text-muted-foreground">H</span><span>Pan</span>
+            <span className="text-muted-foreground">Ctrl+Z</span><span>Undo</span>
+            <span className="text-muted-foreground">Ctrl+Y</span><span>Redo</span>
+            <span className="text-muted-foreground">Ctrl+Scroll</span><span>Zoom</span>
+          </div>
+          <p className="text-[10px] text-muted-foreground mt-2">Click outside to dismiss</p>
+        </div>
+      )}
 
       {/* Desktop Toolbar */}
       {!isMobile && (
@@ -165,10 +233,15 @@ export function ColoringCanvas() {
 
           {/* Empty state */}
           {!canvas.hasImage && (
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="text-center text-muted-foreground/60 p-8">
-                <p className="text-lg font-semibold">Start drawing on the blank canvas</p>
-                <p className="text-sm mt-1">or upload / paste an image / pick from the gallery</p>
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
+              <div className="text-center text-muted-foreground/60 p-8 max-w-md">
+                <div className="text-4xl mb-3">🎨</div>
+                <p className="text-lg font-semibold text-foreground/70">Your Canvas Awaits</p>
+                <p className="text-sm mt-2 text-muted-foreground/50">
+                  Start drawing on the blank canvas,{" "}
+                  <span className="text-primary/60">paste an image</span>{" "}
+                  from your clipboard, or open the gallery to pick a template.
+                </p>
               </div>
             </div>
           )}
