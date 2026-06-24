@@ -1,0 +1,477 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "SoftBrain Studio Art Tools API",
+    "version": "1.0.0",
+    "description": "RESTful API for text formatting, image vectorization, and document metadata editing tools",
+    "contact": {
+      "name": "SoftBrain Studio",
+      "url": "https://softbrain.space",
+      "email": "api@softbrain.space"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://softbrain.space",
+      "description": "Production server"
+    },
+    {
+      "url": "http://localhost:3000",
+      "description": "Development server"
+    }
+  ],
+  "paths": {
+    "/api/tools/text-formatter": {
+      "get": {
+        "summary": "Get API documentation",
+        "description": "Returns information about the Text Formatter API",
+        "tags": ["Text Formatter"],
+        "responses": {
+          "200": {
+            "description": "API documentation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Transform text",
+        "description": "Apply various text transformations to input text",
+        "tags": ["Text Formatter"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TextFormatterRequest"
+              },
+              "examples": {
+                "uppercase": {
+                  "summary": "Convert to uppercase",
+                  "value": {
+                    "text": "hello world",
+                    "operation": "uppercase"
+                  }
+                },
+                "camelCase": {
+                  "summary": "Convert to camelCase",
+                  "value": {
+                    "text": "hello world example",
+                    "operation": "camelCase"
+                  }
+                },
+                "removeDates": {
+                  "summary": "Remove dates from text",
+                  "value": {
+                    "text": "Error occurred on 2024-03-15 at server1",
+                    "operation": "removeDates"
+                  }
+                },
+                "removeTimestamps": {
+                  "summary": "Remove timestamps from text",
+                  "value": {
+                    "text": "Request received at 14:30:45.123 from client",
+                    "operation": "removeTimestamps"
+                  }
+                },
+                "anonymizeUsers": {
+                  "summary": "Anonymize user information",
+                  "value": {
+                    "text": "User john.doe@example.com logged in from 192.168.1.1",
+                    "operation": "anonymizeUsers"
+                  }
+                },
+                "cleanLogs": {
+                  "summary": "Clean logs (remove dates, timestamps, and anonymize users)",
+                  "value": {
+                    "text": "2024-03-15 14:30:45 - User admin@example.com from 10.0.0.1 accessed resource",
+                    "operation": "cleanLogs"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful transformation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TextFormatterResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tools/vector-magic": {
+      "get": {
+        "summary": "Get API documentation",
+        "description": "Returns information about the Vector Magic API",
+        "tags": ["Vector Magic"],
+        "responses": {
+          "200": {
+            "description": "API documentation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Convert image to vector",
+        "description": "Convert raster images to vector SVG format",
+        "tags": ["Vector Magic"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VectorMagicRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful conversion",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VectorMagicResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tools/doc-editor/metadata": {
+      "post": {
+        "summary": "Extract document metadata",
+        "description": "Extract metadata from PDF and other document files",
+        "tags": ["DocMeta Editor"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocMetadataRequest"
+              },
+              "examples": {
+                "pdf": {
+                  "summary": "Extract PDF metadata",
+                  "value": {
+                    "file": "data:application/pdf;base64,JVBERi0xLjQK...",
+                    "fileName": "document.pdf"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Metadata extracted successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocMetadataResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tools/doc-editor/update": {
+      "post": {
+        "summary": "Update PDF metadata",
+        "description": "Update metadata in a PDF file and return the modified PDF",
+        "tags": ["DocMeta Editor"],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DocUpdateRequest"
+              },
+              "examples": {
+                "updateTitle": {
+                  "summary": "Update document title",
+                  "value": {
+                    "file": "data:application/pdf;base64,JVBERi0xLjQK...",
+                    "metadata": {
+                      "title": "My Updated Document",
+                      "author": "John Doe"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "PDF updated successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DocUpdateResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TextFormatterRequest": {
+        "type": "object",
+        "required": ["text", "operation"],
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Text to transform (max 100,000 characters)",
+            "maxLength": 100000,
+            "example": "hello world"
+          },
+          "operation": {
+            "type": "string",
+            "description": "Transformation operation to apply",
+            "enum": ["uppercase", "lowercase", "titlecase", "sentencecase", "reverse", "removeSpaces", "removeExtraSpaces", "addSpaces", "snakeCase", "camelCase", "kebabCase", "pascalCase", "alternatingCase", "invertCase", "capitalize", "removeDates", "removeTimestamps", "anonymizeUsers", "cleanLogs"],
+            "example": "uppercase"
+          },
+          "options": {
+            "type": "object",
+            "description": "Optional configuration for specific operations",
+            "properties": {
+              "userReplacement": {
+                "type": "string",
+                "description": "Custom replacement text for anonymized users (default: '[USER]')",
+                "example": "REDACTED_USER"
+              }
+            }
+          }
+        }
+      },
+      "TextFormatterResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean" },
+          "result": { "type": "string" },
+          "operation": { "type": "string" },
+          "originalLength": { "type": "integer" },
+          "resultLength": { "type": "integer" },
+          "error": { "type": "string" }
+        }
+      },
+      "VectorMagicRequest": {
+        "type": "object",
+        "required": ["image"],
+        "properties": {
+          "image": {
+            "type": "string",
+            "description": "Base64 encoded image with data URI prefix (max 10MB)"
+          },
+          "options": {
+            "type": "object",
+            "properties": {
+              "colors": { "type": "integer", "minimum": 2, "maximum": 256, "default": 16 },
+              "detail": { "type": "string", "enum": ["low", "medium", "high"], "default": "medium" },
+              "smoothing": { "type": "number", "minimum": 0, "maximum": 10, "default": 1 }
+            }
+          }
+        }
+      },
+      "VectorMagicResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean" },
+          "svg": { "type": "string" },
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "originalSize": { "type": "integer" },
+              "svgSize": { "type": "integer" },
+              "colors": { "type": "integer" },
+              "detail": { "type": "string" },
+              "processingTime": { "type": "integer" }
+            }
+          },
+          "error": { "type": "string" }
+        }
+      },
+      "DocMetadataRequest": {
+        "type": "object",
+        "required": ["file"],
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Base64 encoded file with data URI prefix (max 750MB)"
+          },
+          "fileName": {
+            "type": "string",
+            "description": "Original file name"
+          }
+        }
+      },
+      "DocMetadataResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean" },
+          "metadata": { "$ref": "#/components/schemas/DocumentMetadata" },
+          "error": { "type": "string" }
+        }
+      },
+      "DocumentMetadata": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string", "description": "Document title" },
+          "author": { "type": "string", "description": "Document author" },
+          "subject": { "type": "string", "description": "Document subject" },
+          "keywords": { "type": "string", "description": "Document keywords" },
+          "creator": { "type": "string", "description": "Application that created the document" },
+          "producer": { "type": "string", "description": "Application that produced the PDF" },
+          "creationDate": { "type": "string", "description": "Creation date (ISO 8601 format)" },
+          "modificationDate": { "type": "string", "description": "Last modification date (ISO 8601 format)" },
+          "pageCount": { "type": "integer", "description": "Number of pages" },
+          "fileSize": { "type": "integer", "description": "File size in bytes" },
+          "fileName": { "type": "string", "description": "Original file name" },
+          "fileType": { "type": "string", "description": "Detected file type" }
+        }
+      },
+      "DocUpdateRequest": {
+        "type": "object",
+        "required": ["file", "metadata"],
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Base64 encoded PDF with data URI prefix (max 750MB)"
+          },
+          "metadata": {
+            "type": "object",
+            "description": "Metadata fields to update",
+            "properties": {
+              "title": { "type": "string" },
+              "author": { "type": "string" },
+              "subject": { "type": "string" },
+              "keywords": { "type": "string", "description": "Comma-separated keywords" },
+              "creator": { "type": "string" },
+              "producer": { "type": "string" },
+              "creationDate": { "type": "string" },
+              "modificationDate": { "type": "string" }
+            }
+          }
+        }
+      },
+      "DocUpdateResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean" },
+          "file": { "type": "string", "description": "Base64 encoded updated PDF with data URI prefix" },
+          "metadata": { "$ref": "#/components/schemas/DocumentMetadata" },
+          "error": { "type": "string" }
+        }
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "properties": {
+          "success": { "type": "boolean", "example": false },
+          "error": { "type": "string", "description": "Error message" }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Text Formatter",
+      "description": "Text transformation operations"
+    },
+    {
+      "name": "Vector Magic",
+      "description": "Image to vector conversion"
+    },
+    {
+      "name": "DocMeta Editor",
+      "description": "PDF and document metadata extraction and editing"
+    }
+  ]
+}

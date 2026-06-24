@@ -1,0 +1,538 @@
+{
+  "nav": {
+    "home": "होम",
+    "store": "स्टोर",
+    "gallery": "गैलरी",
+    "blog": "ब्लॉग",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "contact_us": "हमसे संपर्क करें",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न",
+    "tools": "कला उपकरण",
+    "coloring_book": "रंग भरने की किताब",
+    "vector_magic": "वेक्टर मैजिक",
+    "text_formatter": "टेक्स्ट फॉर्मेटर",
+    "cart": "कार्ट",
+    "sign_in": "साइन इन",
+    "sign_up": "साइन अप",
+    "sign_out": "साइन आउट",
+    "my_profile": "मेरी प्रोफाइल",
+    "hello": "नमस्ते",
+    "user": "उपयोगकर्ता",
+    "doc_editor": "डॉक एडिटर",
+    "my_account": "मेरा खाता",
+    "drive_lens": "ड्राइव लेंस"
+  },
+  "home": {
+    "hero": {
+      "title": "अपनी रचनात्मक शांति खोजें",
+      "title_part1": "अपनी रचनात्मक",
+      "title_part2": "शांति खोजें",
+      "subtitle": "ADHD, चिंता राहत और रचनात्मक अभिव्यक्ति के लिए डिज़ाइन की गई थेरेप्यूटिक लाइन आर्ट कलरिंग बुक खोजें। हमारे मुफ्त क्रिएटिव टूल एक्सप्लोर करें: डिजिटल कलरिंग कैनवास, AI-पावर्ड वेक्टर कनवर्टर, टेक्स्ट फॉर्मेटर, डॉक्यूमेंट मेटाडेटा एडिटर और AI-एन्हांस्ड Google Drive फोटो मैनेजर। वयस्कों और बच्चों के लिए साक्ष्य-आधारित आर्ट थेरेपी संसाधन जो फोकस, रिलैक्सेशन और माइंडफुल क्रिएटिविटी चाहते हैं।",
+      "description": "ADHD, चिंता राहत और रचनात्मक अभिव्यक्ति के लिए डिज़ाइन की गई थेरेप्यूटिक लाइन आर्ट कलरिंग बुक खोजें। हमारे मुफ्त क्रिएटिव टूल एक्सप्लोर करें: डिजिटल कलरिंग कैनवास, AI-पावर्ड वेक्टर कनवर्टर, टेक्स्ट फॉर्मेटर, डॉक्यूमेंट मेटाडेटा एडिटर और AI-एन्हांस्ड Google Drive फोटो मैनेजर। वयस्कों और बच्चों के लिए साक्ष्य-आधारित आर्ट थेरेपी संसाधन जो फोकस, रिलैक्सेशन और माइंडफुल क्रिएटिविटी चाहते हैं।",
+      "cta_store": "स्टोर देखें",
+      "cta_gallery": "गैलरी देखें"
+    },
+    "title": "SoftBrain Space",
+    "subtitle": "थेरेप्यूटिक कलरिंग बुक्स और क्रिएटिव वेलनेस टूल्स",
+    "description": "ADHD, चिंता राहत और रचनात्मक अभिव्यक्ति के लिए थेरेप्यूटिक लाइन आर्ट कलरिंग बुक खोजें। हमारे मुफ्त क्रिएटिव टूल एक्सप्लोर करें: डिजिटल कलरिंग कैनवास, AI वेक्टर कनवर्टर, टेक्स्ट फॉर्मेटर, डॉक्यूमेंट एडिटर और AI फोटो मैनेजर।",
+    "shopNow": "अभी खरीदें",
+    "viewGallery": "गैलरी देखें",
+    "newsletter": {
+      "title": "अपडेट रहें",
+      "description": "नवीनतम रंग भरने की किताबें, कला टिप्स और विशेष ऑफर अपने इनबॉक्स में प्राप्त करें।",
+      "subscribe": "सब्सक्राइब करें",
+      "subscribing": "सब्सक्राइब हो रहा है...",
+      "success": "सब्सक्राइब करने के लिए धन्यवाद!",
+      "error": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।",
+      "invalidEmail": "कृपया एक वैध ईमेल पता दर्ज करें",
+      "placeholder": "अपना ईमेल दर्ज करें"
+    },
+    "features_title": "SoftBrain Space क्यों चुनें?",
+    "features": {
+      "art": {
+        "title": "चिकित्सीय कला",
+        "description": "ADHD वाले वयस्कों और बच्चों के लिए ध्यान और विश्राम को बढ़ावा देने वाले सावधानीपूर्वक डिज़ाइन किए गए लाइन-आर्ट पैटर्न।"
+      },
+      "mindful": {
+        "title": "माइंडफुल क्रिएशन",
+        "description": "प्रत्येक डिज़ाइन माइंडफुलनेस और रचनात्मक अभिव्यक्ति को प्रोत्साहित करता है, तनाव और चिंता को कम करने में मदद करता है।"
+      },
+      "quality": {
+        "title": "गुणवत्ता डिज़ाइन",
+        "description": "उच्च गुणवत्ता वाले काले और सफेद चित्र, रंग भरने के लिए उपयुक्त, सभी कौशल स्तरों के लिए उपयुक्त।"
+      },
+      "digital": {
+        "title": "तत्काल डिजिटल डाउनलोड",
+        "description": "हमारे डिजिटल डाउनलोड विकल्पों के साथ अपनी खरीदारी तुरंत एक्सेस करें। घर पर प्रिंट करें और तुरंत रंग भरना शुरू करें।"
+      },
+      "community": {
+        "title": "बढ़ता हुआ समुदाय",
+        "description": "हजारों कलाकारों और रंग भरने वाले उत्साही लोगों से जुड़ें जो अपनी रचनाएं साझा करते हैं और एक-दूसरे को प्रेरित करते हैं।"
+      },
+      "tools": {
+        "title": "मुफ्त रचनात्मक उपकरण",
+        "description": "डिजिटल रंग भरने वाले कैनवास, वेक्टर कन्वर्टर और टेक्स्ट फॉर्मेटर सहित हमारे मुफ्त ऑनलाइन टूल सूट तक पहुंचें।"
+      }
+    },
+    "art_tools": {
+      "title": "🎨 अद्भुत कला उपकरण",
+      "description": "अपनी कलात्मक यात्रा को बढ़ाने के लिए डिज़ाइन किए गए हमारे मुफ्त रचनात्मक उपकरणों का अन्वेषण करें",
+      "coloring": {
+        "title": "🖌️ रंग भरने की किताब",
+        "description": "ब्रश, लेयर्स, सिमेट्री टूल और बहुत कुछ के साथ पूर्ण-फीचर डिजिटल रंग भरने वाला कैनवास। अपनी खुद की कृतियां बनाने के लिए उपयुक्त।",
+        "cta": "मुफ्त में आज़माएं"
+      },
+      "vector": {
+        "title": "✨ वेक्टर मैजिक",
+        "description": "रास्टर इमेज को स्केलेबल वेक्टर ग्राफिक्स में बदलें। AI-संचालित, रंग नियंत्रण, बैच प्रोसेसिंग और कई निर्यात प्रारूपों के साथ।",
+        "cta": "मुफ्त में आज़माएं"
+      },
+      "text": {
+        "title": "📝 टेक्स्ट फॉर्मेटर",
+        "description": "विभिन्न परिवर्तनों के साथ अपने टेक्स्ट को फॉर्मेट और स्टाइल करें। अद्वितीय डिज़ाइन और टाइपोग्राफी बनाने के लिए उपयुक्त।",
+        "cta": "मुफ्त में आज़माएं"
+      },
+      "docEditor": {
+        "title": "📄 डॉकमेटा एडिटर",
+        "description": "PDF और अन्य फाइलों के लिए दस्तावेज़ मेटाडेटा देखें और संपादित करें। अपने डिजिटल दस्तावेज़ों को व्यवस्थित करने के लिए उपयुक्त।",
+        "cta": "मुफ्त में आज़माएं"
+      },
+      "driveLens": {
+        "title": "🔍 ड्राइव लेंस",
+        "description": "AI-संचालित Google Drive फोटो प्रबंधक। Gemini AI एकीकरण के साथ अपनी तस्वीरों को ब्राउज़, व्यवस्थित, विश्लेषण और प्रबंधित करें।",
+        "cta": "मुफ्त में आज़माएं"
+      }
+    },
+    "cta": {
+      "title": "आज ही अपनी रचनात्मक यात्रा शुरू करें",
+      "description": "हमारे चिकित्सीय रंग भरने की किताबों के संग्रह का अन्वेषण करें और अपने माइंडफुल क्षणों के लिए उपयुक्त डिज़ाइन खोजें।",
+      "button": "संग्रह ब्राउज़ करें"
+    },
+    "featured_products": "विशेष उत्पाद",
+    "view_all_products": "सभी उत्पाद देखें"
+  },
+  "product": {
+    "price": "मूल्य",
+    "category": "श्रेणी",
+    "description": "विवरण",
+    "addToCart": "कार्ट में जोड़ें",
+    "backToStore": "स्टोर पर वापस जाएं",
+    "relatedProducts": "संबंधित उत्पाद"
+  },
+  "cart": {
+    "title": "शॉपिंग कार्ट",
+    "empty": "आपका कार्ट खाली है",
+    "continueShopping": "खरीदारी जारी रखें",
+    "subtotal": "उप-योग",
+    "shipping": "शिपिंग",
+    "total": "कुल",
+    "checkout": "चेकआउट करें",
+    "remove": "हटाएं",
+    "quantity": "मात्रा",
+    "item": "आइटम",
+    "items": "आइटम"
+  },
+  "store": {
+    "title": "स्टोर - SoftBrain Space",
+    "description": "रचनात्मक विश्राम के लिए डिज़ाइन की गई चिकित्सीय लाइन-आर्ट रंग भरने की किताबें, डूडल और स्टिकर का हमारा संग्रह ब्राउज़ करें।",
+    "header": "हमारा संग्रह",
+    "headerDescription": "ध्यान और विश्राम को बढ़ावा देने के लिए डिज़ाइन की गई चिकित्सीय रंग भरने की किताबों, डूडल और स्टिकर का हमारा सावधानीपूर्वक क्यूरेट किया गया चयन देखें।",
+    "allProducts": "सभी उत्पाद",
+    "filterByCategory": "श्रेणी के अनुसार फ़िल्टर करें",
+    "sortBy": "क्रमबद्ध करें",
+    "priceAsc": "मूल्य: कम से अधिक",
+    "priceDesc": "मूल्य: अधिक से कम",
+    "nameAsc": "नाम: A-Z",
+    "nameDesc": "नाम: Z-A",
+    "newest": "नवीनतम",
+    "addToCart": "कार्ट में जोड़ें",
+    "viewDetails": "विवरण देखें",
+    "viewDetailsBtn": "विवरण देखें",
+    "noProducts": "कोई उत्पाद नहीं मिला। कृपया बाद में फिर से जांचें।",
+    "categories": {
+      "all": "सभी उत्पाद",
+      "coloring-book": "रंग भरने की किताबें",
+      "doodle": "डूडल",
+      "sticker": "स्टिकर"
+    },
+    "languages": {
+      "all": "सभी भाषाएं",
+      "en": "अंग्रेज़ी",
+      "es": "स्पेनिश",
+      "fr": "फ्रेंच",
+      "de": "जर्मन"
+    },
+    "sort": {
+      "label": "क्रमबद्ध करें",
+      "default": "डिफ़ॉल्ट",
+      "name": "नाम",
+      "price": "मूल्य",
+      "date": "जोड़े गए की तारीख",
+      "ascending": "↑ आरोही",
+      "descending": "↓ अवरोही"
+    },
+    "languageLabel": "भाषा",
+    "productType": {
+      "digital": "📥 डिजिटल",
+      "printed": "📦 मुद्रित"
+    }
+  },
+  "gallery": {
+    "title": "कला गैलरी - चिकित्सीय कृतियां",
+    "description": "हमारे चिकित्सीय लाइन-आर्ट, रंग भरने की किताबों और सामुदायिक रचनाओं के संग्रह का अन्वेषण करें।",
+    "all": "सभी",
+    "allArtwork": "सभी कृतियां",
+    "filterByCategory": "श्रेणी के अनुसार फ़िल्टर करें",
+    "viewFullSize": "पूर्ण आकार में देखें",
+    "error": "गैलरी आइटम लोड करने में विफल। कृपया बाद में पुनः प्रयास करें।",
+    "loading": "गैलरी लोड हो रही है...",
+    "noItems": "अभी तक कोई गैलरी आइटम उपलब्ध नहीं है।"
+  },
+  "blog": {
+    "title": "मनोविज्ञान और कल्याण ब्लॉग",
+    "description": "आर्ट थेरेपी, ADHD समर्थन, मानसिक स्वास्थ्य और कल्याण पर विशेषज्ञ अंतर्दृष्टि। साक्ष्य-आधारित लेख, ट्यूटोरियल और चिकित्सीय रंग भरने, माइंडफुलनेस और मनोवैज्ञानिक कल्याण के लिए संसाधन।",
+    "header": "ब्लॉग",
+    "headerDescription": "SoftBrain Space से रंग भरने के टिप्स, ट्यूटोरियल, रचनात्मक प्रेरणा और कहानियां खोजें।",
+    "allPosts": "सभी पोस्ट",
+    "featuredPosts": "विशेष पोस्ट",
+    "noPosts": "कोई पोस्ट नहीं मिली। जल्द ही वापस आएं!",
+    "by": "द्वारा",
+    "types": {
+      "article": "लेख",
+      "video": "वीडियो",
+      "tutorial": "ट्यूटोरियल"
+    },
+    "readMore": "और पढ़ें"
+  },
+  "footer": {
+    "description": "रचनात्मक विश्राम और ध्यान के लिए डिज़ाइन की गई चिकित्सीय लाइन-आर्ट रंग भरने की किताबें, डूडल और स्टिकर। ADHD वाले वयस्कों और बच्चों के लिए उपयुक्त।",
+    "quickLinks": "त्वरित लिंक",
+    "followUs": "हमें फॉलो करें",
+    "shopOn": "पर खरीदारी करें",
+    "newsletter": "हमारे न्यूज़लेटर की सदस्यता लें",
+    "newsletterDescription": "नए उत्पादों और विशेष ऑफर पर अपडेट प्राप्त करें।",
+    "copyright": "सर्वाधिकार सुरक्षित।",
+    "softbrainStore": "SoftBrain स्टोर",
+    "gumroadStore": "Gumroad स्टोर",
+    "payhipStore": "Payhip स्टोर"
+  },
+  "about": {
+    "title": "हमारे बारे में",
+    "ourStory": "हमारी कहानी",
+    "ourMission": "हमारा मिशन",
+    "description": "SoftBrain Space रचनात्मक विश्राम और ध्यान के लिए चिकित्सीय कला प्रदान करता है।"
+  },
+  "auth": {
+    "signIn": "साइन इन",
+    "signUp": "साइन अप",
+    "signOut": "साइन आउट",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "noAccount": "खाता नहीं है?",
+    "haveAccount": "पहले से खाता है?",
+    "createAccount": "खाता बनाएं",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "sendResetLink": "रीसेट लिंक भेजें",
+    "backToSignIn": "साइन इन पर वापस जाएं",
+    "checkEmail": "अपना ईमेल जांचें",
+    "resetSent": "पासवर्ड रीसेट निर्देश आपके ईमेल पर भेज दिए गए हैं।"
+  },
+  "checkout": {
+    "title": "चेकआउट",
+    "shippingInfo": "शिपिंग जानकारी",
+    "billingInfo": "बिलिंग जानकारी",
+    "payment": "भुगतान",
+    "placeOrder": "ऑर्डर दें",
+    "orderSummary": "ऑर्डर सारांश",
+    "firstName": "प्रथम नाम",
+    "lastName": "अंतिम नाम",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "address": "पता",
+    "city": "शहर",
+    "state": "राज्य/प्रांत",
+    "zip": "पिन कोड",
+    "country": "देश",
+    "success": {
+      "title": "आपके ऑर्डर के लिए धन्यवाद!",
+      "description": "आपका ऑर्डर सफलतापूर्वक संसाधित हो गया है। एक पुष्टिकरण ईमेल भेज दिया गया है।",
+      "orderNumber": "ऑर्डर नंबर",
+      "continueShopping": "खरीदारी जारी रखें"
+    },
+    "cancel": {
+      "title": "भुगतान रद्द",
+      "description": "भुगतान प्रक्रिया रद्द कर दी गई थी। आपका कार्ट सहेजा गया है।",
+      "tryAgain": "पुनः प्रयास करें"
+    }
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफल",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "confirm": "पुष्टि करें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "sort": "क्रमबद्ध",
+    "clear": "साफ़ करें",
+    "apply": "लागू करें",
+    "close": "बंद करें",
+    "open": "खोलें",
+    "yes": "हाँ",
+    "no": "नहीं"
+  },
+  "faq": {
+    "title": "अक्सर पूछे जाने वाले प्रश्न",
+    "description": "सामान्य प्रश्नों के उत्तर खोजें।",
+    "category_products": "उत्पाद और ऑर्डर",
+    "category_shipping": "शिपिंग और रिटर्न",
+    "category_digital": "डिजिटल उत्पाद",
+    "category_wholesale": "थोक और लाइसेंसिंग",
+    "q_therapeutic": "चिकित्सीय रंग भरने की किताबें क्या हैं?",
+    "a_therapeutic": "चिकित्सीय रंग भरने की किताबें विशेष रूप से डिज़ाइन की गई लाइन-आर्ट चित्र हैं जो विश्राम, तनाव कमी और माइंडफुलनेस को बढ़ावा देती हैं। जटिल पैटर्न ध्यान में मदद करते हैं और रचनात्मक अभिव्यक्ति के माध्यम से शांत स्थिति बनाते हैं। वे ADHD या चिंता वाले लोगों के लिए विशेष रूप से प्रभावी हैं।",
+    "q_skill_level": "किस कौशल स्तर की आवश्यकता है?",
+    "a_skill_level": "हमारी रंग भरने की किताबें सभी कौशल स्तरों के लिए उपयुक्त हैं, शुरुआती लोगों से लेकर अनुभवी कलाकारों तक। हम विभिन्न प्रकार के डिज़ाइन प्रदान करते हैं, सरल से जटिल पैटर्न तक, ताकि आप अपनी पसंद और अनुभव के अनुसार चुन सकें।",
+    "q_materials": "मुझे किस सामग्री का उपयोग करना चाहिए?",
+    "a_materials": "आप अपनी पसंद का कोई भी रंग भरने का माध्यम उपयोग कर सकते हैं - रंगीन पेंसिल, जेल पेन, मार्कर, वाटरकलर या स्केच पेन। हमारे मुद्रित संस्करण उच्च गुणवत्ता वाले कागज का उपयोग करते हैं जो विभिन्न मीडिया को स्वीकार करता है।",
+    "q_order": "मैं ऑर्डर कैसे दूं?",
+    "a_order": "हमारे स्टोर पेज को ब्राउज़ करें, आइटम को अपने कार्ट में जोड़ें, और चेकआउट पूरा करें। आप डिजिटल और मुद्रित उत्पादों के बीच चुन सकते हैं। हमारी सुरक्षित भुगतान प्रक्रिया एक सहज खरीदारी अनुभव सुनिश्चित करती है।",
+    "q_shipping_time": "शिपिंग में कितना समय लगता है?",
+    "a_shipping_time": "मुद्रित उत्पाद आमतौर पर ऑर्डर की पुष्टि के बाद 3-7 कार्य दिवसों के भीतर भेज दिए जाते हैं। अंतर्राष्ट्रीय ऑर्डरों में गंतव्य के आधार पर अधिक समय लग सकता है। डिजिटल उत्पाद खरीद के तुरंत बाद उपलब्ध होते हैं।",
+    "q_international": "क्या आप अंतर्राष्ट्रीय शिपिंग करते हैं?",
+    "a_international": "हाँ, हम दुनिया भर के कई देशों में शिपिंग करते हैं। शिपिंग लागत और डिलीवरी समय गंतव्य के आधार पर भिन्न होता है। उपलब्ध शिपिंग विकल्प चेकआउट पर दिखाए जाएंगे।",
+    "q_returns": "आपकी रिटर्न नीति क्या है?",
+    "a_returns": "मुद्रित उत्पादों के लिए, हम केवल त्रुटिपूर्ण आइटम के लिए रिटर्न स्वीकार करते हैं। कृपया प्राप्ति के 7 दिनों के भीतर हमसे संपर्क करें। डिजिटल उत्पाद अपनी प्रकृति के कारण रिटर्न के लिए पात्र नहीं हैं, लेकिन हम आपकी खरीद के साथ समस्याओं के लिए सहायता प्रदान करते हैं।",
+    "q_digital": "मैं डिजिटल उत्पाद कैसे डाउनलोड करूं?",
+    "a_digital": "डिजिटल उत्पाद खरीदने के बाद, आपको डाउनलोड लिंक के साथ एक ईमेल प्राप्त होगा। आप इसे अपने खाते के ऑर्डर इतिहास के माध्यम से भी किसी भी समय एक्सेस कर सकते हैं। फाइलें PDF प्रारूप में प्रदान की जाती हैं और आपके चुने हुए डिवाइस पर उपयोग की जा सकती हैं।",
+    "q_print_multiple": "क्या मैं डिजिटल उत्पादों को कई बार प्रिंट कर सकता हूं?",
+    "a_print_multiple": "हाँ, आप व्यक्तिगत उपयोग के लिए खरीदे गए डिजिटल उत्पादों को जितनी बार चाहें प्रिंट कर सकते हैं। हालांकि, फाइलों को पुनः बेचना, वितरित करना या साझा करना अनुमत नहीं है।",
+    "q_wholesale": "क्या आप थोक मूल्य प्रदान करते हैं?",
+    "a_wholesale": "हाँ, हम 50 इकाइयों या उससे अधिक के ऑर्डर के लिए थोक मूल्य प्रदान करते हैं। यह रिटेलर्स, कक्षाओं या चिकित्सीय सेटिंग्स के लिए आदर्श है। विस्तृत कोट के लिए हमसे संपर्क करें।",
+    "q_therapy_use": "क्या मैं इन्हें अपनी चिकित्सीय प्रथा में उपयोग कर सकता हूं?",
+    "a_therapy_use": "हाँ, हमारी रंग भरने की किताबें अक्सर आर्ट थेरेपी, व्यावसायिक थेरेपी और काउंसलिंग प्रथाओं में उपयोग की जाती हैं। पेशेवर उपयोग के लिए लाइसेंसिंग विकल्पों के लिए हमसे संपर्क करें।",
+    "stillQuestions": "अभी भी प्रश्न हैं?",
+    "contactPrompt": "आप जो उत्तर ढूंढ रहे हैं वह नहीं मिला?",
+    "contactButton": "हमसे संपर्क करें"
+  },
+  "favorites": {
+    "addToFavorites": "पसंदीदा में जोड़ें",
+    "removeFromFavorites": "पसंदीदा से हटाएं",
+    "save": "सहेजें",
+    "saved": "सहेजा गया"
+  },
+  "profile": {
+    "title": "मेरी प्रोफाइल",
+    "orders": "ऑर्डर",
+    "favorites": "पसंदीदा",
+    "settings": "सेटिंग्स",
+    "orderHistory": "ऑर्डर इतिहास",
+    "noOrders": "अभी तक कोई ऑर्डर नहीं",
+    "noFavorites": "अभी तक कोई पसंदीदा नहीं",
+    "addresses": "पते"
+  },
+  "share": {
+    "title": "साझा करें",
+    "copyLink": "लिंक कॉपी करें",
+    "copied": "कॉपी किया गया!",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "language": {
+    "select": "भाषा चुनें"
+  },
+  "contact": {
+    "title": "हमसे संपर्क करें",
+    "sendMessage": "हमें एक संदेश भेजें",
+    "sslSecure": "🔒 SSL सुरक्षित",
+    "name": "नाम",
+    "email": "ईमेल",
+    "subject": "विषय",
+    "message": "संदेश",
+    "send": "संदेश भेजें",
+    "sending": "भेज रहा है...",
+    "successTitle": "संदेश भेज दिया गया!",
+    "successMessage": "हम जल्द से जल्द आपसे संपर्क करेंगे।",
+    "errorTitle": "संदेश भेजने में विफल",
+    "sendError": "संदेश भेजने में विफल। कृपया पुनः प्रयास करें।",
+    "networkError": "नेटवर्क त्रुटि। कृपया अपना कनेक्शन जांचें और पुनः प्रयास करें।",
+    "fixErrors": "कृपया ऊपर दी गई त्रुटियों को ठीक करें।",
+    "nameRequired": "नाम आवश्यक है",
+    "nameTooLong": "नाम 100 अक्षरों से कम होना चाहिए",
+    "emailRequired": "ईमेल आवश्यक है",
+    "emailInvalid": "कृपया एक वैध ईमेल पता दर्ज करें",
+    "subjectRequired": "विषय आवश्यक है",
+    "subjectTooLong": "विषय 200 अक्षरों से कम होना चाहिए",
+    "messageRequired": "संदेश आवश्यक है",
+    "messageTooLong": "संदेश 2000 अक्षरों से कम होना चाहिए",
+    "getInTouch": "संपर्क करें",
+    "businessHours": "कार्य समय",
+    "weekdays": "सोमवार - शुक्रवार: सुबह 9:00 - शाम 6:00 EST",
+    "weekend": "शनिवार - रविवार: बंद",
+    "responseTime": "प्रतिक्रिया समय",
+    "responseTimeDescription": "हम आमतौर पर कार्य दिवसों में 24-48 घंटे के भीतर जवाब देते हैं।",
+    "followUs": "हमें फॉलो करें"
+  },
+  "trust": {
+    "secure_checkout": "सुरक्षित चेकआउट",
+    "secure_checkout_desc": "256-बिट SSL एन्क्रिप्शन आपके डेटा की रक्षा करता है",
+    "fast_shipping": "तेज़ शिपिंग",
+    "fast_shipping_desc": "$50 से अधिक के ऑर्डर पर फ्री शिपिंग",
+    "payment_options": "भुगतान विकल्प",
+    "payment_options_desc": "क्रेडिट कार्ड, PayPal, Apple Pay और अधिक",
+    "quality_guarantee": "गुणवत्ता गारंटी",
+    "quality_guarantee_desc": "30-दिन की मनी-बैक गारंटी",
+    "happy_customers": "संतुष्ट ग्राहक",
+    "average_rating": "औसत रेटिंग",
+    "countries_shipped": "शिपिंग देश",
+    "customer_support": "ग्राहक सहायता",
+    "based_on": "आधारित",
+    "reviews": "समीक्षाएं",
+    "encrypted": "एन्क्रिप्टेड",
+    "compliant": "अनुपालन",
+    "free_shipping_over": "{amount} से अधिक के ऑर्डर पर फ्री शिपिंग",
+    "secure_payment": "सुरक्षित भुगतान",
+    "satisfaction_guaranteed": "संतुष्टि गारंटी"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "डॉकमेटा एडिटर",
+      "subtitle": "मेटाडेटा देखें और संपादित करें",
+      "editMetadata": "दस्तावेज़ मेटाडेटा संपादित करें",
+      "description": "अपनी सभी प्रॉपर्टीज़ देखने और संशोधित करने के लिए कोई भी फाइल अपलोड करें। PDF के लिए पूर्ण मेटाडेटा संपादन।",
+      "singleFile": "एकल फाइल",
+      "batch": "बैच",
+      "loaded": "लोड किया गया",
+      "failedToRead": "फाइल पढ़ने में विफल।",
+      "reading": "दस्तावेज़ पढ़ रहा है...",
+      "reset": "रीसेट"
+    },
+    "driveLens": {
+      "title": "Drive Lens",
+      "subtitle": "AI-powered Google Drive photo manager",
+      "description": "Browse, organize, analyze, and manage your Google Drive photos with AI assistance.",
+      "auth": {
+        "signIn": "Sign in with Google",
+        "signOut": "Sign Out",
+        "connecting": "Connecting...",
+        "welcome": "Welcome to Drive Lens",
+        "loginPrompt": "Sign in with your Google account to access your Drive photos"
+      },
+      "gallery": {
+        "viewMode": "View Mode",
+        "grid": "Grid",
+        "masonry": "Masonry",
+        "list": "List",
+        "sortBy": "Sort By",
+        "name": "Name",
+        "date": "Date",
+        "size": "Size",
+        "ascending": "Ascending",
+        "descending": "Descending",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selected": "selected",
+        "noPhotos": "No photos found",
+        "loading": "Loading photos..."
+      },
+      "viewer": {
+        "previous": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "download": "Download",
+        "delete": "Delete",
+        "move": "Move",
+        "copy": "Copy",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "share": "Share"
+      },
+      "ai": {
+        "title": "AI Analysis",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "description": "Description",
+        "tags": "Suggested Tags",
+        "colors": "Dominant Colors",
+        "objects": "Detected Objects",
+        "scene": "Scene Type",
+        "mood": "Mood",
+        "suggestions": "Creative Suggestions",
+        "applyTags": "Apply Tags",
+        "copyDescription": "Copy Description",
+        "noAnalysis": "No analysis available. Click 'Analyze with AI' to start."
+      },
+      "tags": {
+        "title": "Tags",
+        "addTag": "Add Tag",
+        "createTag": "Create New Tag",
+        "colorTag": "Color Tag",
+        "textTag": "Text Tag",
+        "tagName": "Tag Name",
+        "tagColor": "Tag Color",
+        "noTags": "No tags yet",
+        "remove": "Remove tag"
+      },
+      "batch": {
+        "title": "Batch Operations",
+        "move": "Move",
+        "copy": "Copy",
+        "delete": "Delete",
+        "tag": "Tag",
+        "analyze": "Analyze",
+        "export": "Export to PDF",
+        "processing": "Processing...",
+        "success": "Operation completed successfully",
+        "error": "Operation failed",
+        "confirmDelete": "Are you sure you want to delete {count} photos?"
+      },
+      "folders": {
+        "title": "Folders",
+        "myDrive": "My Drive",
+        "createFolder": "Create Folder",
+        "renameFolder": "Rename Folder",
+        "deleteFolder": "Delete Folder",
+        "folderName": "Folder Name",
+        "noFolders": "No folders"
+      },
+      "settings": {
+        "title": "Settings",
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System",
+        "thumbnailSize": "Thumbnail Size",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "cache": "Cache",
+        "enableCache": "Enable Offline Cache",
+        "cacheSize": "Cache Size Limit (MB)",
+        "clearCache": "Clear Cache",
+        "autoAnalyze": "Auto-analyze New Photos",
+        "showAIPanel": "Show AI Panel by Default"
+      },
+      "errors": {
+        "authFailed": "Authentication failed. Please try again.",
+        "loadFailed": "Failed to load photos. Please try again.",
+        "uploadFailed": "Failed to upload file.",
+        "deleteFailed": "Failed to delete file.",
+        "moveFailed": "Failed to move file.",
+        "copyFailed": "Failed to copy file.",
+        "analysisFailed": "AI analysis failed. Please try again.",
+        "networkError": "Network error. Please check your connection.",
+        "quotaExceeded": "Storage quota exceeded.",
+        "permissionDenied": "Permission denied."
+      }
+    }
+  }
+}

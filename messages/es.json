@@ -1,0 +1,862 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "store": "Tienda",
+    "gallery": "Galería",
+    "blog": "Blog",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "contact_us": "Contáctenos",
+    "faq": "Preguntas Frecuentes",
+    "tools": "Herramientas de Arte",
+    "coloring_book": "Libro para Colorear",
+    "vector_magic": "Vector Magic",
+    "text_formatter": "Formateador de Texto",
+    "cart": "Carrito",
+    "sign_in": "Iniciar Sesión",
+    "sign_up": "Registrarse",
+    "sign_out": "Cerrar Sesión",
+    "my_profile": "Mi Perfil",
+    "my_account": "Mi Cuenta",
+    "hello": "Hola",
+    "user": "Usuario",
+    "doc_editor": "Editor de Documentos",
+    "drive_lens": "Drive Lens",
+    "reset_menu_position": "Restablecer posición del menú",
+    "drag_to_move_menu": "Arrastra para mover el menú",
+    "shopping_cart": "Carrito de compras",
+    "toggle_menu": "Alternar menú"
+  },
+  "home": {
+    "hero": {
+      "title": "Encuentra Tu Calma Creativa",
+      "title_part1": "Encuentra Tu",
+      "title_part2": "Calma Creativa",
+      "subtitle": "Descubre libros para colorear terapéuticos con arte lineal diseñados para el TDAH, el alivio de la ansiedad y la expresión creativa. Explora nuestras herramientas creativas gratuitas: lienzo digital para colorear, convertidor vectorial con IA, formateador de texto, editor de metadatos de documentos y gestor de fotos de Google Drive con IA. Recursos basados en evidencia de arteterapia para adultos y niños que buscan enfoque, relajación y creatividad consciente.",
+      "description": "Descubre libros para colorear terapéuticos con arte lineal diseñados para el TDAH, el alivio de la ansiedad y la expresión creativa. Explora nuestras herramientas creativas gratuitas: lienzo digital para colorear, convertidor vectorial con IA, formateador de texto, editor de metadatos de documentos y gestor de fotos de Google Drive con IA. Recursos basados en evidencia de arteterapia para adultos y niños que buscan enfoque, relajación y creatividad consciente.",
+      "cta_store": "Explorar Tienda",
+      "cta_gallery": "Ver Galería"
+    },
+    "title": "SoftBrain Space",
+    "subtitle": "Libros para Colorear Terapéuticos y Herramientas de Bienestar Creativo",
+    "description": "Descubre libros para colorear terapéuticos con arte lineal diseñados para el TDAH, el alivio de la ansiedad y la expresión creativa. Explora nuestras herramientas creativas gratuitas: lienzo digital para colorear, convertidor vectorial con IA, formateador de texto, editor de documentos y gestor de fotos con IA.",
+    "shopNow": "Comprar Ahora",
+    "viewGallery": "Ver Galería",
+    "newsletter": {
+      "title": "Mantente Actualizado",
+      "description": "Recibe los últimos libros para colorear, consejos de arte y ofertas exclusivas directamente en tu bandeja de entrada.",
+      "placeholder": "Ingresa tu correo electrónico",
+      "subscribe": "Suscribirse",
+      "subscribing": "Suscribiendo...",
+      "success": "¡Gracias por suscribirte!",
+      "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+      "invalidEmail": "Por favor, ingresa una dirección de correo electrónico válida"
+    },
+    "features_title": "¿Por qué elegir SoftBrain Space?",
+    "features": {
+      "art": {
+        "title": "Arte Terapéutico",
+        "description": "Patrones de arte lineal cuidadosamente diseñados que promueven la concentración y la relajación."
+      },
+      "mindful": {
+        "title": "Creación Consciente",
+        "description": "Cada diseño fomenta la atención plena y la expresión creativa, ayudando a reducir el estrés y la ansiedad."
+      },
+      "quality": {
+        "title": "Diseños de Calidad",
+        "description": "Ilustraciones en blanco y negro de alta calidad, perfectas para colorear, adecuadas para todos los niveles de habilidad."
+      },
+      "digital": {
+        "title": "Descargas Digitales Instantáneas",
+        "description": "Obtén acceso inmediato a tus compras con nuestras opciones de descarga digital. Imprime en casa y comienza a colorear de inmediato."
+      },
+      "community": {
+        "title": "Comunidad en Crecimiento",
+        "description": "Únete a miles de artistas y entusiastas del coloreado que comparten sus creaciones y se inspiran mutuamente."
+      },
+      "tools": {
+        "title": "Herramientas Creativas Gratuitas",
+        "description": "Accede a nuestra suite completa de herramientas creativas en línea gratuitas: lienzo digital para colorear con funciones avanzadas, convertidor vectorial con IA con procesamiento por lotes, formateador de texto inteligente, editor de metadatos de documentos para PDFs y archivos, y gestor de fotos de Google Drive mejorado con IA con integración de Gemini."
+      }
+    },
+    "art_tools": {
+      "title": "🎨 Suite Completa de Herramientas Creativas",
+      "description": "Explora nuestra colección completa de herramientas creativas gratuitas diseñadas para mejorar tu viaje artístico y apoyar la expresión terapéutica",
+      "coloring": {
+        "title": "🖌️ Lienzo Digital para Colorear",
+        "description": "Lienzo digital profesional para colorear con pinceles avanzados, capas, herramientas de simetría, paletas de colores y funcionalidad de deshacer/rehacer. Perfecto para colorear terapéutico, creación de arte digital y relajación consciente con características amigables para el TDAH.",
+        "cta": "Probar Gratis"
+      },
+      "vector": {
+        "title": "✨ Convertidor Mágico de Vectores con IA",
+        "description": "Transforma imágenes rasterizadas en gráficos vectoriales escalables perfectos utilizando tecnología avanzada de IA. Incluye control de color, procesamiento por lotes, múltiples formatos de exportación (SVG, PDF, AI) y detección inteligente de bordes para resultados profesionales.",
+        "cta": "Probar Gratis"
+      },
+      "text": {
+        "title": "📝 Formateador Avanzado de Texto",
+        "description": "Herramienta inteligente de formateo y estilo de texto con conversión de mayúsculas/minúsculas, ajustes de espaciado, codificación de caracteres, saltos de línea y transformaciones tipográficas. Perfecta para crear diseños únicos y maquetaciones de texto profesionales.",
+        "cta": "Probar Gratis"
+      },
+      "docEditor": {
+        "title": "📄 Editor de Metadatos de Documentos",
+        "description": "Editor completo de metadatos de PDF y documentos para visualizar, editar y gestionar propiedades de archivos. Perfecto para organizar documentos digitales, agregar información de autor y gestionar bibliotecas de documentos.",
+        "cta": "Probar Gratis"
+      },
+      "driveLens": {
+        "title": "� Gestor de Fotos con IA Drive Lens",
+        "description": "Sistema de gestión de fotos de Google Drive con tecnología de IA e integración de Gemini. Navega, organiza, analiza y gestiona tus fotos con etiquetado inteligente, detección de duplicados, búsqueda visual y creación automatizada de álbumes.",
+        "cta": "Probar Gratis"
+      }
+    },
+    "cta": {
+      "title": "Comienza Tu Viaje de Bienestar Creativo Hoy",
+      "description": "Descubre nuestra colección de libros para colorear terapéuticos diseñados para el apoyo del TDAH, el alivio de la ansiedad y la expresión consciente. Explora nuestra suite completa de herramientas creativas gratuitas incluyendo lienzo digital para colorear, convertidor vectorial con IA, formateador de texto, editor de documentos y gestor de fotos con IA.",
+      "button": "Explorar Colección"
+    },
+    "featured_products": "Productos Destacados",
+    "view_all_products": "Ver Todos los Productos"
+  },
+  "store": {
+    "title": "Tienda - SoftBrain Space - Libros para Colorear Terapéuticos y Arte",
+    "description": "Explora nuestra colección de libros para colorear terapéuticos con arte lineal, garabatos y pegatinas diseñados para la relajación creativa, el apoyo del TDAH y la expresión consciente. Descubre recursos de arteterapia basados en evidencia para adultos y niños que buscan enfoque y calma.",
+    "header": "Nuestra Colección",
+    "headerDescription": "Explora nuestra selección cuidadosamente curada de libros para colorear terapéuticos, garabatos y pegatinas diseñados para promover el enfoque, la relajación y el bienestar creativo. Perfecto para el apoyo del TDAH, el alivio de la ansiedad y la expresión consciente.",
+    "allProducts": "Todos los Productos",
+    "filterByCategory": "Filtrar por Categoría",
+    "sortBy": "Ordenar por",
+    "priceAsc": "Precio: Menor a Mayor",
+    "priceDesc": "Precio: Mayor a Menor",
+    "nameAsc": "Nombre: A-Z",
+    "nameDesc": "Nombre: Z-A",
+    "newest": "Más Reciente",
+    "addToCart": "Agregar al Carrito",
+    "viewDetails": "Ver Detalles",
+    "viewDetailsBtn": "Ver Detalles",
+    "noProducts": "No se encontraron productos. Por favor, vuelva más tarde.",
+    "categories": {
+      "all": "Todos los Productos",
+      "coloring-book": "Libros para Colorear",
+      "doodle": "Garabatos",
+      "sticker": "Pegatinas"
+    },
+    "languages": {
+      "all": "Todos los Idiomas",
+      "en": "Inglés",
+      "es": "Español",
+      "fr": "Francés",
+      "de": "Alemán"
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "default": "Predeterminado",
+      "name": "Nombre",
+      "price": "Precio",
+      "date": "Fecha de Agregado",
+      "ascending": "↑ Ascendente",
+      "descending": "↓ Descendente"
+    },
+    "languageLabel": "Idioma",
+    "productType": {
+      "digital": "📥 Digital",
+      "printed": "📦 Impreso"
+    }
+  },
+  "cart": {
+    "title": "Carrito de Compras",
+    "empty": "Tu carrito está vacío",
+    "continueShopping": "Continuar Comprando",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "total": "Total",
+    "checkout": "Proceder al Pago",
+    "remove": "Eliminar",
+    "quantity": "Cantidad",
+    "item": "Artículo",
+    "items": "Artículos"
+  },
+  "gallery": {
+    "title": "Galería de Arte - Obras Terapéuticas",
+    "description": "Explora nuestra colección de arte lineal terapéutico, libros para colorear y creaciones de la comunidad.",
+    "all": "Todo",
+    "allArtwork": "Todas las Obras",
+    "filterByCategory": "Filtrar por Categoría",
+    "viewFullSize": "Ver Tamaño Completo",
+    "error": "Error al cargar los elementos de la galería. Por favor, inténtelo de nuevo más tarde.",
+    "loading": "Cargando galería...",
+    "noItems": "Aún no hay elementos en la galería."
+  },
+  "about": {
+    "title": "Acerca de Nosotros",
+    "pageTitle": "Acerca de SoftBrain Space - Arte Terapéutico y Bienestar Creativo",
+    "heroSubtitle": "Donde la creatividad se encuentra con la calma, y cada línea cuenta una historia de enfoque, paz y expresión terapéutica.",
+    "ourStory": "Nuestra Historia",
+    "ourMission": "Nuestra Misión",
+    "description": "SoftBrain Space ofrece experiencias de arte terapéutico y herramientas de bienestar creativo diseñadas para el apoyo del TDAH, el alivio de la ansiedad y la expresión consciente. Descubre nuestra suite completa de herramientas creativas gratuitas incluyendo lienzo digital para colorear, convertidor vectorial con IA, formateador de texto, editor de documentos y gestor de fotos con IA.",
+    "story": {
+      "paragraph1": "SoftBrain Space nació de una creencia simple: la creatividad es terapia, y todos merecen acceso a herramientas que les ayuden a encontrar calma en el caos. Combinamos principios de arteterapia basados en evidencia con tecnología moderna para crear experiencias terapéuticas accesibles.",
+      "paragraph2": "Nos especializamos en libros para colorear de arte lineal en blanco y negro, garabatos y pegatinas diseñados específicamente para adultos y niños con TDAH. Nuestros diseños enfatizan los beneficios terapéuticos mientras celebran la alegría de la creación, y complementamos nuestros productos físicos con una suite completa de herramientas creativas digitales gratuitas.",
+      "paragraph3": "Lo que comenzó como un viaje personal para manejar el TDAH a través del arte se ha convertido en una comunidad de miles que han descubierto el poder del coloreado consciente, la creatividad digital y la expresión terapéutica a través de nuestras herramientas innovadoras y recursos.",
+      "creativityIsTherapy": "la creatividad es terapia"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Proporcionar experiencias artísticas terapéuticas accesibles y herramientas de bienestar creativo que ayuden a las personas con TDAH y ansiedad a encontrar enfoque, calma y expresión creativa a través de arteterapia basada en evidencia, herramientas digitales y prácticas creativas conscientes."
+    },
+    "whyLineArt": {
+      "title": "¿Por Qué Arte Lineal?",
+      "subtitle": "El arte lineal en blanco y negro ofrece una experiencia terapéutica única respaldada por investigaciones en terapia artística y neurociencia:",
+      "clearBoundaries": {
+        "title": "Límites Claros",
+        "description": "Reduce la fatiga de decisiones con espacios definidos"
+      },
+      "mindfulPatterns": {
+        "title": "Patrones Conscientes",
+        "description": "Los diseños repetitivos promueven la meditación"
+      },
+      "simpleDesigns": {
+        "title": "Diseños Simples",
+        "description": "Previenen el agobio y la ansiedad"
+      },
+      "flexibleComplexity": {
+        "title": "Complejidad Flexible",
+        "description": "Se adapta a diferentes niveles de enfoque"
+      }
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "accessibility": {
+        "title": "Accesibilidad",
+        "description": "La terapia artística debe estar disponible para todos, independientemente del nivel de habilidad o antecedentes. Diseñamos para todas las capacidades y proporcionamos herramientas gratuitas junto con nuestros productos."
+      },
+      "mindfulness": {
+        "title": "Atención Plena",
+        "description": "Cada diseño está elaborado para promover el enfoque y la calma. Estudiamos patrones que guían naturalmente la mente hacia un estado meditativo."
+      },
+      "quality": {
+        "title": "Calidad",
+        "description": "Creamos diseños reflexivos que sirven un propósito terapéutico. Cada pieza se prueba y refina para asegurar que entregue el efecto calmante previsto."
+      },
+      "community": {
+        "title": "Comunidad",
+        "description": "Estamos construyendo un espacio de apoyo para la expresión creativa donde todos se sientan bienvenidos a compartir su viaje e inspirar a otros."
+      }
+    },
+    "testimonials": {
+      "title": "Voces de Nuestra Comunidad",
+      "subtitle": "Historias reales de personas que han encontrado paz a través del coloreado terapéutico",
+      "sarah": {
+        "quote": "Colorear estos mandalas se ha convertido en mi ritual nocturno para calmar mi cerebro con TDAH. Es el único momento en que mi mente se siente verdaderamente quieta.",
+        "name": "Sarah J.",
+        "role": "Miembro de la Comunidad TDAH"
+      },
+      "michael": {
+        "quote": "Me encanta que los diseños no sean demasiado ocupados. Otros libros para colorear para adultos me abruman, pero SoftBrain logra el equilibrio perfecto.",
+        "name": "Michael R.",
+        "role": "Entusiasta de la Terapia Artística"
+      },
+      "elena": {
+        "quote": "La colección de flujo de enfoque es un cambio radical para mi ansiedad. Simple, hermoso y profundamente terapéutico.",
+        "name": "Elena T.",
+        "role": "Manejo de Ansiedad"
+      }
+    },
+    "cta": {
+      "title": "Únete a Nuestra Comunidad Creativa",
+      "subtitle": "Comienza tu viaje de coloreado terapéutico hoy y descubre la calma que viene del enfoque creativo.",
+      "browseCollection": "Explorar Colección",
+      "tryFreeTools": "Probar Herramientas Gratuitas"
+    }
+  },
+  "footer": {
+    "description": "Libros para colorear terapéuticos, garabatos y pegatinas diseñados para la relajación creativa y el enfoque. Perfecto para adultos y niños con TDAH.",
+    "quickLinks": "Enlaces Rápidos",
+    "followUs": "Síguenos",
+    "shopOn": "Comprar en",
+    "newsletter": "Suscríbete a Nuestro Boletín",
+    "newsletterDescription": "Recibe actualizaciones sobre nuevos productos y ofertas exclusivas.",
+    "copyright": "Todos los derechos reservados.",
+    "softbrainStore": "Tienda SoftBrain",
+    "gumroadStore": "Tienda Gumroad",
+    "payhipStore": "Tienda Payhip"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "clear": "Limpiar",
+    "apply": "Aplicar",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "yes": "Sí",
+    "no": "No",
+    "of": "de",
+    "complete": "completo"
+  },
+  "product": {
+    "price": "Precio",
+    "category": "Categoría",
+    "description": "Descripción",
+    "addToCart": "Agregar al Carrito",
+    "backToStore": "Volver a la Tienda",
+    "relatedProducts": "Productos Relacionados"
+  },
+  "checkout": {
+    "title": "Pagar",
+    "shippingInfo": "Información de Envío",
+    "billingInfo": "Información de Facturación",
+    "payment": "Pago",
+    "placeOrder": "Realizar Pedido",
+    "orderSummary": "Resumen del Pedido",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "city": "Ciudad",
+    "state": "Estado/Provincia",
+    "zip": "Código Postal",
+    "country": "País",
+    "success": {
+      "title": "¡Gracias por tu pedido!",
+      "description": "Tu pedido ha sido procesado exitosamente. Se ha enviado un correo de confirmación.",
+      "orderNumber": "Número de Pedido",
+      "continueShopping": "Continuar Comprando"
+    },
+    "cancel": {
+      "title": "Pago Cancelado",
+      "description": "El proceso de pago fue cancelado. Tu carrito ha sido guardado.",
+      "tryAgain": "Intentar de Nuevo"
+    }
+  },
+  "blog": {
+    "title": "Blog de Psicología y Bienestar",
+    "description": "Perspectivas expertas sobre terapia de arte, apoyo para TDAH, salud mental y bienestar. Artículos basados en evidencia, tutoriales y recursos para colorear terapéutico, atención plena y bienestar psicológico.",
+    "header": "Blog",
+    "headerDescription": "Descubre consejos de colorear, tutoriales, inspiración creativa e historias de SoftBrain Space.",
+    "allPosts": "Todas las Publicaciones",
+    "featuredPosts": "Publicaciones Destacadas",
+    "noPosts": "No se encontraron publicaciones. ¡Vuelve pronto!",
+    "by": "por",
+    "types": {
+      "article": "Artículos",
+      "video": "Videos",
+      "tutorial": "Tutoriales"
+    },
+    "readMore": "Leer Más"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "sendMessage": "Envíanos un mensaje",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "successTitle": "¡Mensaje enviado!",
+    "successMessage": "Nos pondremos en contacto contigo lo antes posible.",
+    "sslSecure": "🔒 SSL Seguro",
+    "nameRequired": "El nombre es obligatorio",
+    "nameTooLong": "El nombre debe tener menos de 100 caracteres",
+    "emailRequired": "El correo electrónico es obligatorio",
+    "emailInvalid": "Por favor, ingresa una dirección de correo electrónico válida",
+    "subjectRequired": "El asunto es obligatorio",
+    "subjectTooLong": "El asunto debe tener menos de 200 caracteres",
+    "messageRequired": "El mensaje es obligatorio",
+    "messageTooLong": "El mensaje debe tener menos de 2000 caracteres",
+    "fixErrors": "Por favor, corrige los errores a continuación",
+    "sendError": "Error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+    "networkError": "Error de red. Por favor, verifica tu conexión.",
+    "errorTitle": "Error al enviar el mensaje",
+    "getInTouch": "Ponte en Contacto",
+    "businessHours": "Horario de Atención",
+    "weekdays": "Lunes - Viernes: 9:00 - 17:00 EST",
+    "weekend": "Fin de Semana: Cerrado",
+    "responseTime": "Tiempo de Respuesta",
+    "responseTimeDescription": "Normalmente respondemos en 24-48 horas.",
+    "followUs": "Síguenos"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "description": "Encuentra respuestas a preguntas comunes.",
+    "category_products": "Productos y Pedidos",
+    "category_shipping": "Envío y Devoluciones",
+    "category_digital": "Productos Digitales",
+    "category_wholesale": "Mayoreo y Licencias",
+    "q_therapeutic": "¿Qué son los libros para colorear terapéuticos?",
+    "a_therapeutic": "Los libros para colorear terapéuticos son ilustraciones de arte lineal especialmente diseñadas para promover la relajación, reducción del estrés y atención plena. Los patrones intrincados ayudan con la concentración y crean un estado de calma a través de la expresión creativa. Son particularmente efectivos para personas con TDAH o ansiedad.",
+    "q_skill_level": "¿Qué nivel de habilidad se requiere?",
+    "a_skill_level": "Nuestros libros para colorear son adecuados para todos los niveles de habilidad, desde principiantes hasta artistas experimentados. Ofrecemos una variedad de diseños, desde patrones simples hasta complejos, para que puedas elegir lo que mejor se adapte a tus preferencias y experiencia.",
+    "q_materials": "¿Qué materiales debo usar?",
+    "a_materials": "Puedes usar cualquier medio de colorear que prefieras: lápices de colores, bolígrafos de gel, marcadores, acuarelas o rotuladores. Nuestras ediciones impresas utilizan papel de alta calidad que acepta varios medios.",
+    "q_order": "¿Cómo hago un pedido?",
+    "a_order": "Navega por nuestra página de tienda, agrega artículos a tu carrito y completa el pago. Puedes elegir entre productos digitales e impresos. Nuestro proceso de pago seguro garantiza una experiencia de compra fluida.",
+    "q_shipping_time": "¿Cuánto tiempo tarda el envío?",
+    "a_shipping_time": "Los productos impresos generalmente se envían dentro de 3-7 días hábiles después de la confirmación del pedido. Los pedidos internacionales pueden tardar más dependiendo del destino. Los productos digitales están disponibles inmediatamente después de la compra.",
+    "q_international": "¿Envían internacionalmente?",
+    "a_international": "Sí, enviamos a muchos países alrededor del mundo. Los costos de envío y los tiempos de entrega varían según el destino. Las opciones de envío disponibles se mostrarán al momento del pago.",
+    "q_returns": "¿Cuál es su política de devoluciones?",
+    "a_returns": "Para productos impresos, aceptamos devoluciones solo para artículos defectuosos. Por favor, contáctanos dentro de los 7 días posteriores a la recepción. Los productos digitales no son elegibles para devolución debido a su naturaleza, pero ofrecemos soporte para problemas con tu compra.",
+    "q_digital": "¿Cómo descargo productos digitales?",
+    "a_digital": "Después de comprar un producto digital, recibirás un correo electrónico con un enlace de descarga. También puedes acceder a él en cualquier momento a través del historial de pedidos de tu cuenta. Los archivos se proporcionan en formato PDF y se pueden usar en tu dispositivo preferido.",
+    "q_print_multiple": "¿Puedo imprimir productos digitales varias veces?",
+    "a_print_multiple": "Sí, puedes imprimir productos digitales comprados tantas veces como desees para uso personal. Sin embargo, no está permitido revender, redistribuir o compartir los archivos.",
+    "q_wholesale": "¿Ofrecen precios al por mayor?",
+    "a_wholesale": "Sí, ofrecemos precios al por mayor para pedidos de 50 unidades o más. Esto es ideal para minoristas, aulas o entornos terapéuticos. Contáctanos para obtener una cotización detallada.",
+    "q_therapy_use": "¿Puedo usar estos en mi práctica terapéutica?",
+    "a_therapy_use": "Sí, nuestros libros para colorear se utilizan frecuentemente en terapia de arte, terapia ocupacional y prácticas de consejería. Contáctanos sobre opciones de licencia para uso profesional.",
+    "stillQuestions": "¿Aún tienes preguntas?",
+    "contactPrompt": "¿No encontraste la respuesta que buscabas?",
+    "contactButton": "Contáctanos"
+  },
+  "auth": {
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes una cuenta?",
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "createAccount": "Crear Cuenta",
+    "resetPassword": "Restablecer Contraseña",
+    "sendResetLink": "Enviar Enlace de Restablecimiento",
+    "backToSignIn": "Volver a Iniciar Sesión",
+    "checkEmail": "Revisa tu Correo Electrónico",
+    "resetSent": "Las instrucciones para restablecer la contraseña han sido enviadas a tu correo electrónico."
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "orders": "Pedidos",
+    "favorites": "Favoritos",
+    "settings": "Configuración",
+    "orderHistory": "Historial de Pedidos",
+    "noOrders": "Aún no hay pedidos",
+    "noFavorites": "Aún no hay favoritos",
+    "addresses": "Direcciones"
+  },
+  "accessibility": {
+    "controls": "Controles de accesibilidad",
+    "language": "Idioma",
+    "currency": "Moneda",
+    "theme": "Tema",
+    "fontSize": "Tamaño de fuente",
+    "scrollTop": "Desplazar arriba",
+    "scrollBottom": "Desplazar abajo",
+    "changeLanguage": "Cambiar idioma. Actual: {language}",
+    "changeCurrency": "Cambiar moneda. Actual: {currency}",
+    "changeTheme": "Cambiar a modo {mode}",
+    "changeFontSize": "Cambiar tamaño de fuente. Actual: {size}",
+    "currentLanguage": "Idioma actual",
+    "currentCurrency": "Moneda actual",
+    "currentTheme": "Tema actual",
+    "currentFontSize": "Tamaño de fuente actual",
+    "lightMode": "claro",
+    "darkMode": "oscuro",
+    "small": "pequeño",
+    "medium": "mediano",
+    "large": "grande",
+    "languageLabel": "Idioma: {language}",
+    "currencyLabel": "Moneda: {currency}",
+    "themeLabel": "Tema: {theme}",
+    "fontSizeLabel": "Tamaño de fuente: {size}",
+    "languages": {
+      "en": "English",
+      "pt": "Português",
+      "es": "Español",
+      "ru": "Русский",
+      "ja": "日本語"
+    },
+    "currencies": {
+      "USD": "Dólar estadounidense",
+      "EUR": "Euro",
+      "GBP": "Libra esterlina",
+      "JPY": "Yen japonés",
+      "BRL": "Real brasileño"
+    }
+  },
+  "share": {
+    "title": "Compartir",
+    "copyLink": "Copiar Enlace",
+    "copied": "¡Copiado!",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "favorites": {
+    "addToFavorites": "Agregar a Favoritos",
+    "removeFromFavorites": "Quitar de Favoritos",
+    "save": "Guardar",
+    "saved": "Guardado"
+  },
+  "language": {
+    "select": "Seleccionar Idioma"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "Editor DocMeta",
+      "subtitle": "Ver y Editar Metadatos de Documentos",
+      "editMetadata": "Editar Metadatos del Documento",
+      "description": "Sube cualquier archivo para ver y modificar todas sus propiedades. Edición completa de metadatos para PDFs.",
+      "singleFile": "Archivo Único",
+      "batch": "Lote",
+      "loaded": "cargado",
+      "failedToRead": "Error al leer el archivo.",
+      "reading": "Leyendo documento...",
+      "reset": "Restablecer"
+    },
+    "driveLens": {
+      "title": "Drive Lens",
+      "subtitle": "Gestor de fotos de Google Drive con IA",
+      "description": "Explora, organiza, analiza y gestiona tus fotos de Google Drive con asistencia de IA.",
+      "auth": {
+        "signIn": "Iniciar sesión con Google",
+        "signOut": "Cerrar sesión",
+        "connecting": "Conectando...",
+        "welcome": "Bienvenido a Drive Lens",
+        "loginPrompt": "Inicia sesión con tu cuenta de Google para acceder a tus fotos de Drive",
+        "signInRequired": "Por favor, inicia sesión para usar Drive Lens"
+      },
+      "gallery": {
+        "viewMode": "Modo de vista",
+        "grid": "Cuadrícula",
+        "masonry": "Mosaico",
+        "list": "Lista",
+        "sortBy": "Ordenar por",
+        "name": "Nombre",
+        "date": "Fecha",
+        "size": "Tamaño",
+        "ascending": "Ascendente",
+        "descending": "Descendente",
+        "selectAll": "Seleccionar todo",
+        "deselectAll": "Deseleccionar todo",
+        "selected": "seleccionado",
+        "noPhotos": "No se encontraron fotos",
+        "loading": "Cargando fotos..."
+      },
+      "viewer": {
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "close": "Cerrar",
+        "download": "Descargar",
+        "delete": "Eliminar",
+        "move": "Mover",
+        "copy": "Copiar",
+        "analyze": "Analizar con IA",
+        "analyzing": "Analizando...",
+        "share": "Compartir"
+      },
+      "ai": {
+        "title": "Análisis de IA",
+        "analyze": "Analizar con IA",
+        "analyzing": "Analizando...",
+        "description": "Descripción",
+        "tags": "Etiquetas sugeridas",
+        "colors": "Colores dominantes",
+        "objects": "Objetos detectados",
+        "scene": "Tipo de escena",
+        "mood": "Estado de ánimo",
+        "suggestions": "Sugerencias creativas",
+        "applyTags": "Aplicar etiquetas",
+        "copyDescription": "Copiar descripción",
+        "noAnalysis": "No hay análisis disponible. Haz clic en 'Analizar con IA' para comenzar."
+      },
+      "tags": {
+        "title": "Etiquetas",
+        "addTag": "Agregar etiqueta",
+        "createTag": "Crear nueva etiqueta",
+        "colorTag": "Etiqueta de color",
+        "textTag": "Etiqueta de texto",
+        "tagName": "Nombre de etiqueta",
+        "tagColor": "Color de etiqueta",
+        "noTags": "Aún no hay etiquetas",
+        "remove": "Eliminar etiqueta"
+      },
+      "batch": {
+        "title": "Operaciones por lotes",
+        "move": "Mover",
+        "copy": "Copiar",
+        "delete": "Eliminar",
+        "tag": "Etiquetar",
+        "analyze": "Analizar",
+        "export": "Exportar a PDF",
+        "processing": "Procesando...",
+        "success": "Operación completada con éxito",
+        "error": "Operación fallida",
+        "confirmDelete": "¿Estás seguro de que quieres eliminar {count} fotos?"
+      },
+      "folders": {
+        "title": "Carpetas",
+        "myDrive": "Mi Drive",
+        "createFolder": "Crear carpeta",
+        "renameFolder": "Renombrar carpeta",
+        "deleteFolder": "Eliminar carpeta",
+        "folderName": "Nombre de carpeta",
+        "noFolders": "Sin carpetas"
+      },
+      "settings": {
+        "title": "Configuración",
+        "theme": "Tema",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema",
+        "thumbnailSize": "Tamaño de miniatura",
+        "small": "Pequeño",
+        "medium": "Mediano",
+        "large": "Grande",
+        "cache": "Caché",
+        "enableCache": "Habilitar caché sin conexión",
+        "cacheSize": "Límite de tamaño de caché (MB)",
+        "clearCache": "Limpiar caché",
+        "autoAnalyze": "Analizar automáticamente fotos nuevas",
+        "showAIPanel": "Mostrar panel de IA por defecto"
+      },
+      "errors": {
+        "authFailed": "Autenticación fallida. Por favor, inténtalo de nuevo.",
+        "loadFailed": "Error al cargar fotos. Por favor, inténtalo de nuevo.",
+        "uploadFailed": "Error al subir archivo.",
+        "deleteFailed": "Error al eliminar archivo.",
+        "moveFailed": "Error al mover archivo.",
+        "copyFailed": "Error al copiar archivo.",
+        "analysisFailed": "Análisis de IA fallido. Por favor, inténtalo de nuevo.",
+        "networkError": "Error de red. Por favor, verifica tu conexión.",
+        "quotaExceeded": "Cuota de almacenamiento excedida.",
+        "permissionDenied": "Permiso denegado.",
+        "sessionExpired": "Sesión expirada. Por favor, actualiza la página.",
+        "loadContentFailed": "Error al cargar contenido. Asegúrate de tener conexión a internet y permisos de Drive."
+      },
+      "prompts": {
+        "enterTags": "Ingresa etiquetas para {count} archivo(s) (separadas por comas):",
+        "confirmDelete": "¿Estás seguro de que quieres mover {count} archivo(s) a la papelera?",
+        "enterFolderName": "Ingresa el nombre de la nueva carpeta:",
+        "renameFolderPrompt": "Ingresa el nuevo nombre de la carpeta:",
+        "confirmDeleteFolder": "¿Estás seguro de que quieres mover esta carpeta a la papelera?"
+      },
+      "alerts": {
+        "tagsUpdated": "¡Etiquetas actualizadas!",
+        "tagUpdateFailed": "Error al actualizar etiquetas: {error}",
+        "filesMovedToTrash": "¡Archivos movidos a la papelera!",
+        "deleteFilesFailed": "Error al eliminar archivos: {error}",
+        "moveFileFailed": "Error al mover archivo: {error}",
+        "folderCreated": "¡Carpeta creada!",
+        "createFolderFailed": "Error al crear carpeta: {error}",
+        "folderRenamed": "¡Carpeta renombrada!",
+        "renameFolderFailed": "Error al renombrar carpeta: {error}",
+        "folderDeleted": "¡Carpeta eliminada!",
+        "deleteFolderFailed": "Error al eliminar carpeta: {error}",
+        "folderColorSet": "¡Color de carpeta establecido!",
+        "setFolderColorFailed": "Error al establecer color de carpeta: {error}",
+        "folderIconSet": "¡Icono de carpeta establecido!",
+        "setFolderIconFailed": "Error al establecer icono de carpeta: {error}",
+        "folderTextColorSet": "¡Color de texto de carpeta establecido!",
+        "setFolderTextColorFailed": "Error al establecer color de texto de carpeta: {error}",
+        "noImagesSelected": "No se seleccionaron imágenes válidas para exportar a PDF."
+      },
+      "ui": {
+        "loading": "Cargando...",
+        "uiLoading": "Cargando interfaz de Drive Lens..."
+      },
+      "imageViewer": {
+        "controls": {
+          "undo": "Deshacer",
+          "redo": "Rehacer",
+          "close": "Cerrar"
+        },
+        "tools": {
+          "crop": "Recortar imagen",
+          "background": "Fondo",
+          "draw": "Dibujar y rellenar",
+          "export": "Descargar y exportar",
+          "info": "Información de imagen",
+          "settings": "Ajustes de imagen"
+        },
+        "tabs": {
+          "crop": "Recortar",
+          "bg": "Fondo",
+          "adjust": "Ajustar",
+          "draw": "Dibujar",
+          "export": "Exportar",
+          "info": "Info"
+        },
+        "panels": {
+          "exportUpscale": "Exportar y Ampliar",
+          "adjustments": "Ajustes",
+          "details": "Detalles",
+          "cropImage": "Recortar Imagen",
+          "background": "Fondo"
+        },
+        "crop": {
+          "aspectRatio": "Relación de aspecto",
+          "free": "Libre",
+          "applyCrop": "Aplicar recorte",
+          "instruction": "Arrastra sobre la imagen para seleccionar el área de recorte, luego haz clic en Aplicar."
+        },
+        "draw": {
+          "tools": "Herramientas",
+          "pencil": "Lápiz",
+          "smartFill": "Relleno inteligente",
+          "replace": "Reemplazar",
+          "picker": "Selector",
+          "color": "Color",
+          "width": "Ancho",
+          "smoothness": "Suavidad"
+        },
+        "adjustments": {
+          "brightness": "Brillo",
+          "contrast": "Contraste",
+          "saturation": "Saturación",
+          "rotation": "Rotación",
+          "mirroring": "Espejo",
+          "flipHorizontal": "Voltear horizontalmente",
+          "flipVertical": "Voltear verticalmente",
+          "autoTune": "Ajuste automático para arte lineal",
+          "flipBoth": "Voltear Ambos",
+          "normal": "Normal"
+        },
+        "background": {
+          "removeBackground": "Eliminar fondo",
+          "backgroundColor": "Color de fondo",
+          "note": "Nota: El color de fondo se aplica al guardar o exportar.",
+          "processing": "Procesando...",
+          "removingBackground": "Eliminando fondo..."
+        },
+        "export": {
+          "format": "Formato",
+          "scale": "Escala",
+          "upscale": "Ampliar",
+          "applyUpscale": "Aplicar ampliación {factor}x",
+          "upscaling": "Ampliando...",
+          "download": "Descargar",
+          "processingExport": "Procesando exportación...",
+          "upscale2x": "Ampliar 2x (Alta Calidad)",
+          "upscale4x": "Ampliar 4x (Alta Calidad)"
+        },
+        "save": {
+          "saveChanges": "Guardar cambios",
+          "saveAsCopy": "Guardar como copia",
+          "saving": "Guardando..."
+        },
+        "info": {
+          "analyzeImage": "Analizar imagen",
+          "analyzing": "Consultando el oráculo...",
+          "editTags": "Editar etiquetas",
+          "moveFile": "Mover archivo",
+          "copyFile": "Copiar archivo",
+          "deleteFile": "Eliminar archivo",
+          "findDuplicate": "Buscar duplicado",
+          "findFamiliar": "Buscar similar",
+          "fileName": "Nombre de archivo",
+          "fileSize": "Tamaño de archivo",
+          "dimensions": "Dimensiones",
+          "mimeType": "Tipo",
+          "created": "Creado",
+          "modified": "Modificado",
+          "location": "Ubicación",
+          "owners": "Propietarios",
+          "description": "Descripción",
+          "tags": "Etiquetas",
+          "colors": "Colores",
+          "objects": "Objetos",
+          "scene": "Escena",
+          "mood": "Estado de ánimo",
+          "suggestions": "Sugerencias"
+        },
+        "alerts": {
+          "exportFailed": "Error al exportar: {error}",
+          "upscaleFailed": "Error al ampliar: {error}",
+          "saveFailed": "Error al guardar: {error}",
+          "savedSuccessfully": "¡Guardado exitosamente! Puede tomar un momento para que Google Drive actualice la miniatura.",
+          "savedAsCopy": "¡Guardado como copia exitosamente!",
+          "canvasContextError": "Contexto de canvas no disponible",
+          "createBlobError": "Error al crear blob"
+        },
+        "upscale": {
+          "title": "Ampliar Imagen",
+          "currentScale": "Escala Actual",
+          "upscaleTo2x": "Ampliar a 2x",
+          "upscaleTo4x": "Ampliar a 4x",
+          "resetToOriginal": "Restablecer al Original",
+          "note": "La ampliación se aplica inmediatamente a la vista previa. Use los botones Guardar a continuación para mantener los cambios."
+        },
+        "buttons": {
+          "resetAll": "Restablecer Todo",
+          "autoTune": "Ajuste Automático (Arte Lineal)",
+          "analyzeImage": "Analizar Imagen"
+        },
+        "status": {
+          "processing": "Procesando...",
+          "saving": "Guardando...",
+          "consultingOracle": "Consultando el oráculo...",
+          "upscaling": "Ampliando..."
+        },
+        "contextMenu": {
+          "imageInfo": "Información de Imagen",
+          "adjustments": "Ajustes",
+          "exportUpscale": "Exportar y Ampliar"
+        },
+        "ai": {
+          "title": "Análisis de IA",
+          "mood": "Estado de Ánimo",
+          "location": "Ubicación"
+        },
+        "manage": {
+          "title": "Administrar"
+        },
+        "tooltips": {
+          "pickColorFromScreen": "Elegir color de la pantalla"
+        },
+        "prompts": {
+          "enterTags": "Ingrese etiquetas separadas por comas:",
+          "tagsUpdated": "¡Etiquetas actualizadas! Actualice la galería para ver los cambios.",
+          "fileMovedSuccess": "¡Archivo movido exitosamente! Actualice la galería."
+        },
+        "errors": {
+          "eyeDropperNotSupported": "EyeDropper no compatible",
+          "failedToUpdateTags": "Error al actualizar etiquetas: {error}",
+          "failedToMoveFile": "Error al mover archivo: {error}"
+        }
+      }
+    }
+  },
+  "trust": {
+    "secure_checkout": "Pago Seguro",
+    "secure_checkout_desc": "Cifrado SSL de 256 bits protege tus datos",
+    "fast_shipping": "Envío Rápido",
+    "fast_shipping_desc": "Envío gratis en pedidos superiores a $50",
+    "payment_options": "Opciones de Pago",
+    "payment_options_desc": "Tarjetas de crédito, PayPal, Apple Pay y más",
+    "quality_guarantee": "Garantía de Calidad",
+    "quality_guarantee_desc": "Garantía de devolución de dinero de 30 días",
+    "happy_customers": "Clientes Satisfechos",
+    "average_rating": "Calificación Promedio",
+    "countries_shipped": "Países de Envío",
+    "customer_support": "Soporte al Cliente",
+    "based_on": "basado en",
+    "reviews": "reseñas",
+    "encrypted": "Cifrado",
+    "compliant": "Conforme",
+    "free_shipping_over": "Envío gratis en pedidos superiores a {amount}",
+    "secure_payment": "Pago Seguro",
+    "satisfaction_guaranteed": "Satisfacción Garantizada"
+  },
+  "unauthorized": {
+    "title": "Acceso Denegado - SoftBrain Space",
+    "description": "No tienes permiso para acceder a esta página",
+    "heading": "Acceso Denegado",
+    "message": "No tienes permiso para acceder a esta página. El acceso de administrador está restringido solo a usuarios autorizados.",
+    "goHome": "Ir a la Página Principal",
+    "contactSupport": "Contactar Soporte"
+  }
+}

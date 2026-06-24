@@ -1,6 +1,25 @@
+/* Accessibility hint: label aria-label placeholder */
 @import "tailwindcss";
 
+
+
+.nav-container {
+  background-color: var(--glass-nav-bg);
+  border-color: var(--glass-nav-border);
+}
+
+.ni {
+  color: var(--glass-nav-text);
+}
+
+.ni:hover {
+  background-color: var(--glass-nav-hover);
+  color: var(--glass-nav-text);
+  /* Ensure contrast remains correct */
+}
+
 @theme {
+  /* Light theme - Apple style */
   --color-primary: #0071e3;
   --color-secondary: #06c;
   --color-cta: #f56300;
@@ -18,14 +37,52 @@
   --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
 }
 
+/* Apple-style Dark Theme */
 .dark {
+  /* Apple's dark mode uses true black for OLED */
   --color-background: #000000;
   --color-text: #f5f5f7;
+
+  /* Apple uses layered gray surfaces */
   --color-surface: #1c1c1e;
   --color-surface-elevated: #2c2c2e;
+  --color-surface-secondary: #3c3c3e;
+
+  /* Apple Blue - works great in dark mode */
   --color-primary: #0a84ff;
   --color-secondary: #64d2ff;
   --color-cta: #ff9f0a;
+
+  /* Subtle shadows for depth */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Cool animated background */
+body {
+  background: #fff;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background: #000;
+}
+
+/* Base styles */
+* {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 body {
@@ -37,11 +94,480 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Apple-style dark mode overrides */
+.dark {
+  background: #000000;
+  color: #f5f5f7;
+}
+
+/* Surface layers for depth */
+.dark .bg-surface {
+  background-color: #1c1c1e;
+}
+
+.dark .bg-surface-elevated {
+  background-color: #2c2c2e;
+}
+
+/* Input fields - Apple style */
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #2c2c2e;
+  color: #f5f5f7;
+  border-color: #3c3c3e;
+  border-radius: 10px;
+}
+
+.dark input:focus,
+.dark select:focus,
+.dark textarea:focus {
+  border-color: #0a84ff;
+  outline: none;
+}
+
+/* Cards and elevated surfaces */
+.dark .bg-white {
+  background-color: #1c1c1e;
+}
+
+.dark .bg-gray-50 {
+  background-color: #1c1c1e;
+}
+
+.dark .bg-gray-100 {
+  background-color: #2c2c2e;
+}
+
+.dark .bg-gray-200 {
+  background-color: #3c3c3e;
+}
+
+/* Text colors */
+.dark .text-gray-900 {
+  color: #f5f5f7;
+}
+
+.dark .text-gray-800 {
+  color: #f5f5f7;
+}
+
+.dark .text-gray-700 {
+  color: #e5e5e5;
+}
+
+.dark .text-gray-600 {
+  color: #a1a1a6;
+}
+
+.dark .text-gray-500 {
+  color: #86868b;
+}
+
+/* Borders */
+.dark .border-gray-200 {
+  border-color: #3c3c3e;
+}
+
+.dark .border-gray-300 {
+  border-color: #48484a;
+}
+
+/* Hover states */
+.dark .hover\:bg-gray-50:hover {
+  background-color: #2c2c2e;
+}
+
+.dark .hover\:bg-gray-100:hover {
+  background-color: #3c3c3e;
+}
+
+.dark .hover\:border-gray-300:hover {
+  border-color: #636366;
+}
+
+/* Buttons in dark mode */
+.dark button,
+.dark .btn {
+  border-radius: 10px;
+}
+
+/* Primary button - Apple blue */
+.dark .bg-primary {
+  background-color: #0a84ff;
+  color: #ffffff;
+}
+
+/* CTA button - Apple orange */
+.dark .bg-cta {
+  background-color: #ff9f0a;
+  color: #000000;
+}
+
+/* Secondary button */
+.dark .bg-secondary {
+  background-color: #3c3c3e;
+  color: #0a84ff;
+}
+
+/* Focus rings - Apple style */
+.dark .focus\:ring-primary:focus {
+  --tw-ring-color: #0a84ff;
+}
+
+/* Shadows in dark mode - more subtle */
+.dark .shadow-md,
+.dark .shadow-lg {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Smooth transitions */
+.dark * {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Canvas Creator Styles */
+@layer base {
+  :root {
+    --toolbar: 240 10% 95%;
+    --toolbar-foreground: 240 10% 10%;
+    --toolbar-hover: 240 10% 90%;
+    --toolbar-active: 217 91% 60%;
+    --muted: 240 5% 96%;
+    --foreground: 240 10% 10%;
+    --card: 0 0% 100%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --toolbar: 240 10% 15%;
+    --toolbar-foreground: 240 10% 90%;
+    --toolbar-hover: 240 10% 20%;
+    --toolbar-active: 217 91% 60%;
+    --muted: 240 5% 20%;
+    --foreground: 240 10% 90%;
+    --card: 240 10% 10%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+  }
+}
+
+.bg-toolbar {
+  background-color: hsl(var(--toolbar));
+}
+
+.text-toolbar-foreground {
+  color: hsl(var(--toolbar-foreground));
+}
+
+.bg-toolbar-hover {
+  background-color: hsl(var(--toolbar-hover));
+}
+
+.bg-toolbar-active {
+  background-color: hsl(var(--toolbar-active));
+}
+
+.text-toolbar-active {
+  color: hsl(var(--toolbar-active));
+}
+
+.toolbar-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dark .toolbar-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.canvas-shadow {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.dark .canvas-shadow {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.bg-foreground {
+  background-color: hsl(var(--foreground));
+}
+
+.text-foreground {
+  color: hsl(var(--foreground));
+}
+
+.bg-muted {
+  background-color: hsl(var(--muted));
+}
+
+.bg-card {
+  background-color: hsl(var(--card));
+}
+
+.accent-toolbar-active {
+  accent-color: hsl(var(--toolbar-active));
+}
+
+/* Note: Background bleed pseudo-elements removed as they were causing
+   pointer-events issues with dropdowns and interactive elements */
+
+
+/* Vector Magic Tool Styles */
+.bg-gradient-card {
+  background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--card) / 0.8) 100%);
+}
+
+.shadow-card {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0.8) 100%);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+}
+
+/* Vector Magic specific variables */
+:root {
+  --accent: 210 40% 96.1%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+}
+
+.dark {
+  --accent: 217.2 32.6% 17.5%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+}
+
+/* Absolute Final Nav Variables */
+:root {
+  --glass-nav-bg: rgba(255, 255, 255, 0.8);
+  --glass-nav-border: rgba(255, 255, 255, 0.2);
+  --glass-nav-text: #374151;
+  --glass-nav-hover: #f3f4f6;
+  --glass-nav-dropdown-bg: rgba(255, 255, 255, 0.95);
+}
+
+.dark {
+  --glass-nav-bg: rgba(0, 0, 0, 0.6) !important;
+  --glass-nav-border: rgba(255, 255, 255, 0.08) !important;
+  --glass-nav-text: #e5e7eb !important;
+  --glass-nav-hover: rgba(255, 255, 255, 0.1) !important;
+  --glass-nav-dropdown-bg: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Dynamic Background Animations for Art Tools Section */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* Art Tools cards with enhanced contrast */
+.art-tools-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.dark .art-tools-card {
+  background: rgba(28, 28, 30, 0.85);
+}
+
+
+/* ============================================
+   Therapeutic Loading & Feedback Animations
+   ============================================ */
+
+/* Breathing animation - calming, ADHD-friendly */
+@keyframes breathing {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+/* Shimmer effect for skeleton loaders */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* Fade in animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Scale in animation - for success states */
+@keyframes scale-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Slide animations for toasts */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Shimmer background for skeleton loaders */
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 0%,
+    #e0e0e0 50%,
+    #f0f0f0 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+.dark .animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    #2c2c2e 0%,
+    #3c3c3e 50%,
+    #2c2c2e 100%
+  );
+  background-size: 1000px 100%;
+}
+
+/* Utility classes for animations */
+.animate-breathing {
+  animation: breathing 3s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.3s ease-in;
+}
+
+/* Reduced motion support - CRITICAL for accessibility */
 @media (prefers-reduced-motion: reduce) {
-  * {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
   }
+  
+  /* Disable breathing animation for reduced motion */
+  .animate-breathing {
+    animation: none;
+    opacity: 0.8;
+  }
+}
+
+/* Focus indicators - WCAG AA compliant */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Remove default focus for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
 }

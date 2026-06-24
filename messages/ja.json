@@ -1,0 +1,861 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "store": "ストア",
+    "gallery": "ギャラリー",
+    "blog": "ブログ",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "contact_us": "お問い合わせ",
+    "faq": "よくある質問",
+    "tools": "アートツール",
+    "coloring_book": "塗り絵",
+    "vector_magic": "ベクターマジック",
+    "text_formatter": "テキスト整形",
+    "cart": "カート",
+    "sign_in": "ログイン",
+    "sign_up": "サインアップ",
+    "sign_out": "ログアウト",
+    "my_profile": "マイプロフィール",
+    "my_account": "マイアカウント",
+    "hello": "こんにちは",
+    "user": "ユーザー",
+    "doc_editor": "ドキュメントエディター",
+    "drive_lens": "ドライブレンズ",
+    "reset_menu_position": "メニュー位置をリセット",
+    "drag_to_move_menu": "ドラッグしてメニューを移動",
+    "shopping_cart": "ショッピングカート",
+    "toggle_menu": "メニューを切り替え"
+  },
+  "home": {
+    "title": "SoftBrain Space",
+    "subtitle": "治療的な塗り絵とクリエイティブウェルネスツール",
+    "description": "ADHD、不安の軽減、創造的表現のために設計された治療的な線画塗り絵を発見してください。無料のクリエイティブツールを探索：デジタル塗り絵キャンバス、AI搭載ベクトルコンバーター、テキストフォーマッター、ドキュメントエディター、AI写真マネージャー。",
+    "shopNow": "今すぐ購入",
+    "viewGallery": "ギャラリーを見る",
+    "hero": {
+      "title": "創造的な静けさを見つける",
+      "title_part1": "創造的な",
+      "title_part2": "静けさを見つける",
+      "subtitle": "ADHD、不安の軽減、創造的表現のために設計された治療的な線画塗り絵を発見してください。無料のクリエイティブツールを探索：デジタル塗り絵キャンバス、AI搭載ベクトルコンバーター、テキストフォーマッター、ドキュメントメタデータエディター、AI統合Googleドライブ写真マネージャー。集中、リラクゼーション、マインドフルな創造性を求める大人と子供のためのエビデンスに基づくアートセラピーリソース。",
+      "description": "ADHD、不安の軽減、創造的表現のために設計された治療的な線画塗り絵を発見してください。無料のクリエイティブツールを探索：デジタル塗り絵キャンバス、AI搭載ベクトルコンバーター、テキストフォーマッター、ドキュメントメタデータエディター、AI統合Googleドライブ写真マネージャー。集中、リラクゼーション、マインドフルな創造性を求める大人と子供のためのエビデンスに基づくアートセラピーリソース。",
+      "cta_store": "ストアを探索",
+      "cta_gallery": "ギャラリーを見る"
+    },
+    "newsletter": {
+      "title": "最新情報を受け取る",
+      "description": "最新の塗り絵、アートのヒント、限定オファーをメールで受け取りましょう。",
+      "placeholder": "メールアドレスを入力",
+      "subscribe": "購読する",
+      "subscribing": "購読中...",
+      "success": "ご購読ありがとうございます！",
+      "error": "問題が発生しました。もう一度お試しください。",
+      "invalidEmail": "有効なメールアドレスを入力してください"
+    },
+    "features_title": "なぜSoftBrain Spaceを選ぶのか？",
+    "features": {
+      "art": {
+        "title": "セラピーアート",
+        "description": "ADHDの大人と子供の集中力とリラクゼーションを促進するように慎重にデザインされた線画パターン。"
+      },
+      "mindful": {
+        "title": "マインドフルな創作",
+        "description": "各デザインはマインドフルネスと創造的表現を奨励し、ストレスと不安の軽減に役立ちます。"
+      },
+      "quality": {
+        "title": "高品質なデザイン",
+        "description": "すべてのスキルレベルに適した、塗り絵に最適な高品質な白黒イラスト。"
+      },
+      "digital": {
+        "title": "デジタルダウンロード",
+        "description": "デジタルダウンロードオプションで購入品にすぐにアクセス。ご自宅で印刷してすぐに塗り絵を始められます。"
+      },
+      "community": {
+        "title": "成長するコミュニティ",
+        "description": "作品を共有し、お互いに刺激し合う数千人のアーティストや塗り絵愛好家のコミュニティに参加しましょう。"
+      },
+      "tools": {
+        "title": "無料のクリエイティブツール",
+        "description": "無料のオンラインクリエイティブツールの完全なスイートにアクセス：高度な機能を備えたデジタル塗り絵キャンバス、バッチ処理を備えたAI搭載ベクトルコンバーター、インテリジェントなテキストフォーマッター、PDFとファイル用のドキュメントメタデータエディター、Gemini統合を備えたAI強化型Googleドライブ写真マネージャー。"
+      }
+    },
+    "art_tools": {
+      "title": "🎨 包括的なクリエイティブツールスイート",
+      "description": "芸術的な旅を向上させ、治療的な表現をサポートするために設計された無料のクリエイティブツールのコレクションを探索しましょう",
+      "coloring": {
+        "title": "🖌️ デジタル塗り絵キャンバス",
+        "description": "高度なブラシ、レイヤー、対称ツール、カラーパレット、元に戻す/やり直し機能を備えたプロ仕様のデジタル塗り絵キャンバス。治療的な塗り絵、デジタルアート作成、マインドフルなリラクゼーションに最適で、ADHDに優しい機能を備えています。",
+        "cta": "無料で試す"
+      },
+      "vector": {
+        "title": "✨ AIベクトルマジックコンバーター",
+        "description": "高度なAIテクノロジーを使用して、ラスター画像をスケーラブルなベクターグラフィックに変換します。カラーコントロール、バッチ処理、複数のエクスポート形式（SVG、PDF、AI）、プロフェッショナルな結果のためのインテリジェントなエッジ検出を備えています。",
+        "cta": "無料で試す"
+      },
+      "text": {
+        "title": "📝 高度なテキストフォーマッター",
+        "description": "大文字/小文字変換、スペース調整、文字エンコーディング、改行、タイポグラフィ変換を備えたインテリジェントなテキストフォーマットおよびスタイリングツール。ユニークなデザインとプロフェッショナルなテキストレイアウトの作成に最適です。",
+        "cta": "無料で試す"
+      },
+      "docEditor": {
+        "title": "📄 ドキュメントメタデータエディター",
+        "description": "PDFとドキュメントのメタデータを表示、編集、ファイルプロパティを管理するための包括的なエディター。デジタルドキュメントの整理、著者情報の追加、ドキュメントライブラリの管理に最適です。",
+        "cta": "無料で試す"
+      },
+      "driveLens": {
+        "title": "🔍 AIドライブレンズ写真マネージャー",
+        "description": "Gemini AI統合を備えたAI搭載Googleドライブ写真管理システム。インテリジェントなタグ付け、重複検出、ビジュアル検索、自動アルバム作成で写真を閲覧、整理、分析、管理します。",
+        "cta": "無料で試す"
+      }
+    },
+    "cta": {
+      "title": "今日からクリエイティブウェルネスの旅を始めましょう",
+      "description": "ADHDサポート、不安の軽減、マインドフルな表現のために設計された治療的な塗り絵のコレクションを発見してください。デジタル塗り絵キャンバス、AI搭載ベクトルコンバーター、テキストフォーマッター、ドキュメントエディター、AI写真マネージャーを含む完全な無料クリエイティブツールスイートを探索してください。",
+      "button": "コレクションを見る"
+    },
+    "featured_products": "おすすめ商品",
+    "view_all_products": "すべての商品を見る"
+  },
+  "product": {
+    "price": "価格",
+    "category": "カテゴリー",
+    "description": "説明",
+    "addToCart": "カートに追加",
+    "backToStore": "ストアに戻る",
+    "relatedProducts": "関連商品"
+  },
+  "cart": {
+    "title": "ショッピングカート",
+    "empty": "カートは空です",
+    "continueShopping": "買い物を続ける",
+    "subtotal": "小計",
+    "shipping": "配送料",
+    "total": "合計",
+    "checkout": "レジへ進む",
+    "remove": "削除",
+    "quantity": "数量",
+    "item": "商品",
+    "items": "商品"
+  },
+  "checkout": {
+    "title": "チェックアウト",
+    "shippingInfo": "配送情報",
+    "billingInfo": "請求情報",
+    "payment": "支払い",
+    "placeOrder": "注文する",
+    "orderSummary": "注文概要",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "メールアドレス",
+    "phone": "電話番号",
+    "address": "住所",
+    "city": "市区町村",
+    "state": "都道府県",
+    "zip": "郵便番号",
+    "country": "国",
+    "success": {
+      "title": "ご注文ありがとうございます！",
+      "description": "ご注文は正常に処理されました。確認メールをお送りしました。",
+      "orderNumber": "注文番号",
+      "continueShopping": "買い物を続ける"
+    },
+    "cancel": {
+      "title": "支払いがキャンセルされました",
+      "description": "支払いプロセスがキャンセルされました。カートは保存されています。",
+      "tryAgain": "もう一度試す"
+    }
+  },
+  "store": {
+    "title": "ストア - SoftBrain Space",
+    "description": "創造的なリラクゼーションのためにデザインされたセラピー用線画塗り絵、落書き、ステッカーのコレクションを浏览してください。",
+    "header": "コレクション",
+    "headerDescription": "集中力とリラクゼーションを促進するように慎重に選ばれたセラピー用塗り絵、落書き、ステッカーを探索してください。",
+    "allProducts": "すべての商品",
+    "filterByCategory": "カテゴリーで絞り込む",
+    "sortBy": "並び替え",
+    "priceAsc": "価格：安い順",
+    "priceDesc": "価格：高い順",
+    "nameAsc": "名前：A-Z",
+    "nameDesc": "名前：Z-A",
+    "newest": "新着順",
+    "addToCart": "カートに追加",
+    "viewDetails": "詳細を見る",
+    "noProducts": "商品が見つかりません。後でもう一度確認してください。",
+    "viewDetailsBtn": "詳細を見る",
+    "categories": {
+      "all": "すべての商品",
+      "coloring-book": "塗り絵",
+      "doodle": "落書き",
+      "sticker": "ステッカー",
+      "gift-card": "ギフトカード",
+      "membership": "メンバーシップ"
+    },
+    "languages": {
+      "all": "すべての言語",
+      "en": "英語",
+      "es": "スペイン語",
+      "fr": "フランス語",
+      "de": "ドイツ語"
+    },
+    "sort": {
+      "label": "並び替え",
+      "default": "デフォルト",
+      "name": "名前",
+      "price": "価格",
+      "date": "追加日",
+      "ascending": "↑ 昇順",
+      "descending": "↓ 降順"
+    },
+    "languageLabel": "言語",
+    "productType": {
+      "digital": "📥 デジタル",
+      "printed": "📦 印刷版"
+    }
+  },
+  "gallery": {
+    "title": "ギャラリー",
+    "description": "セラピー用の線画アート、塗り絵、コミュニティ作品のコレクションを探索しましょう。",
+    "all": "すべて",
+    "allArtwork": "すべての作品",
+    "filterByCategory": "カテゴリーで絞り込む",
+    "viewFullSize": "フルサイズで表示",
+    "error": "ギャラリー項目の読み込みに失敗しました。後でもう一度お試しください。",
+    "loading": "ギャラリーを読み込み中...",
+    "noItems": "まだギャラリー項目がありません。"
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "塗り絵のヒント、チュートリアル、創造的なインスピレーション、SoftBrain Spaceのストーリーを発見してください。",
+    "header": "ブログ",
+    "headerDescription": "塗り絵のヒント、チュートリアル、創造的なインスピレーション、SoftBrain Spaceのストーリーを発見してください。",
+    "allPosts": "すべての投稿",
+    "featuredPosts": "おすすめ投稿",
+    "noPosts": "投稿が見つかりません。また後でお越しください！",
+    "by": "投稿者",
+    "types": {
+      "article": "記事",
+      "video": "動画",
+      "tutorial": "チュートリアル"
+    },
+    "readMore": "続きを読む"
+  },
+  "about": {
+    "title": "私たちについて",
+    "pageTitle": "SoftBrain Spaceについて",
+    "heroSubtitle": "創造性が静けさと出会い、すべての線が集中と平和の物語を語る場所。",
+    "ourStory": "私たちのストーリー",
+    "ourMission": "私たちのミッション",
+    "description": "SoftBrain Spaceは、創造的なリラクゼーションと集中力のためのセラピー用アートを提供しています。",
+    "story": {
+      "paragraph1": "SoftBrain Spaceは、シンプルな信念から生まれました：創造性はセラピーであり、誰もが混沌の中で静けさを見つけるのに役立つツールへのアクセスを受ける資格があります。",
+      "paragraph2": "私たちは、ADHDの大人と子供のために特別にデザインされた白黒の線画塗り絵、落書き、ステッカーを専門としています。私たちのデザインは、創造の喜びを祝いながら、セラピー効果を強調しています。",
+      "paragraph3": "アートを通じてADHDを管理する個人的な旅として始まったものが、マインドフルな塗り絵の力を発見した何千人ものコミュニティに成長しました。",
+      "creativityIsTherapy": "創造性はセラピー"
+    },
+    "mission": {
+      "title": "私たちのミッション",
+      "description": "ADHDや不安を抱える人々が、シンプルな塗り絵の行為を通じて、集中力、静けさ、創造的表現を見つけるのを助ける、アクセス可能なセラピー用アート体験を提供すること。"
+    },
+    "whyLineArt": {
+      "title": "なぜ線画なのか？",
+      "subtitle": "白黒の線画は、アートセラピーと神経科学の研究に裏付けられた、ユニークなセラピー体験を提供します：",
+      "clearBoundaries": {
+        "title": "明確な境界",
+        "description": "定義されたスペースで決定疲労を軽減"
+      },
+      "mindfulPatterns": {
+        "title": "マインドフルなパターン",
+        "description": "繰り返しのデザインが瞑想を促進"
+      },
+      "simpleDesigns": {
+        "title": "シンプルなデザイン",
+        "description": "圧倒感と不安を防ぐ"
+      },
+      "flexibleComplexity": {
+        "title": "柔軟な複雑さ",
+        "description": "異なる集中レベルに適合"
+      }
+    },
+    "values": {
+      "title": "私たちの価値観",
+      "accessibility": {
+        "title": "アクセシビリティ",
+        "description": "アートセラピーは、スキルレベルや背景に関係なく、すべての人が利用できるべきです。私たちはすべての能力のためにデザインし、製品と一緒に無料のツールを提供しています。"
+      },
+      "mindfulness": {
+        "title": "マインドフルネス",
+        "description": "すべてのデザインは、集中力と静けさを促進するために作られています。私たちは、心を自然に瞑想状態に導くパターンを研究しています。"
+      },
+      "quality": {
+        "title": "品質",
+        "description": "私たちは、セラピー目的を果たす思慮深いデザインを作成します。各作品は、意図した落ち着き効果を提供することを確実にするためにテストされ、洗練されています。"
+      },
+      "community": {
+        "title": "コミュニティ",
+        "description": "私たちは、誰もが自分の旅を共有し、他の人を刺激することを歓迎される、創造的表現のための支援的なスペースを構築しています。"
+      }
+    },
+    "testimonials": {
+      "title": "コミュニティの声",
+      "subtitle": "セラピー用塗り絵を通じて平和を見つけた人々の実話",
+      "sarah": {
+        "quote": "これらのマンダラを塗ることは、私のADHD脳を静めるための夜の儀式になりました。私の心が本当に静かに感じる唯一の時間です。",
+        "name": "サラ・J.",
+        "role": "ADHDコミュニティメンバー"
+      },
+      "michael": {
+        "quote": "デザインが忙しすぎないのが好きです。他の大人の塗り絵は私を圧倒しますが、SoftBrainは完璧なバランスを見つけています。",
+        "name": "マイケル・R.",
+        "role": "アートセラピー愛好家"
+      },
+      "elena": {
+        "quote": "フォーカスフローコレクションは、私の不安のゲームチェンジャーです。シンプルで、美しく、深くセラピー的です。",
+        "name": "エレナ・T.",
+        "role": "不安管理"
+      }
+    },
+    "cta": {
+      "title": "クリエイティブコミュニティに参加",
+      "subtitle": "今日からセラピー用塗り絵の旅を始め、創造的な集中から来る静けさを発見してください。",
+      "browseCollection": "コレクションを見る",
+      "tryFreeTools": "無料ツールを試す"
+    }
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "sendMessage": "メッセージを送信",
+    "sslSecure": "🔒 SSL セキュア",
+    "name": "名前",
+    "email": "メールアドレス",
+    "subject": "件名",
+    "message": "メッセージ",
+    "send": "メッセージを送信",
+    "sending": "送信中...",
+    "successTitle": "メッセージが送信されました！",
+    "successMessage": "できるだけ早くご返信いたします。",
+    "errorTitle": "メッセージの送信に失敗しました",
+    "sendError": "メッセージの送信に失敗しました。もう一度お試しください。",
+    "networkError": "ネットワークエラー。接続を確認してもう一度お試しください。",
+    "fixErrors": "上記のエラーを修正してください。",
+    "nameRequired": "名前は必須です",
+    "nameTooLong": "名前は100文字未満である必要があります",
+    "emailRequired": "メールアドレスは必須です",
+    "emailInvalid": "有効なメールアドレスを入力してください",
+    "subjectRequired": "件名は必須です",
+    "subjectTooLong": "件名は200文字未満である必要があります",
+    "messageRequired": "メッセージは必須です",
+    "messageTooLong": "メッセージは2000文字未満である必要があります",
+    "getInTouch": "お問い合わせ",
+    "businessHours": "営業時間",
+    "weekdays": "月曜日 - 金曜日: 9:00 - 18:00 EST",
+    "weekend": "土曜日 - 日曜日: 休業",
+    "responseTime": "返信時間",
+    "responseTimeDescription": "通常、営業日の24〜48時間以内に返信いたします。",
+    "followUs": "フォローする"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "description": "よくある質問とその回答をご覧ください。",
+    "category_products": "商品と注文",
+    "category_shipping": "配送と返品",
+    "category_digital": "デジタル商品",
+    "category_wholesale": "卸売とライセンス",
+    "q_therapeutic": "セラピー用塗り絵とは何ですか？",
+    "a_therapeutic": "セラピー用塗り絵は、リラクゼーション、ストレス解消、マインドフルネスを促進するために特別にデザインされた線画イラストです。複雑なパターンが集中力を高め、創造的な表現を通じて落ち着きのある状態を作り出します。ADHDのある方や不安を感じやすい方に特に効果的です。",
+    "q_skill_level": "どのスキルレベルが必要ですか？",
+    "a_skill_level": "私たちの塗り絵は、初心者から上級者まで、あらゆるスキルレベルに対応しています。シンプルなデザインから複雑な模様まで、お好みと経験に合わせて選択できます。",
+    "q_materials": "どのような塗り絵材を使用できますか？",
+    "a_materials": "色鉛筆、マーカー、ジェルペン、水彩絵の具など、お好みの塗り絵材を使用できます。印刷版には高品質の紙を使用しており、さまざまなメディアに対応しています。",
+    "q_order": "注文方法を教えてください",
+    "a_order": "ストアページで商品を閲覧し、カートに追加してチェックアウトを進めてください。デジタル商品と印刷商品の両方を選択でき、安全な支払い処理によりスムーズな注文体験を提供しています。",
+    "q_shipping_time": "配送にはどのくらい時間がかかりますか？",
+    "a_shipping_time": "印刷商品の配送は通常、注文確認後3〜7営業日かかります。配送先の地域によって異なる場合があります。デジタル商品は購入後すぐにアクセスできます。",
+    "q_international": "国際配送は行っていますか？",
+    "a_international": "はい、世界中の多くの国への国際配送を行っています。配送料と所要時間は目的地によって異なります。チェックアウト時に利用可能な配送オプションが表示されます。",
+    "q_returns": "返品ポリシーを教えてください",
+    "a_returns": "印刷商品は、不良品の場合のみ返品を受け付けています。配送後7日以内にご連絡ください。デジタル商品は性質上、返品できませんが、購入に問題がある場合はサポートいたします。",
+    "q_digital": "デジタル商品はどのようにダウンロードできますか？",
+    "a_digital": "デジタル商品を購入すると、購入確認メールにダウンロードリンクが含まれています。また、アカウントの注文履歴からもいつでもアクセスできます。PDF形式で、お好みのデバイスでご利用いただけます。",
+    "q_print_multiple": "デジタル商品を複数回印刷できますか？",
+    "a_print_multiple": "はい、購入したデジタル商品は個人的な使用の範囲内で何度でも印刷できます。ただし、販売や再配布、共有は許可されていません。",
+    "q_wholesale": "卸売価格はありますか？",
+    "a_wholesale": "はい、50部以上の注文で卸売価格をご提供しています。小売店舗、教室、セラピー施設に最適です。詳細な見積もりについてはお問い合わせください。",
+    "q_therapy_use": "セラピー実践で使用できますか？",
+    "a_therapy_use": "はい、私たちの塗り絵はアートセラピー、作業療法、カウンセリング実践で広く使用されています。専門的な使用のライセンスオプションについてはお問い合わせください。",
+    "stillQuestions": "まだ質問がありますか？",
+    "contactPrompt": "お探しの答えが見つかりませんでしたか？",
+    "contactButton": "お問い合わせ"
+  },
+  "footer": {
+    "description": "創造的なリラクゼーションと集中力のためにデザインされたセラピー用の白黒塗り絵、落書き、ステッカー。ADHDの大人と子供に最適です。",
+    "quickLinks": "クイックリンク",
+    "followUs": "フォローする",
+    "shopOn": "購入先",
+    "newsletter": "ニュースレターを購読",
+    "newsletterDescription": "新商品や限定オファーの最新情報を受け取る。",
+    "copyright": "全著作権所有。",
+    "softbrainStore": "SoftBrainストア",
+    "gumroadStore": "Gumroadストア",
+    "payhipStore": "Payhipストア"
+  },
+  "auth": {
+    "signIn": "ログイン",
+    "signUp": "サインアップ",
+    "signOut": "ログアウト",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "haveAccount": "すでにアカウントをお持ちですか？",
+    "createAccount": "アカウントを作成",
+    "resetPassword": "パスワードをリセット",
+    "sendResetLink": "リセットリンクを送信",
+    "backToSignIn": "ログインに戻る",
+    "checkEmail": "メールを確認してください",
+    "resetSent": "パスワードリセットの手順をメールで送信しました。"
+  },
+  "profile": {
+    "title": "マイプロフィール",
+    "orders": "注文",
+    "favorites": "お気に入り",
+    "settings": "設定",
+    "orderHistory": "注文履歴",
+    "noOrders": "まだ注文がありません",
+    "noFavorites": "まだお気に入りがありません",
+    "addresses": "住所"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "edit": "編集",
+    "delete": "削除",
+    "confirm": "確認",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並び替え",
+    "clear": "クリア",
+    "apply": "適用",
+    "close": "閉じる",
+    "open": "開く",
+    "yes": "はい",
+    "no": "いいえ",
+    "of": "の",
+    "complete": "完了"
+  },
+  "accessibility": {
+    "controls": "アクセシビリティコントロール",
+    "language": "言語",
+    "currency": "通貨",
+    "theme": "テーマ",
+    "fontSize": "フォントサイズ",
+    "scrollTop": "トップにスクロール",
+    "scrollBottom": "ボトムにスクロール",
+    "changeLanguage": "言語を変更。現在: {language}",
+    "changeCurrency": "通貨を変更。現在: {currency}",
+    "changeTheme": "{mode}モードに切り替え",
+    "changeFontSize": "フォントサイズを変更。現在: {size}",
+    "currentLanguage": "現在の言語",
+    "currentCurrency": "現在の通貨",
+    "currentTheme": "現在のテーマ",
+    "currentFontSize": "現在のフォントサイズ",
+    "lightMode": "ライト",
+    "darkMode": "ダーク",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "languageLabel": "言語: {language}",
+    "currencyLabel": "通貨: {currency}",
+    "themeLabel": "テーマ: {theme}",
+    "fontSizeLabel": "フォントサイズ: {size}",
+    "languages": {
+      "en": "English",
+      "pt": "Português",
+      "es": "Español",
+      "ru": "Русский",
+      "ja": "日本語"
+    },
+    "currencies": {
+      "USD": "米ドル",
+      "EUR": "ユーロ",
+      "GBP": "英ポンド",
+      "JPY": "日本円",
+      "BRL": "ブラジルレアル"
+    }
+  },
+  "share": {
+    "title": "共有",
+    "copyLink": "リンクをコピー",
+    "copied": "コピーしました！",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "favorites": {
+    "addToFavorites": "お気に入りに追加",
+    "removeFromFavorites": "お気に入りから削除",
+    "save": "保存",
+    "saved": "保存済み"
+  },
+  "language": {
+    "select": "言語を選択"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "DocMeta Editor",
+      "subtitle": "ドキュメントメタデータの表示と編集",
+      "editMetadata": "ドキュメントメタデータを編集",
+      "description": "任意のファイルをアップロードして、そのすべてのプロパティを表示および変更できます。PDFのメタデータを完全に編集できます。",
+      "singleFile": "単一ファイル",
+      "batch": "バッチ",
+      "loaded": "読み込み完了",
+      "failedToRead": "ファイルの読み込みに失敗しました。",
+      "reading": "ドキュメントを読み込み中...",
+      "reset": "リセット"
+    },
+    "driveLens": {
+      "title": "ドライブレンズ",
+      "subtitle": "AI搭載Google Driveフォトマネージャー",
+      "description": "AIアシスタンスでGoogle Driveの写真を閲覧、整理、分析、管理。",
+      "auth": {
+        "signIn": "Googleでログイン",
+        "signOut": "ログアウト",
+        "connecting": "接続中...",
+        "welcome": "ドライブレンズへようこそ",
+        "loginPrompt": "Googleアカウントでログインして、Driveの写真にアクセス"
+      },
+      "gallery": {
+        "viewMode": "表示モード",
+        "grid": "グリッド",
+        "masonry": "メイソンリー",
+        "list": "リスト",
+        "sortBy": "並び替え",
+        "name": "名前",
+        "date": "日付",
+        "size": "サイズ",
+        "ascending": "昇順",
+        "descending": "降順",
+        "selectAll": "すべて選択",
+        "deselectAll": "選択解除",
+        "selected": "選択済み",
+        "noPhotos": "写真が見つかりません",
+        "loading": "写真を読み込み中..."
+      },
+      "viewer": {
+        "previous": "前へ",
+        "next": "次へ",
+        "close": "閉じる",
+        "download": "ダウンロード",
+        "delete": "削除",
+        "move": "移動",
+        "copy": "コピー",
+        "analyze": "AIで分析",
+        "analyzing": "分析中...",
+        "share": "共有"
+      },
+      "ai": {
+        "title": "AI分析",
+        "analyze": "AIで分析",
+        "analyzing": "分析中...",
+        "description": "説明",
+        "tags": "提案されたタグ",
+        "colors": "主要な色",
+        "objects": "検出されたオブジェクト",
+        "scene": "シーンタイプ",
+        "mood": "ムード",
+        "suggestions": "クリエイティブな提案",
+        "applyTags": "タグを適用",
+        "copyDescription": "説明をコピー",
+        "noAnalysis": "分析がありません。「AIで分析」をクリックして開始してください。"
+      },
+      "tags": {
+        "title": "タグ",
+        "addTag": "タグを追加",
+        "createTag": "新しいタグを作成",
+        "colorTag": "カラータグ",
+        "textTag": "テキストタグ",
+        "tagName": "タグ名",
+        "tagColor": "タグの色",
+        "noTags": "タグがありません",
+        "remove": "タグを削除"
+      },
+      "batch": {
+        "title": "バッチ操作",
+        "move": "移動",
+        "copy": "コピー",
+        "delete": "削除",
+        "tag": "タグ",
+        "analyze": "分析",
+        "export": "PDFにエクスポート",
+        "processing": "処理中...",
+        "success": "操作が正常に完了しました",
+        "error": "操作に失敗しました",
+        "confirmDelete": "{count}枚の写真を削除してもよろしいですか？"
+      },
+      "folders": {
+        "title": "フォルダ",
+        "myDrive": "マイドライブ",
+        "createFolder": "フォルダを作成",
+        "renameFolder": "フォルダ名を変更",
+        "deleteFolder": "フォルダを削除",
+        "folderName": "フォルダ名",
+        "noFolders": "フォルダがありません"
+      },
+      "settings": {
+        "title": "設定",
+        "theme": "テーマ",
+        "light": "ライト",
+        "dark": "ダーク",
+        "system": "システム",
+        "thumbnailSize": "サムネイルサイズ",
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "cache": "キャッシュ",
+        "enableCache": "オフラインキャッシュを有効化",
+        "cacheSize": "キャッシュサイズ制限（MB）",
+        "clearCache": "キャッシュをクリア",
+        "autoAnalyze": "新しい写真を自動分析",
+        "showAIPanel": "デフォルトでAIパネルを表示"
+      },
+      "errors": {
+        "authFailed": "認証に失敗しました。もう一度お試しください。",
+        "loadFailed": "写真の読み込みに失敗しました。もう一度お試しください。",
+        "uploadFailed": "ファイルのアップロードに失敗しました。",
+        "deleteFailed": "ファイルの削除に失敗しました。",
+        "moveFailed": "ファイルの移動に失敗しました。",
+        "copyFailed": "ファイルのコピーに失敗しました。",
+        "analysisFailed": "AI分析に失敗しました。もう一度お試しください。",
+        "networkError": "ネットワークエラー。接続を確認してください。",
+        "quotaExceeded": "ストレージ容量を超えました。",
+        "permissionDenied": "アクセスが拒否されました。"
+      },
+      "prompts": {
+        "enterTags": "{count}個のファイルにタグを入力してください（カンマ区切り）：",
+        "confirmDelete": "{count}個のファイルをゴミ箱に移動してもよろしいですか？",
+        "enterFolderName": "新しいフォルダ名を入力してください：",
+        "renameFolderPrompt": "新しいフォルダ名を入力してください：",
+        "confirmDeleteFolder": "このフォルダをゴミ箱に移動してもよろしいですか？"
+      },
+      "alerts": {
+        "tagsUpdated": "タグが更新されました！",
+        "tagUpdateFailed": "タグの更新に失敗しました：{error}",
+        "filesMovedToTrash": "ファイルをゴミ箱に移動しました！",
+        "deleteFilesFailed": "ファイルの削除に失敗しました：{error}",
+        "moveFileFailed": "ファイルの移動に失敗しました：{error}",
+        "folderCreated": "フォルダが作成されました！",
+        "createFolderFailed": "フォルダの作成に失敗しました：{error}",
+        "folderRenamed": "フォルダ名が変更されました！",
+        "renameFolderFailed": "フォルダ名の変更に失敗しました：{error}",
+        "folderDeleted": "フォルダが削除されました！",
+        "deleteFolderFailed": "フォルダの削除に失敗しました：{error}",
+        "folderColorSet": "フォルダの色が設定されました！",
+        "setFolderColorFailed": "フォルダの色の設定に失敗しました：{error}",
+        "folderIconSet": "フォルダのアイコンが設定されました！",
+        "setFolderIconFailed": "フォルダのアイコンの設定に失敗しました：{error}",
+        "folderTextColorSet": "フォルダのテキスト色が設定されました！",
+        "setFolderTextColorFailed": "フォルダのテキスト色の設定に失敗しました：{error}",
+        "noImagesSelected": "PDF出力用の有効な画像が選択されていません。"
+      },
+      "ui": {
+        "loading": "読み込み中...",
+        "uiLoading": "Drive Lens UIを読み込み中..."
+      },
+      "imageViewer": {
+        "controls": {
+          "undo": "元に戻す",
+          "redo": "やり直す",
+          "close": "閉じる"
+        },
+        "tools": {
+          "crop": "画像をトリミング",
+          "background": "背景",
+          "draw": "描画と塗りつぶし",
+          "export": "ダウンロードとエクスポート",
+          "info": "画像情報",
+          "settings": "画像設定"
+        },
+        "tabs": {
+          "crop": "トリミング",
+          "bg": "背景",
+          "adjust": "調整",
+          "draw": "描画",
+          "export": "エクスポート",
+          "info": "情報"
+        },
+        "panels": {
+          "exportUpscale": "エクスポートとアップスケール",
+          "adjustments": "調整",
+          "details": "詳細",
+          "cropImage": "画像をトリミング",
+          "background": "背景"
+        },
+        "crop": {
+          "aspectRatio": "アスペクト比",
+          "free": "自由",
+          "applyCrop": "トリミングを適用",
+          "instruction": "画像上でドラッグしてトリミング領域を選択し、適用をクリックしてください。"
+        },
+        "draw": {
+          "tools": "ツール",
+          "pencil": "鉛筆",
+          "smartFill": "スマート塗りつぶし",
+          "replace": "置換",
+          "picker": "ピッカー",
+          "color": "色",
+          "width": "幅",
+          "smoothness": "滑らかさ"
+        },
+        "adjustments": {
+          "brightness": "明るさ",
+          "contrast": "コントラスト",
+          "saturation": "彩度",
+          "rotation": "回転",
+          "mirroring": "ミラーリング",
+          "flipHorizontal": "水平反転",
+          "flipVertical": "垂直反転",
+          "autoTune": "線画用自動調整",
+          "flipBoth": "両方反転",
+          "normal": "通常"
+        },
+        "background": {
+          "removeBackground": "背景を削除",
+          "backgroundColor": "背景色",
+          "note": "注：背景色は保存またはエクスポート時に適用されます。",
+          "processing": "処理中...",
+          "removingBackground": "背景を削除中..."
+        },
+        "export": {
+          "format": "形式",
+          "scale": "スケール",
+          "upscale": "アップスケール",
+          "applyUpscale": "{factor}倍アップスケールを適用",
+          "upscaling": "アップスケール中...",
+          "download": "ダウンロード",
+          "processingExport": "エクスポート処理中...",
+          "upscale2x": "2倍アップスケール（高品質）",
+          "upscale4x": "4倍アップスケール（高品質）"
+        },
+        "save": {
+          "saveChanges": "変更を保存",
+          "saveAsCopy": "コピーとして保存",
+          "saving": "保存中..."
+        },
+        "info": {
+          "analyzeImage": "画像を分析",
+          "analyzing": "オラクルに相談中...",
+          "editTags": "タグを編集",
+          "moveFile": "ファイルを移動",
+          "copyFile": "ファイルをコピー",
+          "deleteFile": "ファイルを削除",
+          "findDuplicate": "重複を検索",
+          "findFamiliar": "類似を検索",
+          "fileName": "ファイル名",
+          "fileSize": "ファイルサイズ",
+          "dimensions": "寸法",
+          "mimeType": "タイプ",
+          "created": "作成日",
+          "modified": "更新日",
+          "location": "場所",
+          "owners": "所有者",
+          "description": "説明",
+          "tags": "タグ",
+          "colors": "色",
+          "objects": "オブジェクト",
+          "scene": "シーン",
+          "mood": "ムード",
+          "suggestions": "提案"
+        },
+        "alerts": {
+          "exportFailed": "エクスポートに失敗しました：{error}",
+          "upscaleFailed": "アップスケールに失敗しました：{error}",
+          "saveFailed": "保存に失敗しました：{error}",
+          "savedSuccessfully": "正常に保存されました！Google Driveがサムネイルを更新するまで時間がかかる場合があります。",
+          "savedAsCopy": "コピーとして正常に保存されました！",
+          "canvasContextError": "キャンバスコンテキストが利用できません",
+          "createBlobError": "Blobの作成に失敗しました"
+        },
+        "upscale": {
+          "title": "画像をアップスケール",
+          "currentScale": "現在のスケール",
+          "upscaleTo2x": "2倍にアップスケール",
+          "upscaleTo4x": "4倍にアップスケール",
+          "resetToOriginal": "元に戻す",
+          "note": "アップスケールはプレビューに即座に適用されます。変更を保持するには、下の保存ボタンを使用してください。"
+        },
+        "buttons": {
+          "resetAll": "すべてリセット",
+          "autoTune": "自動調整（ラインアート）",
+          "analyzeImage": "画像を分析"
+        },
+        "status": {
+          "processing": "処理中...",
+          "saving": "保存中...",
+          "consultingOracle": "オラクルに相談中...",
+          "upscaling": "アップスケール中..."
+        },
+        "contextMenu": {
+          "imageInfo": "画像情報",
+          "adjustments": "調整",
+          "exportUpscale": "エクスポートとアップスケール"
+        },
+        "ai": {
+          "title": "AI分析",
+          "mood": "ムード",
+          "location": "場所"
+        },
+        "manage": {
+          "title": "管理"
+        },
+        "tooltips": {
+          "pickColorFromScreen": "画面から色を選択"
+        },
+        "prompts": {
+          "enterTags": "カンマ区切りでタグを入力してください：",
+          "tagsUpdated": "タグが更新されました！ギャラリーを更新して変更を確認してください。",
+          "fileMovedSuccess": "ファイルが正常に移動されました！ギャラリーを更新してください。"
+        },
+        "errors": {
+          "eyeDropperNotSupported": "EyeDropperはサポートされていません",
+          "failedToUpdateTags": "タグの更新に失敗しました：{error}",
+          "failedToMoveFile": "ファイルの移動に失敗しました：{error}"
+        }
+      }
+    }
+  },
+  "trust": {
+    "secure_checkout": "安全な決済",
+    "secure_checkout_desc": "256ビットSSL暗号化がデータを保護",
+    "fast_shipping": "迅速な配送",
+    "fast_shipping_desc": "$50以上のご注文で送料無料",
+    "payment_options": "支払いオプション",
+    "payment_options_desc": "クレジットカード、PayPal、Apple Payなど",
+    "quality_guarantee": "品質保証",
+    "quality_guarantee_desc": "30日間返金保証",
+    "happy_customers": "満足したお客様",
+    "average_rating": "平均評価",
+    "countries_shipped": "配送国",
+    "customer_support": "カスタマーサポート",
+    "based_on": "に基づく",
+    "reviews": "件のレビュー",
+    "encrypted": "暗号化済み",
+    "compliant": "準拠",
+    "free_shipping_over": "{amount}以上のご注文で送料無料",
+    "secure_payment": "安全な支払い",
+    "satisfaction_guaranteed": "満足保証"
+  },
+  "unauthorized": {
+    "title": "アクセス拒否 - SoftBrain Space",
+    "description": "このページにアクセスする権限がありません",
+    "heading": "アクセス拒否",
+    "message": "このページにアクセスする権限がありません。管理者アクセスは認証されたユーザーのみに制限されています。",
+    "goHome": "ホームページへ",
+    "contactSupport": "サポートに連絡"
+  }
+}

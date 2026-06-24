@@ -1,0 +1,538 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "store": "Shop",
+    "gallery": "Galerie",
+    "blog": "Blog",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "contact_us": "Kontaktieren Sie uns",
+    "faq": "FAQ",
+    "tools": "Kunst-Tools",
+    "coloring_book": "Malbuch",
+    "vector_magic": "Vector Magic",
+    "text_formatter": "Textformatierer",
+    "cart": "Warenkorb",
+    "sign_in": "Anmelden",
+    "sign_up": "Registrieren",
+    "sign_out": "Abmelden",
+    "my_profile": "Mein Profil",
+    "my_account": "Mein Konto",
+    "hello": "Hallo",
+    "user": "Benutzer",
+    "doc_editor": "Dokumenteneditor",
+    "drive_lens": "Drive Lens"
+  },
+  "home": {
+    "title": "SoftBrain Space",
+    "subtitle": "Therapeutische Malbücher & Kreativ-Wellness-Tools",
+    "description": "Entdecken Sie therapeutische Malbücher mit Linienkunst für ADHS, Angstabbau und kreativen Ausdruck. Erkunden Sie unsere kostenlosen Kreativ-Tools: digitale Mal-Canvas, KI-Vektor-Konverter, Text-Formatter, Dokumenten-Editor und KI-Foto-Manager.",
+    "shopNow": "Jetzt Kaufen",
+    "viewGallery": "Galerie Ansehen",
+    "hero": {
+      "title": "Finden Sie Ihre kreative Ruhe",
+      "title_part1": "Finden Sie Ihre kreative",
+      "title_part2": "Ruhe",
+      "subtitle": "Entdecken Sie therapeutische Malbücher mit Linienkunst, die für ADHS, Angstabbau und kreativen Ausdruck entwickelt wurden. Erkunden Sie unsere kostenlosen Kreativ-Tools: digitale Mal-Canvas, KI-gestützter Vektor-Konverter, Text-Formatter, Dokumenten-Metadaten-Editor und KI-gestützter Google Drive Foto-Manager. Evidenzbasierte Kunsttherapie-Ressourcen für Erwachsene und Kinder, die Fokus, Entspannung und achtsames Kreativsein suchen.",
+      "description": "Entdecken Sie therapeutische Malbücher mit Linienkunst, die für ADHS, Angstabbau und kreativen Ausdruck entwickelt wurden. Erkunden Sie unsere kostenlosen Kreativ-Tools: digitale Mal-Canvas, KI-gestützter Vektor-Konverter, Text-Formatter, Dokumenten-Metadaten-Editor und KI-gestützter Google Drive Foto-Manager. Evidenzbasierte Kunsttherapie-Ressourcen für Erwachsene und Kinder, die Fokus, Entspannung und achtsames Kreativsein suchen.",
+      "cta_store": "Shop erkunden",
+      "cta_gallery": "Galerie ansehen"
+    },
+    "newsletter": {
+      "title": "Bleiben Sie auf dem Laufenden",
+      "description": "Erhalten Sie die neuesten Malbücher, Kunsttipps und exklusive Angebote direkt in Ihren Posteingang.",
+      "placeholder": "E-Mail-Adresse eingeben",
+      "subscribe": "Abonnieren",
+      "subscribing": "Abonnieren...",
+      "success": "Vielen Dank für Ihr Abonnement!",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+    },
+    "features_title": "Warum SoftBrain Space wählen?",
+    "features": {
+      "art": {
+        "title": "Therapeutische Kunst",
+        "description": "Sorgfältig entwickelte Linienkunst-Muster, die Konzentration und Entspannung fördern."
+      },
+      "mindful": {
+        "title": "Achtsame Kreation",
+        "description": "Jedes Design fördert Achtsamkeit und kreativen Ausdruck und hilft, Stress und Angst zu reduzieren."
+      },
+      "quality": {
+        "title": "Hochwertige Designs",
+        "description": "Hochwertige Schwarz-Weiß-Illustrationen, perfekt zum Ausmalen, geeignet für alle Fähigkeitsstufen."
+      },
+      "digital": {
+        "title": "Sofortige Digitale Downloads",
+        "description": "Erhalten Sie sofortigen Zugriff auf Ihre Käufe mit unseren digitalen Download-Optionen. Drucken Sie zu Hause und beginnen Sie sofort mit dem Ausmalen."
+      },
+      "community": {
+        "title": "Wachsende Gemeinschaft",
+        "description": "Schließen Sie sich Tausenden von Künstlern und Ausmal-Enthusiasten an, die ihre Kreationen teilen und sich gegenseitig inspirieren."
+      },
+      "tools": {
+        "title": "Kostenlose Kreativ-Tools",
+        "description": "Greifen Sie auf unsere Suite kostenloser Online-Tools zu, einschließlich digitalem Ausmal-Leinwand, Vektor-Konverter und Text-Formatierer."
+      }
+    },
+    "art_tools": {
+      "title": "🎨 Tolle Kunst-Tools",
+      "description": "Entdecken Sie unsere kostenlosen kreativen Tools, die entwickelt wurden, um Ihre künstlerische Reise zu verbessern",
+      "coloring": {
+        "title": "🖌️ Malbuch",
+        "description": "Digitale Mal-Canvas mit Pinseln, Ebenen, Symmetrie-Tools und mehr. Perfekt zum Erstellen Ihrer eigenen Meisterwerke.",
+        "cta": "Kostenlos testen"
+      },
+      "vector": {
+        "title": "✨ Vector Magic",
+        "description": "Wandeln Sie Rasterbilder in skalierbare Vektorgrafiken um. KI-gestützt mit Farbkontrolle, Batch-Verarbeitung und mehreren Exportformaten.",
+        "cta": "Kostenlos testen"
+      },
+      "text": {
+        "title": "📝 Textformatierer",
+        "description": "Formatieren und stylen Sie Ihren Text mit verschiedenen Transformationen. Perfekt für die Erstellung einzigartiger Designs.",
+        "cta": "Kostenlos testen"
+      },
+      "docEditor": {
+        "title": "📄 DocMeta Editor",
+        "description": "Dokumentenmetadaten für PDFs und andere Dateien anzeigen und bearbeiten. Perfekt zur Organisation Ihrer digitalen Dokumente.",
+        "cta": "Kostenlos testen"
+      },
+      "driveLens": {
+        "title": "🔍 Drive Lens",
+        "description": "KI-gestützter Google Drive Fotomanager. Durchsuchen, organisieren, analysieren und verwalten Sie Ihre Fotos mit Gemini AI-Integration.",
+        "cta": "Kostenlos testen"
+      }
+    },
+    "cta": {
+      "title": "Starten Sie noch heute Ihre kreative Reise",
+      "description": "Entdecken Sie unsere Sammlung therapeutischer Malbücher und finden Sie das perfekte Design für Ihre Achtsamkeitsmomente.",
+      "button": "Kollektion durchsuchen"
+    },
+    "featured_products": "Empfohlene Produkte",
+    "view_all_products": "Alle Produkte ansehen"
+  },
+  "product": {
+    "price": "Preis",
+    "category": "Kategorie",
+    "description": "Beschreibung",
+    "addToCart": "In den Warenkorb",
+    "backToStore": "Zurück zum Shop",
+    "relatedProducts": "Ähnliche Produkte"
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Ihr Warenkorb ist leer",
+    "continueShopping": "Weiter einkaufen",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "total": "Gesamt",
+    "checkout": "Zur Kasse",
+    "remove": "Entfernen",
+    "quantity": "Menge",
+    "item": "Artikel",
+    "items": "Artikel"
+  },
+  "checkout": {
+    "title": "Kasse",
+    "shippingInfo": "Versandinformationen",
+    "billingInfo": "Rechnungsinformationen",
+    "payment": "Zahlung",
+    "placeOrder": "Bestellung aufgeben",
+    "orderSummary": "Bestellübersicht",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "city": "Stadt",
+    "state": "Bundesland",
+    "zip": "Postleitzahl",
+    "country": "Land",
+    "success": {
+      "title": "Vielen Dank für Ihre Bestellung!",
+      "description": "Ihre Bestellung wurde erfolgreich verarbeitet. Eine Bestätigungs-E-Mail wurde gesendet.",
+      "orderNumber": "Bestellnummer",
+      "continueShopping": "Weiter einkaufen"
+    },
+    "cancel": {
+      "title": "Zahlung abgebrochen",
+      "description": "Der Zahlungsvorgang wurde abgebrochen. Ihr Warenkorb wurde gespeichert.",
+      "tryAgain": "Erneut versuchen"
+    }
+  },
+  "store": {
+    "title": "Shop - SoftBrain Space",
+    "description": "Durchsuchen Sie unsere Sammlung therapeutischer Malbücher mit Linienkunst, Kritzeleien und Aufklebern.",
+    "header": "Unsere Kollektion",
+    "headerDescription": "Entdecken Sie unsere sorgfältig kuratierte Auswahl an therapeutischen Malbüchern.",
+    "allProducts": "Alle Produkte",
+    "filterByCategory": "Nach Kategorie filtern",
+    "sortBy": "Sortieren nach",
+    "priceAsc": "Preis: Niedrig bis Hoch",
+    "priceDesc": "Preis: Hoch bis Niedrig",
+    "nameAsc": "Name: A-Z",
+    "nameDesc": "Name: Z-A",
+    "newest": "Neueste",
+    "addToCart": "In den Warenkorb",
+    "viewDetails": "Details ansehen",
+    "noProducts": "Keine Produkte gefunden. Bitte versuchen Sie es später erneut.",
+    "viewDetailsBtn": "Details ansehen",
+    "categories": {
+      "all": "Alle Produkte",
+      "coloring-book": "Malbücher",
+      "doodle": "Kritzeleien",
+      "sticker": "Aufkleber"
+    },
+    "languages": {
+      "all": "Alle Sprachen",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "de": "Deutsch"
+    },
+    "sort": {
+      "label": "Sortieren nach",
+      "default": "Standard",
+      "name": "Name",
+      "price": "Preis",
+      "date": "Hinzugefügt am",
+      "ascending": "↑ Aufsteigend",
+      "descending": "↓ Absteigend"
+    },
+    "languageLabel": "Sprache",
+    "productType": {
+      "digital": "📥 Digital",
+      "printed": "📦 Gedruckt"
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "description": "Entdecken Sie unsere Sammlung therapeutischer Linienkunst, Malbücher und Community-Kreationen.",
+    "all": "Alle",
+    "allArtwork": "Alle Kunstwerke",
+    "filterByCategory": "Nach Kategorie filtern",
+    "viewFullSize": "In voller Größe ansehen",
+    "error": "Fehler beim Laden der Galerie. Bitte versuchen Sie es später erneut.",
+    "loading": "Galerie wird geladen...",
+    "noItems": "Noch keine Galerieelemente verfügbar."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Entdecken Sie Maltipps, Tutorials, kreative Inspiration und Geschichten von SoftBrain Space.",
+    "header": "Blog",
+    "headerDescription": "Entdecken Sie Maltipps, Tutorials, kreative Inspiration und Geschichten.",
+    "allPosts": "Alle Beiträge",
+    "featuredPosts": "Empfohlene Beiträge",
+    "noPosts": "Keine Beiträge gefunden. Schauen Sie später wieder vorbei!",
+    "by": "von",
+    "types": {
+      "article": "Artikel",
+      "video": "Videos",
+      "tutorial": "Tutorials"
+    },
+    "readMore": "Weiterlesen"
+  },
+  "about": {
+    "title": "Über uns",
+    "ourStory": "Unsere Geschichte",
+    "ourMission": "Unsere Mission",
+    "description": "SoftBrain Space bietet therapeutische Kunst für kreative Entspannung und Konzentration."
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "sendMessage": "Senden Sie uns eine Nachricht",
+    "sslSecure": "🔒 SSL Sicher",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Nachricht gesendet!",
+    "successMessage": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "errorTitle": "Fehler beim Senden der Nachricht",
+    "sendError": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut.",
+    "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "fixErrors": "Bitte beheben Sie die oben genannten Fehler.",
+    "nameRequired": "Name ist erforderlich",
+    "nameTooLong": "Name muss weniger als 100 Zeichen haben",
+    "emailRequired": "E-Mail ist erforderlich",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "subjectRequired": "Betreff ist erforderlich",
+    "subjectTooLong": "Betreff muss weniger als 200 Zeichen haben",
+    "messageRequired": "Nachricht ist erforderlich",
+    "messageTooLong": "Nachricht muss weniger als 2000 Zeichen haben",
+    "getInTouch": "Kontakt aufnehmen",
+    "businessHours": "Geschäftszeiten",
+    "weekdays": "Montag - Freitag: 9:00 - 18:00 Uhr EST",
+    "weekend": "Samstag - Sonntag: Geschlossen",
+    "responseTime": "Antwortzeit",
+    "responseTimeDescription": "Wir antworten normalerweise innerhalb von 24-48 Stunden an Werktagen.",
+    "followUs": "Folgen Sie uns"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "description": "Finden Sie Antworten auf häufig gestellte Fragen.",
+    "category_products": "Produkte & Bestellungen",
+    "category_shipping": "Versand & Rückgaben",
+    "category_digital": "Digitale Produkte",
+    "category_wholesale": "Großhandel & Lizenzierung",
+    "q_therapeutic": "Was sind therapeutische Malbücher?",
+    "a_therapeutic": "Therapeutische Malbücher sind speziell entwickelte Linienkunst-Illustrationen, die Entspannung, Stressabbau und Achtsamkeit fördern. Die komplexen Muster helfen bei der Konzentration und schaffen einen ruhigen Zustand durch kreativen Ausdruck. Sie sind besonders wirksam für Menschen mit ADHS oder Angstzuständen.",
+    "q_skill_level": "Welcher Schwierigkeitsgrad ist erforderlich?",
+    "a_skill_level": "Unsere Malbücher sind für alle Fähigkeitsstufen geeignet, von Anfängern bis hin zu erfahrenen Künstlern. Wir bieten eine Vielzahl von Designs an, von einfachen bis zu komplexen Mustern, sodass Sie wählen können, was zu Ihren Vorlieben und Ihrem Erfahrungsstand passt.",
+    "q_materials": "Welche Materialien sollte ich verwenden?",
+    "a_materials": "Sie können jedes Malmedium verwenden, das Sie bevorzugen – Buntstifte, Filzstifte, Gelstifte, Aquarelle oder Marker. Unsere gedruckten Ausgaben verwenden hochwertiges Papier, das verschiedene Medien verträgt.",
+    "q_order": "Wie platziere ich eine Bestellung?",
+    "a_order": "Durchsuchen Sie unsere Shop-Seite, fügen Sie Artikel zu Ihrem Warenkorb hinzu und schließen Sie den Checkout ab. Sie können zwischen digitalen und gedruckten Produkten wählen. Unser sicherer Zahlungsprozess sorgt für ein reibungsloses Bestellerlebnis.",
+    "q_shipping_time": "Wie lange dauert der Versand?",
+    "a_shipping_time": "Gedruckte Produkte werden normalerweise innerhalb von 3-7 Werktagen nach Bestellbestätigung versendet. Internationale Bestellungen können je nach Zielort länger dauern. Digitale Produkte sind sofort nach dem Kauf verfügbar.",
+    "q_international": "Versenden Sie international?",
+    "a_international": "Ja, wir versenden in viele Länder weltweit. Versandkosten und Lieferzeiten variieren je nach Zielort. Die verfügbaren Versandoptionen werden an der Kasse angezeigt.",
+    "q_returns": "Wie ist Ihre Rückgabepolitik?",
+    "a_returns": "Für gedruckte Produkte akzeptieren wir Rückgaben nur bei defekten Artikeln. Bitte kontaktieren Sie uns innerhalb von 7 Tagen nach Erhalt. Digitale Produkte sind aufgrund ihrer Natur nicht rückgabefähig, aber wir unterstützen Sie bei Problemen mit Ihrem Kauf.",
+    "q_digital": "Wie lade ich digitale Produkte herunter?",
+    "a_digital": "Nach dem Kauf eines digitalen Produkts erhalten Sie eine E-Mail mit Download-Link. Sie können auch jederzeit über Ihre Bestellhistorie im Konto darauf zugreifen. Dateien werden als PDF bereitgestellt und können auf Ihrem bevorzugten Gerät verwendet werden.",
+    "q_print_multiple": "Kann ich digitale Produkte mehrmals drucken?",
+    "a_print_multiple": "Ja, Sie können gekaufte digitale Produkte für den persönlichen Gebrauch so oft drucken, wie Sie möchten. Der Weiterverkauf, die Weitergabe oder das Teilen der Dateien ist jedoch nicht gestattet.",
+    "q_wholesale": "Bieten Sie Großhandelspreise an?",
+    "a_wholesale": "Ja, wir bieten Großhandelspreise für Bestellungen ab 50 Stück an. Dies ist ideal für Einzelhändler, Klassenzimmer oder therapeutische Einrichtungen. Kontaktieren Sie uns für ein detailliertes Angebot.",
+    "q_therapy_use": "Kann ich diese in meiner therapeutischen Praxis verwenden?",
+    "a_therapy_use": "Ja, unsere Malbücher werden häufig in Kunsttherapie, Ergotherapie und therapeutischen Praxen eingesetzt. Kontaktieren Sie uns bezüglich Lizenzoptionen für den professionellen Einsatz.",
+    "stillQuestions": "Noch Fragen?",
+    "contactPrompt": "Haben Sie nicht die Antwort gefunden, die Sie suchen?",
+    "contactButton": "Kontaktieren Sie uns"
+  },
+  "footer": {
+    "description": "Therapeutische Schwarz-Weiß-Malbücher, Kritzeleien und Aufkleber für kreative Entspannung und Konzentration. Perfekt für Erwachsene und Kinder mit ADHS.",
+    "quickLinks": "Schnelllinks",
+    "followUs": "Folgen Sie uns",
+    "shopOn": "Einkaufen bei",
+    "newsletter": "Newsletter abonnieren",
+    "newsletterDescription": "Erhalten Sie Updates zu neuen Produkten und exklusiven Angeboten.",
+    "copyright": "Alle Rechte vorbehalten.",
+    "softbrainStore": "SoftBrain Shop",
+    "gumroadStore": "Gumroad Shop",
+    "payhipStore": "Payhip Shop"
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "signOut": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgotPassword": "Passwort vergessen?",
+    "noAccount": "Noch kein Konto?",
+    "haveAccount": "Bereits ein Konto?",
+    "createAccount": "Konto erstellen",
+    "resetPassword": "Passwort zurücksetzen",
+    "sendResetLink": "Reset-Link senden",
+    "backToSignIn": "Zurück zur Anmeldung",
+    "checkEmail": "E-Mail prüfen",
+    "resetSent": "Passwort-Reset-Anweisungen wurden per E-Mail gesendet."
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "orders": "Bestellungen",
+    "favorites": "Favoriten",
+    "settings": "Einstellungen",
+    "orderHistory": "Bestellverlauf",
+    "noOrders": "Noch keine Bestellungen",
+    "noFavorites": "Noch keine Favoriten",
+    "addresses": "Adressen"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "confirm": "Bestätigen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "clear": "Löschen",
+    "apply": "Anwenden",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "share": {
+    "title": "Teilen",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "favorites": {
+    "addToFavorites": "Zu Favoriten hinzufügen",
+    "removeFromFavorites": "Aus Favoriten entfernen",
+    "save": "Speichern",
+    "saved": "Gespeichert"
+  },
+  "language": {
+    "select": "Sprache auswählen"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "DocMeta Editor",
+      "subtitle": "Dokumentenmetadaten anzeigen & bearbeiten",
+      "editMetadata": "Dokumentenmetadaten bearbeiten",
+      "description": "Laden Sie beliebige Dateien hoch, um alle Eigenschaften anzuzeigen und zu bearbeiten. Vollständige Metadatenbearbeitung für PDFs.",
+      "singleFile": "Einzelne Datei",
+      "batch": "Stapelverarbeitung",
+      "loaded": "geladen",
+      "failedToRead": "Fehler beim Lesen der Datei.",
+      "reading": "Dokument wird gelesen...",
+      "reset": "Zurücksetzen"
+    },
+    "driveLens": {
+      "title": "Drive Lens",
+      "subtitle": "KI-gestützter Google Drive Fotomanager",
+      "description": "Durchsuchen, organisieren, analysieren und verwalten Sie Ihre Google Drive-Fotos mit KI-Unterstützung.",
+      "auth": {
+        "signIn": "Mit Google anmelden",
+        "signOut": "Abmelden",
+        "connecting": "Verbinden...",
+        "welcome": "Willkommen bei Drive Lens",
+        "loginPrompt": "Melden Sie sich mit Ihrem Google-Konto an, um auf Ihre Drive-Fotos zuzugreifen"
+      },
+      "gallery": {
+        "viewMode": "Ansichtsmodus",
+        "grid": "Raster",
+        "masonry": "Mauerwerk",
+        "list": "Liste",
+        "sortBy": "Sortieren nach",
+        "name": "Name",
+        "date": "Datum",
+        "size": "Größe",
+        "ascending": "Aufsteigend",
+        "descending": "Absteigend",
+        "selectAll": "Alle auswählen",
+        "deselectAll": "Auswahl aufheben",
+        "selected": "ausgewählt",
+        "noPhotos": "Keine Fotos gefunden",
+        "loading": "Fotos werden geladen..."
+      },
+      "viewer": {
+        "previous": "Zurück",
+        "next": "Weiter",
+        "close": "Schließen",
+        "download": "Herunterladen",
+        "delete": "Löschen",
+        "move": "Verschieben",
+        "copy": "Kopieren",
+        "analyze": "Mit KI analysieren",
+        "analyzing": "Analysiere...",
+        "share": "Teilen"
+      },
+      "ai": {
+        "title": "KI-Analyse",
+        "analyze": "Mit KI analysieren",
+        "analyzing": "Analysiere...",
+        "description": "Beschreibung",
+        "tags": "Vorgeschlagene Tags",
+        "colors": "Dominante Farben",
+        "objects": "Erkannte Objekte",
+        "scene": "Szenentyp",
+        "mood": "Stimmung",
+        "suggestions": "Kreative Vorschläge",
+        "applyTags": "Tags anwenden",
+        "copyDescription": "Beschreibung kopieren",
+        "noAnalysis": "Keine Analyse verfügbar. Klicken Sie auf 'Mit KI analysieren', um zu beginnen."
+      },
+      "tags": {
+        "title": "Tags",
+        "addTag": "Tag hinzufügen",
+        "createTag": "Neues Tag erstellen",
+        "colorTag": "Farb-Tag",
+        "textTag": "Text-Tag",
+        "tagName": "Tag-Name",
+        "tagColor": "Tag-Farbe",
+        "noTags": "Noch keine Tags",
+        "remove": "Tag entfernen"
+      },
+      "batch": {
+        "title": "Stapeloperationen",
+        "move": "Verschieben",
+        "copy": "Kopieren",
+        "delete": "Löschen",
+        "tag": "Taggen",
+        "analyze": "Analysieren",
+        "export": "Als PDF exportieren",
+        "processing": "Verarbeite...",
+        "success": "Operation erfolgreich abgeschlossen",
+        "error": "Operation fehlgeschlagen",
+        "confirmDelete": "Möchten Sie wirklich {count} Fotos löschen?"
+      },
+      "folders": {
+        "title": "Ordner",
+        "myDrive": "Meine Ablage",
+        "createFolder": "Ordner erstellen",
+        "renameFolder": "Ordner umbenennen",
+        "deleteFolder": "Ordner löschen",
+        "folderName": "Ordnername",
+        "noFolders": "Keine Ordner"
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "theme": "Design",
+        "light": "Hell",
+        "dark": "Dunkel",
+        "system": "System",
+        "thumbnailSize": "Vorschaugröße",
+        "small": "Klein",
+        "medium": "Mittel",
+        "large": "Groß",
+        "cache": "Cache",
+        "enableCache": "Offline-Cache aktivieren",
+        "cacheSize": "Cache-Größenlimit (MB)",
+        "clearCache": "Cache leeren",
+        "autoAnalyze": "Neue Fotos automatisch analysieren",
+        "showAIPanel": "KI-Panel standardmäßig anzeigen"
+      },
+      "errors": {
+        "authFailed": "Authentifizierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "loadFailed": "Fotos konnten nicht geladen werden. Bitte versuchen Sie es erneut.",
+        "uploadFailed": "Datei konnte nicht hochgeladen werden.",
+        "deleteFailed": "Datei konnte nicht gelöscht werden.",
+        "moveFailed": "Datei konnte nicht verschoben werden.",
+        "copyFailed": "Datei konnte nicht kopiert werden.",
+        "analysisFailed": "KI-Analyse fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "networkError": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.",
+        "quotaExceeded": "Speicherkontingent überschritten.",
+        "permissionDenied": "Zugriff verweigert."
+      }
+    }
+  },
+  "trust": {
+    "secure_checkout": "Sichere Zahlung",
+    "secure_checkout_desc": "256-Bit-SSL-Verschlüsselung schützt Ihre Daten",
+    "fast_shipping": "Schneller Versand",
+    "fast_shipping_desc": "Kostenloser Versand bei Bestellungen über 50$",
+    "payment_options": "Zahlungsoptionen",
+    "payment_options_desc": "Kreditkarten, PayPal, Apple Pay und mehr",
+    "quality_guarantee": "Qualitätsgarantie",
+    "quality_guarantee_desc": "30 Tage Geld-zurück-Garantie",
+    "happy_customers": "Zufriedene Kunden",
+    "average_rating": "Durchschnittliche Bewertung",
+    "countries_shipped": "Versandländer",
+    "customer_support": "Kundensupport",
+    "based_on": "basierend auf",
+    "reviews": "Bewertungen",
+    "encrypted": "Verschlüsselt",
+    "compliant": "Konform",
+    "free_shipping_over": "Kostenloser Versand bei Bestellungen über {amount}",
+    "secure_payment": "Sichere Zahlung",
+    "satisfaction_guaranteed": "Zufriedenheitsgarantie"
+  }
+}

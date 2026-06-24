@@ -8,16 +8,25 @@
     "start": "next start -p 3333"
   },
   "dependencies": {
+    "@directus/sdk": "^21.1.0",
+    "bcryptjs": "^3.0.3",
+    "lucide-react": "^1.21.0",
     "next": "16.1.6",
+    "next-auth": "^4.24.13",
+    "next-intl": "^4.8.2",
+    "nodemailer": "^9.0.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "resend": "^6.14.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/node": "^20"
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

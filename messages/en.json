@@ -1,0 +1,889 @@
+{
+  "nav": {
+    "home": "Home",
+    "store": "Store",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "contact_us": "Contact Us",
+    "faq": "FAQ",
+    "tools": "Art Tools",
+    "coloring_book": "Coloring Book",
+    "vector_magic": "Vector Magic",
+    "text_formatter": "Text Formatter",
+    "cart": "Cart",
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up",
+    "sign_out": "Sign Out",
+    "my_profile": "My Profile",
+    "my_account": "My Account",
+    "hello": "Hello",
+    "user": "User",
+    "doc_editor": "Doc Editor",
+    "drive_lens": "Drive Lens",
+    "reset_menu_position": "Reset menu position",
+    "drag_to_move_menu": "Drag to move menu",
+    "shopping_cart": "Shopping cart",
+    "toggle_menu": "Toggle menu"
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Creative Calm",
+      "title_part1": "Find Your Creative",
+      "title_part2": "Calm",
+      "subtitle": "Discover therapeutic line-art coloring books designed for ADHD, anxiety relief, and creative expression. Explore our free creative tools: digital coloring canvas, AI-powered vector converter, text formatter, document metadata editor, and Google Drive photo manager. Evidence-based art therapy resources for adults and children seeking focus, relaxation, and mindful creativity.",
+      "description": "Discover therapeutic line-art coloring books designed for ADHD, anxiety relief, and creative expression. Explore our free creative tools: digital coloring canvas, AI-powered vector converter, text formatter, document metadata editor, and Google Drive photo manager. Evidence-based art therapy resources for adults and children seeking focus, relaxation, and mindful creativity.",
+      "cta_store": "Explore Store",
+      "cta_gallery": "View Gallery"
+    },
+    "title": "SoftBrain Space",
+    "subtitle": "Therapeutic Coloring Books & Creative Wellness Tools",
+    "description": "Discover therapeutic line-art coloring books designed for ADHD, anxiety relief, and creative expression. Explore our free creative tools: digital coloring canvas, AI-powered vector converter, text formatter, document metadata editor, and Google Drive photo manager. Evidence-based art therapy resources for adults and children seeking focus, relaxation, and mindful creativity.",
+    "shopNow": "Shop Now",
+    "viewGallery": "View Gallery",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest coloring books, art tips, and exclusive offers delivered to your inbox.",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Thanks for subscribing!",
+      "error": "Something went wrong. Please try again.",
+      "invalidEmail": "Please enter a valid email address",
+      "placeholder": "Enter your email"
+    },
+    "features_title": "Why Choose SoftBrain Space?",
+    "features": {
+      "art": {
+        "title": "Therapeutic Art",
+        "description": "Carefully designed line-art patterns that promote focus and relaxation for adults and children with ADHD."
+      },
+      "mindful": {
+        "title": "Mindful Creation",
+        "description": "Each design encourages mindfulness and creative expression, helping reduce stress and anxiety."
+      },
+      "quality": {
+        "title": "Quality Designs",
+        "description": "High-quality black and white illustrations perfect for coloring, suitable for all skill levels."
+      },
+      "digital": {
+        "title": "Instant Digital Downloads",
+        "description": "Get immediate access to your purchases with our digital download options. Print at home and start coloring right away."
+      },
+      "community": {
+        "title": "Growing Community",
+        "description": "Join thousands of artists and coloring enthusiasts who share their creations and inspire each other."
+      },
+      "tools": {
+        "title": "Free Creative Tools",
+        "description": "Access our comprehensive suite of free online creative tools: digital coloring canvas with advanced features, AI-powered vector converter with batch processing, intelligent text formatter, document metadata editor for PDFs and files, and AI-enhanced Google Drive photo manager with Gemini integration."
+      }
+    },
+    "art_tools": {
+      "title": "🎨 Comprehensive Creative Tools Suite",
+      "description": "Explore our complete collection of free creative tools designed to enhance your artistic journey and support therapeutic expression",
+      "coloring": {
+        "title": "🖌️ Digital Coloring Canvas",
+        "description": "Professional-grade digital coloring canvas with advanced brushes, layers, symmetry tools, color palettes, and undo/redo functionality. Perfect for therapeutic coloring, digital art creation, and mindful relaxation with ADHD-friendly features.",
+        "cta": "Try it free"
+      },
+      "vector": {
+        "title": "✨ AI Vector Magic Converter",
+        "description": "Transform raster images into perfect scalable vector graphics using advanced AI technology. Features color control, batch processing, multiple export formats (SVG, PDF, AI), and intelligent edge detection for professional results.",
+        "cta": "Try it free"
+      },
+      "text": {
+        "title": "📝 Advanced Text Formatter",
+        "description": "Intelligent text formatting and styling tool with case conversion, spacing adjustments, character encoding, line breaks, and typography transformations. Perfect for creating unique designs and professional text layouts.",
+        "cta": "Try it free"
+      },
+      "docEditor": {
+        "title": "📄 Document Metadata Editor",
+        "description": "Comprehensive PDF and document metadata editor for viewing, editing, and managing file properties. Perfect for organizing digital documents, adding author information, and managing document libraries.",
+        "cta": "Try it free"
+      },
+      "driveLens": {
+        "title": "🔍 AI Drive Lens Photo Manager",
+        "description": "AI-powered Google Drive photo management system with Gemini AI integration. Browse, organize, analyze, and manage your photos with intelligent tagging, duplicate detection, visual search, and automated album creation.",
+        "cta": "Try it free"
+      }
+    },
+    "cta": {
+      "title": "Start Your Creative Wellness Journey Today",
+      "description": "Discover our collection of therapeutic coloring books designed for ADHD support, anxiety relief, and mindful expression. Explore our comprehensive suite of free creative tools including digital coloring canvas, AI vector converter, text formatter, document editor, and AI photo manager.",
+      "button": "Browse Collection"
+    },
+    "featured_products": "Featured Products",
+    "view_all_products": "View All Products"
+  },
+  "product": {
+    "price": "Price",
+    "category": "Category",
+    "description": "Description",
+    "addToCart": "Add to Cart",
+    "backToStore": "Back to Store",
+    "relatedProducts": "Related Products"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove",
+    "quantity": "Quantity",
+    "item": "Item",
+    "items": "Items"
+  },
+  "store": {
+    "title": "Store - SoftBrain Space - Therapeutic Coloring Books & Art",
+    "description": "Browse our collection of therapeutic line-art coloring books, doodles, and stickers designed for creative relaxation, ADHD support, and mindful expression. Discover evidence-based art therapy resources for adults and children seeking focus and calm.",
+    "header": "Our Collection",
+    "headerDescription": "Explore our carefully curated selection of therapeutic coloring books, doodles, and stickers designed to promote focus, relaxation, and creative wellness. Perfect for ADHD support, anxiety relief, and mindful expression.",
+    "allProducts": "All Products",
+    "filterByCategory": "Filter by Category",
+    "sortBy": "Sort by",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "nameAsc": "Name: A-Z",
+    "nameDesc": "Name: Z-A",
+    "newest": "Newest",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "viewDetailsBtn": "View Details",
+    "noProducts": "No products found. Please check back later.",
+    "categories": {
+      "all": "All Products",
+      "coloring-book": "Coloring Books",
+      "doodle": "Doodles",
+      "sticker": "Stickers"
+    },
+    "languages": {
+      "all": "All Languages",
+      "en": "English",
+      "es": "Spanish",
+      "fr": "French",
+      "de": "German"
+    },
+    "sort": {
+      "label": "Sort by",
+      "default": "Default",
+      "name": "Name",
+      "price": "Price",
+      "date": "Date Added",
+      "ascending": "↑ Ascending",
+      "descending": "↓ Descending"
+    },
+    "languageLabel": "Language",
+    "productType": {
+      "digital": "📥 Digital",
+      "printed": "📦 Printed"
+    }
+  },
+  "gallery": {
+    "title": "Art Gallery - Therapeutic Works",
+    "description": "Explore our collection of therapeutic line-art, coloring books, and community creations.",
+    "all": "All",
+    "allArtwork": "All Artwork",
+    "filterByCategory": "Filter by Category",
+    "viewFullSize": "View Full Size",
+    "error": "Failed to load gallery items. Please try again later.",
+    "loading": "Loading gallery...",
+    "noItems": "No gallery items available yet."
+  },
+  "blog": {
+    "title": "Psychology & Wellbeing Blog",
+    "description": "Expert insights on art therapy, ADHD support, mental health, and wellbeing. Evidence-based articles, tutorials, and resources for therapeutic coloring, mindfulness, and psychological wellness.",
+    "header": "Blog",
+    "headerDescription": "Discover coloring tips, tutorials, creative inspiration, and stories from SoftBrain Space.",
+    "allPosts": "All Posts",
+    "featuredPosts": "Featured Posts",
+    "noPosts": "No posts found. Check back soon!",
+    "by": "by",
+    "types": {
+      "article": "Articles",
+      "video": "Videos",
+      "tutorial": "Tutorials"
+    },
+    "readMore": "Read More"
+  },
+  "footer": {
+    "description": "Therapeutic line-art coloring books, doodles, and stickers designed for creative relaxation and focus. Perfect for adults and children with ADHD.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "shopOn": "Shop On",
+    "newsletter": "Subscribe to Our Newsletter",
+    "newsletterDescription": "Get updates on new products and exclusive offers.",
+    "copyright": "All rights reserved.",
+    "softbrainStore": "SoftBrain Store",
+    "gumroadStore": "Gumroad Store",
+    "payhipStore": "Payhip Store"
+  },
+  "about": {
+    "title": "About Us",
+    "pageTitle": "About SoftBrain Space - Therapeutic Art & Creative Wellness",
+    "heroSubtitle": "Where creativity meets calm, and every line tells a story of focus, peace, and therapeutic expression.",
+    "ourStory": "Our Story",
+    "ourMission": "Our Mission",
+    "description": "SoftBrain Space offers therapeutic art experiences and creative wellness tools designed for ADHD support, anxiety relief, and mindful expression. Discover our comprehensive suite of free creative tools including digital coloring canvas, AI vector converter, text formatter, document editor, and AI photo manager.",
+    "story": {
+      "paragraph1": "SoftBrain Space was born from a simple belief: creativity is therapy, and everyone deserves access to tools that help them find calm in the chaos. We combine evidence-based art therapy principles with modern technology to create accessible therapeutic experiences.",
+      "paragraph2": "We specialize in black and white line-art coloring books, doodles, and stickers designed specifically for adults and children with ADHD. Our designs emphasize therapeutic benefits while celebrating the joy of creation, and we complement our physical products with a comprehensive suite of free digital creative tools.",
+      "paragraph3": "What started as a personal journey to manage ADHD through art has grown into a community of thousands who have discovered the power of mindful coloring, digital creativity, and therapeutic expression through our innovative tools and resources.",
+      "creativityIsTherapy": "creativity is therapy"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide accessible, therapeutic art experiences and creative wellness tools that help people with ADHD and anxiety find focus, calm, and creative expression through evidence-based art therapy, digital tools, and mindful creative practices."
+    },
+    "whyLineArt": {
+      "title": "Why Line Art?",
+      "subtitle": "Black and white line art offers a unique therapeutic experience backed by research in art therapy and neuroscience:",
+      "clearBoundaries": {
+        "title": "Clear Boundaries",
+        "description": "Reduce decision fatigue with defined spaces"
+      },
+      "mindfulPatterns": {
+        "title": "Mindful Patterns",
+        "description": "Repetitive designs promote meditation"
+      },
+      "simpleDesigns": {
+        "title": "Simple Designs",
+        "description": "Prevent overwhelm and anxiety"
+      },
+      "flexibleComplexity": {
+        "title": "Flexible Complexity",
+        "description": "Suits different focus levels"
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Art therapy should be available to everyone, regardless of skill level or background. We design for all abilities and provide free tools alongside our products."
+      },
+      "mindfulness": {
+        "title": "Mindfulness",
+        "description": "Every design is crafted to promote focus and calm. We study patterns that naturally guide the mind into a meditative state."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We create thoughtful designs that serve a therapeutic purpose. Each piece is tested and refined to ensure it delivers the intended calming effect."
+      },
+      "community": {
+        "title": "Community",
+        "description": "We're building a supportive space for creative expression where everyone feels welcome to share their journey and inspire others."
+      }
+    },
+    "testimonials": {
+      "title": "Voices from Our Community",
+      "subtitle": "Real stories from people who have found peace through therapeutic coloring",
+      "sarah": {
+        "quote": "Coloring these mandalas has become my nightly ritual to quiet my ADHD brain. It's the only time my mind feels truly still.",
+        "name": "Sarah J.",
+        "role": "ADHD Community Member"
+      },
+      "michael": {
+        "quote": "I love that the designs aren't too busy. Other adult coloring books overwhelm me, but SoftBrain hits the perfect balance.",
+        "name": "Michael R.",
+        "role": "Art Therapy Enthusiast"
+      },
+      "elena": {
+        "quote": "The focus flow collection is a game changer for my anxiety. Simple, beautiful, and deeply therapeutic.",
+        "name": "Elena T.",
+        "role": "Anxiety Management"
+      }
+    },
+    "cta": {
+      "title": "Join Our Creative Community",
+      "subtitle": "Start your therapeutic coloring journey today and discover the calm that comes from creative focus.",
+      "browseCollection": "Browse Collection",
+      "tryFreeTools": "Try Free Tools"
+    }
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "createAccount": "Create Account",
+    "resetPassword": "Reset Password",
+    "sendResetLink": "Send Reset Link",
+    "backToSignIn": "Back to Sign In",
+    "checkEmail": "Check your email",
+    "resetSent": "Password reset instructions have been sent to your email."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shippingInfo": "Shipping Information",
+    "billingInfo": "Billing Information",
+    "payment": "Payment",
+    "placeOrder": "Place Order",
+    "orderSummary": "Order Summary",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "state": "State/Province",
+    "zip": "Zip/Postal Code",
+    "country": "Country",
+    "success": {
+      "title": "Thank you for your order!",
+      "description": "Your order has been successfully processed. A confirmation email has been sent.",
+      "orderNumber": "Order Number",
+      "continueShopping": "Continue Shopping"
+    },
+    "cancel": {
+      "title": "Payment Cancelled",
+      "description": "The payment process was cancelled. Your cart has been saved.",
+      "tryAgain": "Try Again"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "close": "Close",
+    "open": "Open",
+    "yes": "Yes",
+    "no": "No",
+    "of": "of",
+    "complete": "complete"
+  },
+  "accessibility": {
+    "controls": "Accessibility controls",
+    "language": "Language",
+    "currency": "Currency",
+    "theme": "Theme",
+    "fontSize": "Font size",
+    "scrollTop": "Scroll to top",
+    "scrollBottom": "Scroll to bottom",
+    "openAccessibility": "Open accessibility controls",
+    "closeAccessibility": "Close accessibility controls",
+    "changeLanguage": "Change language. Current: {language}",
+    "changeCurrency": "Change currency. Current: {currency}",
+    "changeTheme": "Switch to {mode} mode",
+    "changeFontSize": "Change font size. Current: {size}",
+    "currentLanguage": "Current language",
+    "currentCurrency": "Current currency",
+    "currentTheme": "Current theme",
+    "currentFontSize": "Current font size",
+    "lightMode": "light",
+    "darkMode": "dark",
+    "small": "small",
+    "medium": "medium",
+    "large": "large",
+    "languageLabel": "Language: {language}",
+    "currencyLabel": "Currency: {currency}",
+    "themeLabel": "Theme: {theme}",
+    "fontSizeLabel": "Font size: {size}",
+    "languages": {
+      "en": "English",
+      "pt": "Português",
+      "es": "Español",
+      "ru": "Русский",
+      "ja": "日本語"
+    },
+    "currencies": {
+      "USD": "US Dollar",
+      "EUR": "Euro",
+      "GBP": "British Pound",
+      "JPY": "Japanese Yen",
+      "BRL": "Brazilian Real"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions.",
+    "category_products": "Products & Orders",
+    "category_shipping": "Shipping & Returns",
+    "category_digital": "Digital Products",
+    "category_wholesale": "Wholesale & Licensing",
+    "q_therapeutic": "What are therapeutic coloring books?",
+    "a_therapeutic": "Therapeutic coloring books are specially designed line-art illustrations that promote relaxation, stress reduction, and mindfulness. The complex patterns help with concentration and create a calm state through creative expression. They are particularly effective for people with ADHD or anxiety.",
+    "q_skill_level": "What skill level is required?",
+    "a_skill_level": "Our coloring books are suitable for all skill levels, from beginners to experienced artists. We offer a variety of designs, from simple to complex patterns, so you can choose what best matches your preferences and experience.",
+    "q_materials": "What materials should I use?",
+    "a_materials": "You can use any coloring medium you prefer - colored pencils, gel pens, felt tip pens, watercolors, or markers. Our printed editions use high-quality paper that accepts various media.",
+    "q_order": "How do I place an order?",
+    "a_order": "Browse our store page, add items to your cart, and complete checkout. You can choose between digital and printed products. Our secure payment process ensures a smooth shopping experience.",
+    "q_shipping_time": "How long does shipping take?",
+    "a_shipping_time": "Printed products are typically shipped within 3-7 business days after order confirmation. International orders may take longer depending on the destination. Digital products are available immediately after purchase.",
+    "q_international": "Do you ship internationally?",
+    "a_international": "Yes, we ship to many countries worldwide. Shipping costs and delivery times vary depending on the destination. Available shipping options will be shown at checkout.",
+    "q_returns": "What is your return policy?",
+    "a_returns": "For printed products, we accept returns only for defective items. Please contact us within 7 days of receipt. Digital products are not eligible for return due to their nature, but we offer support for issues with your purchase.",
+    "q_digital": "How do I download digital products?",
+    "a_digital": "After purchasing a digital product, you will receive an email with a download link. You can also access it anytime through your account's order history. Files are provided in PDF format and can be used on your preferred device.",
+    "q_print_multiple": "Can I print digital products multiple times?",
+    "a_print_multiple": "Yes, you can print purchased digital products as many times as you wish for personal use. However, reselling, redistributing, or sharing the files is not permitted.",
+    "q_wholesale": "Do you offer wholesale prices?",
+    "a_wholesale": "Yes, we offer wholesale prices for orders of 50 units or more. This is ideal for retailers, classrooms, or therapeutic settings. Contact us for a detailed quote.",
+    "q_therapy_use": "Can I use these in my therapeutic practice?",
+    "a_therapy_use": "Yes, our coloring books are frequently used in art therapy, occupational therapy, and counseling practices. Contact us about licensing options for professional use.",
+    "stillQuestions": "Still have questions?",
+    "contactPrompt": "Didn't find the answer you're looking for?",
+    "contactButton": "Contact Us"
+  },
+  "favorites": {
+    "addToFavorites": "Add to Favorites",
+    "removeFromFavorites": "Remove from Favorites",
+    "save": "Save",
+    "saved": "Saved"
+  },
+  "profile": {
+    "title": "My Profile",
+    "orders": "Orders",
+    "favorites": "Favorites",
+    "addresses": "Addresses",
+    "settings": "Settings",
+    "orderHistory": "Order History",
+    "noOrders": "No orders yet",
+    "noFavorites": "No favorites yet"
+  },
+  "share": {
+    "title": "Share",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "language": {
+    "select": "Select Language"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "sendMessage": "Send us a message",
+    "sslSecure": "🔒 SSL Secure",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message sent!",
+    "successMessage": "We'll get back to you as soon as possible.",
+    "errorTitle": "Failed to send message",
+    "sendError": "Failed to send message. Please try again.",
+    "networkError": "Network error. Please check your connection and try again.",
+    "fixErrors": "Please fix the errors above.",
+    "nameRequired": "Name is required",
+    "nameTooLong": "Name must be less than 100 characters",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "subjectRequired": "Subject is required",
+    "subjectTooLong": "Subject must be less than 200 characters",
+    "messageRequired": "Message is required",
+    "messageTooLong": "Message must be less than 2000 characters",
+    "getInTouch": "Get in Touch",
+    "businessHours": "Business Hours",
+    "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM EST",
+    "weekend": "Saturday - Sunday: Closed",
+    "responseTime": "Response Time",
+    "responseTimeDescription": "We typically respond within 24-48 hours during business days.",
+    "followUs": "Follow Us"
+  },
+  "trust": {
+    "secure_checkout": "Secure Checkout",
+    "secure_checkout_desc": "256-bit SSL encryption protects your data",
+    "fast_shipping": "Fast Shipping",
+    "fast_shipping_desc": "Free shipping on orders over $50",
+    "payment_options": "Payment Options",
+    "payment_options_desc": "Credit cards, PayPal, Apple Pay & more",
+    "quality_guarantee": "Quality Guarantee",
+    "quality_guarantee_desc": "30-day money-back guarantee",
+    "happy_customers": "Happy Customers",
+    "average_rating": "Average Rating",
+    "countries_shipped": "Countries Shipped",
+    "customer_support": "Customer Support",
+    "based_on": "based on",
+    "reviews": "reviews",
+    "encrypted": "Encrypted",
+    "compliant": "Compliant",
+    "free_shipping_over": "Free shipping on orders {amount}",
+    "secure_payment": "Secure Payment",
+    "satisfaction_guaranteed": "Satisfaction Guaranteed"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "DocMeta Editor",
+      "subtitle": "View & edit document metadata",
+      "editMetadata": "Edit Document Metadata",
+      "description": "Upload any file to view and modify all its properties. Full metadata editing for PDFs.",
+      "singleFile": "Single File",
+      "batch": "Batch",
+      "loaded": "loaded",
+      "failedToRead": "Failed to read file.",
+      "reading": "Reading document...",
+      "reset": "Reset"
+    },
+    "driveLens": {
+      "title": "Drive Lens",
+      "subtitle": "AI-powered Google Drive photo manager",
+      "description": "Browse, organize, analyze, and manage your Google Drive photos with AI assistance.",
+      "auth": {
+        "signIn": "Sign in with Google",
+        "signOut": "Sign Out",
+        "connecting": "Connecting...",
+        "welcome": "Welcome to Drive Lens",
+        "loginPrompt": "Sign in with your Google account to access your Drive photos",
+        "signInRequired": "Please sign in to use Drive Lens"
+      },
+      "gallery": {
+        "viewMode": "View Mode",
+        "grid": "Grid",
+        "masonry": "Masonry",
+        "list": "List",
+        "sortBy": "Sort By",
+        "name": "Name",
+        "date": "Date",
+        "size": "Size",
+        "ascending": "Ascending",
+        "descending": "Descending",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selected": "selected",
+        "noPhotos": "No photos found",
+        "loading": "Loading photos..."
+      },
+      "viewer": {
+        "previous": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "download": "Download",
+        "delete": "Delete",
+        "move": "Move",
+        "copy": "Copy",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "share": "Share"
+      },
+      "ai": {
+        "title": "AI Analysis",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "description": "Description",
+        "tags": "Suggested Tags",
+        "colors": "Dominant Colors",
+        "objects": "Detected Objects",
+        "scene": "Scene Type",
+        "mood": "Mood",
+        "suggestions": "Creative Suggestions",
+        "applyTags": "Apply Tags",
+        "copyDescription": "Copy Description",
+        "noAnalysis": "No analysis available. Click 'Analyze with AI' to start."
+      },
+      "tags": {
+        "title": "Tags",
+        "addTag": "Add Tag",
+        "createTag": "Create New Tag",
+        "colorTag": "Color Tag",
+        "textTag": "Text Tag",
+        "tagName": "Tag Name",
+        "tagColor": "Tag Color",
+        "noTags": "No tags yet",
+        "remove": "Remove tag"
+      },
+      "batch": {
+        "title": "Batch Operations",
+        "move": "Move",
+        "copy": "Copy",
+        "delete": "Delete",
+        "tag": "Tag",
+        "analyze": "Analyze",
+        "export": "Export to PDF",
+        "processing": "Processing...",
+        "success": "Operation completed successfully",
+        "error": "Operation failed",
+        "confirmDelete": "Are you sure you want to delete {count} photos?"
+      },
+      "folders": {
+        "title": "Folders",
+        "myDrive": "My Drive",
+        "createFolder": "Create Folder",
+        "renameFolder": "Rename Folder",
+        "deleteFolder": "Delete Folder",
+        "folderName": "Folder Name",
+        "noFolders": "No folders"
+      },
+      "settings": {
+        "title": "Settings",
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System",
+        "thumbnailSize": "Thumbnail Size",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "cache": "Cache",
+        "enableCache": "Enable Offline Cache",
+        "cacheSize": "Cache Size Limit (MB)",
+        "clearCache": "Clear Cache",
+        "autoAnalyze": "Auto-analyze New Photos",
+        "showAIPanel": "Show AI Panel by Default"
+      },
+      "errors": {
+        "authFailed": "Authentication failed. Please try again.",
+        "loadFailed": "Failed to load photos. Please try again.",
+        "uploadFailed": "Failed to upload file.",
+        "deleteFailed": "Failed to delete file.",
+        "moveFailed": "Failed to move file.",
+        "copyFailed": "Failed to copy file.",
+        "analysisFailed": "AI analysis failed. Please try again.",
+        "networkError": "Network error. Please check your connection.",
+        "quotaExceeded": "Storage quota exceeded.",
+        "permissionDenied": "Permission denied.",
+        "sessionExpired": "Session expired. Please refresh the page.",
+        "loadContentFailed": "Failed to load content. Ensure you have internet connection and Drive permissions."
+      },
+      "prompts": {
+        "enterTags": "Enter tags for {count} file(s) (comma separated):",
+        "confirmDelete": "Are you sure you want to move {count} file(s) to trash?",
+        "enterFolderName": "Enter new folder name:",
+        "renameFolderPrompt": "Enter new folder name:",
+        "confirmDeleteFolder": "Are you sure you want to move this folder to trash?"
+      },
+      "alerts": {
+        "tagsUpdated": "Tags updated!",
+        "tagUpdateFailed": "Failed to update tags: {error}",
+        "filesMovedToTrash": "Files moved to trash!",
+        "deleteFilesFailed": "Failed to delete files: {error}",
+        "moveFileFailed": "Failed to move file: {error}",
+        "folderCreated": "Folder created!",
+        "createFolderFailed": "Failed to create folder: {error}",
+        "folderRenamed": "Folder renamed!",
+        "renameFolderFailed": "Failed to rename folder: {error}",
+        "folderDeleted": "Folder deleted!",
+        "deleteFolderFailed": "Failed to delete folder: {error}",
+        "folderColorSet": "Folder color set!",
+        "setFolderColorFailed": "Failed to set folder color: {error}",
+        "folderIconSet": "Folder icon set!",
+        "setFolderIconFailed": "Failed to set folder icon: {error}",
+        "folderTextColorSet": "Folder text color set!",
+        "setFolderTextColorFailed": "Failed to set folder text color: {error}",
+        "noImagesSelected": "No valid images selected for PDF export."
+      },
+      "ui": {
+        "loading": "Loading...",
+        "uiLoading": "Drive Lens UI Loading..."
+      },
+      "imageViewer": {
+        "controls": {
+          "undo": "Undo",
+          "redo": "Redo",
+          "close": "Close"
+        },
+        "tools": {
+          "crop": "Crop Image",
+          "background": "Background",
+          "draw": "Draw & Fill",
+          "export": "Download & Export",
+          "info": "Image Info",
+          "settings": "Image Settings"
+        },
+        "tabs": {
+          "crop": "Crop",
+          "bg": "Bg",
+          "adjust": "Adjust",
+          "draw": "Draw",
+          "export": "Export",
+          "info": "Info"
+        },
+        "panels": {
+          "exportUpscale": "Export & Upscale",
+          "adjustments": "Adjustments",
+          "details": "Details",
+          "cropImage": "Crop Image",
+          "background": "Background"
+        },
+        "crop": {
+          "aspectRatio": "Aspect Ratio",
+          "free": "Free",
+          "applyCrop": "Apply Crop",
+          "instruction": "Drag on the image to select the crop area, then click Apply."
+        },
+        "draw": {
+          "tools": "Tools",
+          "pencil": "Pencil",
+          "smartFill": "Smart Fill",
+          "replace": "Replace",
+          "picker": "Picker",
+          "color": "Color",
+          "width": "Width",
+          "smoothness": "Smoothness"
+        },
+        "adjustments": {
+          "brightness": "Brightness",
+          "contrast": "Contrast",
+          "saturation": "Saturation",
+          "rotation": "Rotation",
+          "mirroring": "Mirroring",
+          "flipHorizontal": "Flip Horizontal",
+          "flipVertical": "Flip Vertical",
+          "autoTune": "Auto-Tune for Line Art",
+          "flipBoth": "Flip Both",
+          "normal": "Normal"
+        },
+        "background": {
+          "removeBackground": "Remove Background",
+          "backgroundColor": "Background Color",
+          "note": "Note: Background color is applied when saving or exporting.",
+          "processing": "Processing...",
+          "removingBackground": "Removing background..."
+        },
+        "export": {
+          "format": "Format",
+          "scale": "Scale",
+          "upscale": "Upscale",
+          "applyUpscale": "Apply {factor}x Upscale",
+          "upscaling": "Upscaling...",
+          "download": "Download",
+          "processingExport": "Processing export...",
+          "upscale2x": "Upscale 2x (High Quality)",
+          "upscale4x": "Upscale 4x (High Quality)"
+        },
+        "save": {
+          "saveChanges": "Save Changes",
+          "saveAsCopy": "Save as Copy",
+          "saving": "Saving..."
+        },
+        "info": {
+          "analyzeImage": "Analyze Image",
+          "analyzing": "Consulting the oracle...",
+          "editTags": "Edit Tags",
+          "moveFile": "Move File",
+          "copyFile": "Copy File",
+          "deleteFile": "Delete File",
+          "findDuplicate": "Find Duplicate",
+          "findFamiliar": "Find Familiar",
+          "fileName": "File Name",
+          "fileSize": "File Size",
+          "dimensions": "Dimensions",
+          "mimeType": "Type",
+          "created": "Created",
+          "modified": "Modified",
+          "location": "Location",
+          "owners": "Owners",
+          "description": "Description",
+          "tags": "Tags",
+          "colors": "Colors",
+          "objects": "Objects",
+          "scene": "Scene",
+          "mood": "Mood",
+          "suggestions": "Suggestions"
+        },
+        "alerts": {
+          "exportFailed": "Export failed: {error}",
+          "upscaleFailed": "Upscale failed: {error}",
+          "saveFailed": "Save failed: {error}",
+          "savedSuccessfully": "Saved successfully! It might take a moment for Google Drive to update the thumbnail.",
+          "savedAsCopy": "Saved as copy successfully!",
+          "canvasContextError": "Canvas context not available",
+          "createBlobError": "Failed to create blob"
+        },
+        "upscale": {
+          "title": "Upscale Image",
+          "currentScale": "Current Scale",
+          "upscaleTo2x": "Upscale to 2x",
+          "upscaleTo4x": "Upscale to 4x",
+          "resetToOriginal": "Reset to Original",
+          "note": "Upscaling applies immediately to preview. Use Save buttons below to keep changes."
+        },
+        "buttons": {
+          "resetAll": "Reset All",
+          "autoTune": "Auto-Tune (Line Art)",
+          "analyzeImage": "Analyze Image"
+        },
+        "status": {
+          "processing": "Processing...",
+          "saving": "Saving...",
+          "consultingOracle": "Consulting the oracle...",
+          "upscaling": "Upscaling..."
+        },
+        "contextMenu": {
+          "imageInfo": "Image Info",
+          "adjustments": "Adjustments",
+          "exportUpscale": "Export & Upscale"
+        },
+        "ai": {
+          "title": "AI Analysis",
+          "mood": "Mood",
+          "location": "Location"
+        },
+        "manage": {
+          "title": "Manage"
+        },
+        "tooltips": {
+          "pickColorFromScreen": "Pick color from screen"
+        },
+        "prompts": {
+          "enterTags": "Enter tags separated by commas:",
+          "tagsUpdated": "Tags updated! Refresh the gallery to see changes.",
+          "fileMovedSuccess": "File moved successfully! Refresh the gallery."
+        },
+        "errors": {
+          "eyeDropperNotSupported": "EyeDropper not supported",
+          "failedToUpdateTags": "Failed to update tags: {error}",
+          "failedToMoveFile": "Failed to move file: {error}"
+        }
+      },
+      "compareViewer": {
+        "title": "Compare Images",
+        "controls": {
+          "zoomIn": "Zoom In",
+          "zoomOut": "Zoom Out",
+          "resetZoom": "Reset Zoom",
+          "toggleMetadata": "Toggle Metadata",
+          "close": "Close"
+        },
+        "instructions": {
+          "dragToPan": "Drag to pan",
+          "dragDivider": "Drag divider to compare",
+          "scrollZoom": "Scroll to zoom",
+          "pressI": "Press I to toggle info"
+        },
+        "metadata": {
+          "dimensions": "Dimensions",
+          "size": "Size",
+          "created": "Created",
+          "format": "Format",
+          "unknownDate": "Unknown date",
+          "unknownSize": "Unknown size",
+          "unknownDimensions": "Unknown dimensions"
+        }
+      }
+    }
+  },
+  "unauthorized": {
+    "title": "Access Denied - SoftBrain Space",
+    "description": "You do not have permission to access this page",
+    "heading": "Access Denied",
+    "message": "You do not have permission to access this page. Admin access is restricted to authorized users only.",
+    "goHome": "Go to Homepage",
+    "contactSupport": "Contact Support"
+  }
+}

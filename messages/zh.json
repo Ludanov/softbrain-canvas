@@ -1,0 +1,538 @@
+{
+  "nav": {
+    "home": "首页",
+    "store": "商店",
+    "gallery": "画廊",
+    "blog": "博客",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "contact_us": "联系我们",
+    "faq": "常见问题",
+    "tools": "艺术工具",
+    "coloring_book": "填色书",
+    "vector_magic": "矢量魔法",
+    "text_formatter": "文本格式化",
+    "cart": "购物车",
+    "sign_in": "登录",
+    "sign_up": "注册",
+    "sign_out": "退出",
+    "my_profile": "我的资料",
+    "hello": "您好",
+    "user": "用户",
+    "doc_editor": "文档编辑器",
+    "my_account": "我的账户",
+    "drive_lens": "Drive Lens"
+  },
+  "home": {
+    "hero": {
+      "title": "寻找您的创意宁静",
+      "title_part1": "寻找您的创意",
+      "title_part2": "宁静",
+      "subtitle": "发现专为ADHD、焦虑缓解和创意表达而设计的治疗性线描着色书。探索我们的免费创意工具：数字着色画布、AI驱动的矢量转换器、文本格式化器、文档元数据编辑器和AI增强型Google云端硬盘照片管理器。为寻求专注、放松和正念创造力的成人和儿童提供循证艺术治疗资源。",
+      "description": "发现专为ADHD、焦虑缓解和创意表达而设计的治疗性线描着色书。探索我们的免费创意工具：数字着色画布、AI驱动的矢量转换器、文本格式化器、文档元数据编辑器和AI增强型Google云端硬盘照片管理器。为寻求专注、放松和正念创造力的成人和儿童提供循证艺术治疗资源。",
+      "cta_store": "浏览商店",
+      "cta_gallery": "查看画廊"
+    },
+    "title": "SoftBrain Space",
+    "subtitle": "治疗性着色书和创意健康工具",
+    "description": "发现专为ADHD、焦虑缓解和创意表达而设计的治疗性线描着色书。探索我们的免费创意工具：数字着色画布、AI驱动的矢量转换器、文本格式化器、文档编辑器和AI照片管理器。",
+    "shopNow": "立即购买",
+    "viewGallery": "查看画廊",
+    "newsletter": {
+      "title": "保持更新",
+      "description": "获取最新的填色书、艺术技巧和独家优惠。",
+      "subscribe": "订阅",
+      "subscribing": "订阅中...",
+      "success": "感谢您的订阅！",
+      "error": "出现问题。请重试。",
+      "invalidEmail": "请输入有效的电子邮件地址",
+      "placeholder": "输入您的电子邮件"
+    },
+    "features_title": "为什么选择 SoftBrain Space？",
+    "features": {
+      "art": {
+        "title": "治疗性艺术",
+        "description": "精心设计的线条艺术图案，促进成人和多动症儿童的专注和放松。"
+      },
+      "mindful": {
+        "title": "正念创作",
+        "description": "每个设计都鼓励正念和创意表达，帮助减少压力和焦虑。"
+      },
+      "quality": {
+        "title": "优质设计",
+        "description": "高质量的黑白插图，完美适合填色，适合所有技能水平。"
+      },
+      "digital": {
+        "title": "即时数字下载",
+        "description": "通过我们的数字下载选项立即访问您的购买。在家打印并立即开始填色。"
+      },
+      "community": {
+        "title": "不断增长的社区",
+        "description": "加入数千名艺术家和填色爱好者，分享他们的创作并互相激励。"
+      },
+      "tools": {
+        "title": "免费创意工具",
+        "description": "访问我们的免费在线工具套件，包括数字填色画布、矢量转换器和文本格式化器。"
+      }
+    },
+    "art_tools": {
+      "title": "🎨 惊人的艺术工具",
+      "description": "探索我们为增强您的艺术之旅而设计的免费创意工具",
+      "coloring": {
+        "title": "🖌️ 填色书",
+        "description": "功能齐全的数字填色画布，配备画笔、图层、对称工具等。完美适合创作您自己的杰作。",
+        "cta": "免费试用"
+      },
+      "vector": {
+        "title": "✨ 矢量魔法",
+        "description": "将光栅图像转换为可缩放的矢量图形。AI驱动，支持颜色控制、批处理和多种导出格式。",
+        "cta": "免费试用"
+      },
+      "text": {
+        "title": "📝 文本格式化",
+        "description": "使用各种转换格式化和样式化您的文本。完美适合创建独特的设计和排版。",
+        "cta": "免费试用"
+      },
+      "docEditor": {
+        "title": "📄 文档元数据编辑器",
+        "description": "查看和编辑PDF及其他文件的文档元数据。完美适合组织您的数字文档。",
+        "cta": "免费试用"
+      },
+      "driveLens": {
+        "title": "🔍 Drive Lens",
+        "description": "AI驱动的Google Drive照片管理器。通过Gemini AI集成浏览、组织、分析和管理您的照片。",
+        "cta": "免费试用"
+      }
+    },
+    "cta": {
+      "title": "今天开始您的创意之旅",
+      "description": "探索我们的治疗性填色书系列，找到适合您正念时刻的完美设计。",
+      "button": "浏览系列"
+    },
+    "featured_products": "精选产品",
+    "view_all_products": "查看所有产品"
+  },
+  "product": {
+    "price": "价格",
+    "category": "类别",
+    "description": "描述",
+    "addToCart": "加入购物车",
+    "backToStore": "返回商店",
+    "relatedProducts": "相关产品"
+  },
+  "cart": {
+    "title": "购物车",
+    "empty": "您的购物车是空的",
+    "continueShopping": "继续购物",
+    "subtotal": "小计",
+    "shipping": "运费",
+    "total": "总计",
+    "checkout": "去结算",
+    "remove": "移除",
+    "quantity": "数量",
+    "item": "商品",
+    "items": "商品"
+  },
+  "store": {
+    "title": "商店 - SoftBrain Space",
+    "description": "浏览我们为创意放松而设计的治疗性线条艺术填色书、涂鸦和贴纸系列。",
+    "header": "我们的系列",
+    "headerDescription": "探索我们精心挑选的为促进专注和放松而设计的治疗性填色书、涂鸦和贴纸。",
+    "allProducts": "所有产品",
+    "filterByCategory": "按类别筛选",
+    "sortBy": "排序方式",
+    "priceAsc": "价格：从低到高",
+    "priceDesc": "价格：从高到低",
+    "nameAsc": "名称：A-Z",
+    "nameDesc": "名称：Z-A",
+    "newest": "最新",
+    "addToCart": "加入购物车",
+    "viewDetails": "查看详情",
+    "viewDetailsBtn": "查看详情",
+    "noProducts": "未找到产品。请稍后再来查看。",
+    "categories": {
+      "all": "所有产品",
+      "coloring-book": "填色书",
+      "doodle": "涂鸦",
+      "sticker": "贴纸"
+    },
+    "languages": {
+      "all": "所有语言",
+      "en": "英语",
+      "es": "西班牙语",
+      "fr": "法语",
+      "de": "德语"
+    },
+    "sort": {
+      "label": "排序方式",
+      "default": "默认",
+      "name": "名称",
+      "price": "价格",
+      "date": "添加日期",
+      "ascending": "↑ 升序",
+      "descending": "↓ 降序"
+    },
+    "languageLabel": "语言",
+    "productType": {
+      "digital": "📥 数字版",
+      "printed": "📦 印刷版"
+    }
+  },
+  "gallery": {
+    "title": "艺术画廊 - 治疗作品",
+    "description": "探索我们的治疗性线条艺术、填色书和社区创作系列。",
+    "all": "全部",
+    "allArtwork": "所有作品",
+    "filterByCategory": "按类别筛选",
+    "viewFullSize": "查看全尺寸",
+    "error": "加载画廊项目失败。请稍后再试。",
+    "loading": "加载画廊中...",
+    "noItems": "暂无画廊项目。"
+  },
+  "blog": {
+    "title": "心理学与幸福博客",
+    "description": "艺术治疗、多动症支持、心理健康和幸福方面的专家见解。基于证据的文章、教程和治疗性填色、正念和心理健康的资源。",
+    "header": "博客",
+    "headerDescription": "发现填色技巧、教程、创意灵感和来自SoftBrain Space的故事。",
+    "allPosts": "所有文章",
+    "featuredPosts": "精选文章",
+    "noPosts": "未找到文章。请稍后再来！",
+    "by": "作者",
+    "types": {
+      "article": "文章",
+      "video": "视频",
+      "tutorial": "教程"
+    },
+    "readMore": "阅读更多"
+  },
+  "footer": {
+    "description": "专为创意放松和专注而设计的治疗性线条艺术填色书、涂鸦和贴纸。适合成人和多动症儿童。",
+    "quickLinks": "快速链接",
+    "followUs": "关注我们",
+    "shopOn": "在以下平台购买",
+    "newsletter": "订阅我们的通讯",
+    "newsletterDescription": "获取新产品和独家优惠的更新。",
+    "copyright": "保留所有权利。",
+    "softbrainStore": "SoftBrain 商店",
+    "gumroadStore": "Gumroad 商店",
+    "payhipStore": "Payhip 商店"
+  },
+  "about": {
+    "title": "关于我们",
+    "ourStory": "我们的故事",
+    "ourMission": "我们的使命",
+    "description": "SoftBrain Space提供专为创意放松和专注而设计的治疗性艺术。"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "signOut": "退出",
+    "email": "电子邮件",
+    "password": "密码",
+    "forgotPassword": "忘记密码？",
+    "noAccount": "还没有账户？",
+    "haveAccount": "已有账户？",
+    "createAccount": "创建账户",
+    "resetPassword": "重置密码",
+    "sendResetLink": "发送重置链接",
+    "backToSignIn": "返回登录",
+    "checkEmail": "查看您的电子邮件",
+    "resetSent": "密码重置说明已发送到您的电子邮件。"
+  },
+  "checkout": {
+    "title": "结算",
+    "shippingInfo": "配送信息",
+    "billingInfo": "账单信息",
+    "payment": "支付",
+    "placeOrder": "下单",
+    "orderSummary": "订单摘要",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "电子邮件",
+    "phone": "电话",
+    "address": "地址",
+    "city": "城市",
+    "state": "省/州",
+    "zip": "邮政编码",
+    "country": "国家",
+    "success": {
+      "title": "感谢您的订单！",
+      "description": "您的订单已成功处理。确认邮件已发送。",
+      "orderNumber": "订单号",
+      "continueShopping": "继续购物"
+    },
+    "cancel": {
+      "title": "支付已取消",
+      "description": "支付过程已取消。您的购物车已保存。",
+      "tryAgain": "重试"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "clear": "清除",
+    "apply": "应用",
+    "close": "关闭",
+    "open": "打开",
+    "yes": "是",
+    "no": "否"
+  },
+  "faq": {
+    "title": "常见问题",
+    "description": "查找常见问题的答案。",
+    "category_products": "产品与订单",
+    "category_shipping": "配送与退货",
+    "category_digital": "数字产品",
+    "category_wholesale": "批发与许可",
+    "q_therapeutic": "什么是治疗性填色书？",
+    "a_therapeutic": "治疗性填色书是专门设计的线条艺术插图，促进放松、减压和正念。复杂的图案有助于集中注意力，并通过创意表达创造平静状态。它们对多动症或焦虑症患者特别有效。",
+    "q_skill_level": "需要什么技能水平？",
+    "a_skill_level": "我们的填色书适合所有技能水平，从初学者到有经验的艺术家。我们提供各种设计，从简单到复杂的图案，您可以选择最符合您喜好和经验的内容。",
+    "q_materials": "我应该使用什么材料？",
+    "a_materials": "您可以使用任何您喜欢的填色媒介——彩色铅笔、凝胶笔、马克笔、水彩或记号笔。我们的印刷版使用高质量纸张，适合各种媒介。",
+    "q_order": "如何下单？",
+    "a_order": "浏览我们的商店页面，将商品添加到购物车，然后完成结算。您可以选择数字或印刷产品。我们的安全支付流程确保顺畅的购物体验。",
+    "q_shipping_time": "配送需要多长时间？",
+    "a_shipping_time": "印刷产品通常在订单确认后3-7个工作日内发货。国际订单可能需要更长时间，具体取决于目的地。数字产品购买后立即可用。",
+    "q_international": "你们提供国际配送吗？",
+    "a_international": "是的，我们配送到全球许多国家。运费和配送时间因目的地而异。可用的配送选项将在结算时显示。",
+    "q_returns": "你们的退货政策是什么？",
+    "a_returns": "对于印刷产品，我们只接受有缺陷商品的退货。请在收到后7天内联系我们。由于数字产品的性质，它们不符合退货条件，但我们为购买问题提供支持。",
+    "q_digital": "如何下载数字产品？",
+    "a_digital": "购买数字产品后，您将收到一封包含下载链接的电子邮件。您也可以随时通过账户的订单历史记录访问。文件以PDF格式提供，可在您选择的设备上使用。",
+    "q_print_multiple": "我可以多次打印数字产品吗？",
+    "a_print_multiple": "是的，您可以根据个人需要多次打印购买的数字产品。但是，不允许转售、分发或共享文件。",
+    "q_wholesale": "你们提供批发价格吗？",
+    "a_wholesale": "是的，我们为50件或以上的订单提供批发价格。这非常适合零售商、教室或治疗环境。联系我们获取详细报价。",
+    "q_therapy_use": "我可以在我的治疗实践中使用这些产品吗？",
+    "a_therapy_use": "是的，我们的填色书经常用于艺术治疗、职业治疗和咨询实践。联系我们了解专业使用的许可选项。",
+    "stillQuestions": "还有问题？",
+    "contactPrompt": "没有找到您想要的答案？",
+    "contactButton": "联系我们"
+  },
+  "favorites": {
+    "addToFavorites": "添加到收藏",
+    "removeFromFavorites": "从收藏中移除",
+    "save": "收藏",
+    "saved": "已收藏"
+  },
+  "profile": {
+    "title": "我的资料",
+    "orders": "订单",
+    "favorites": "收藏",
+    "settings": "设置",
+    "orderHistory": "订单历史",
+    "noOrders": "暂无订单",
+    "noFavorites": "暂无收藏",
+    "addresses": "地址"
+  },
+  "share": {
+    "title": "分享",
+    "copyLink": "复制链接",
+    "copied": "已复制！",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "language": {
+    "select": "选择语言"
+  },
+  "contact": {
+    "title": "联系我们",
+    "sendMessage": "给我们发送消息",
+    "sslSecure": "🔒 SSL安全",
+    "name": "姓名",
+    "email": "电子邮件",
+    "subject": "主题",
+    "message": "消息",
+    "send": "发送消息",
+    "sending": "发送中...",
+    "successTitle": "消息已发送！",
+    "successMessage": "我们会尽快回复您。",
+    "errorTitle": "发送消息失败",
+    "sendError": "发送消息失败。请重试。",
+    "networkError": "网络错误。请检查您的连接并重试。",
+    "fixErrors": "请修正上面的错误。",
+    "nameRequired": "姓名为必填项",
+    "nameTooLong": "姓名必须少于100个字符",
+    "emailRequired": "电子邮件为必填项",
+    "emailInvalid": "请输入有效的电子邮件地址",
+    "subjectRequired": "主题为必填项",
+    "subjectTooLong": "主题必须少于200个字符",
+    "messageRequired": "消息为必填项",
+    "messageTooLong": "消息必须少于2000个字符",
+    "getInTouch": "联系我们",
+    "businessHours": "营业时间",
+    "weekdays": "周一 - 周五：上午9:00 - 下午6:00 EST",
+    "weekend": "周六 - 周日：休息",
+    "responseTime": "响应时间",
+    "responseTimeDescription": "我们通常在工作日内24-48小时内回复。",
+    "followUs": "关注我们"
+  },
+  "trust": {
+    "secure_checkout": "安全结算",
+    "secure_checkout_desc": "256位SSL加密保护您的数据",
+    "fast_shipping": "快速配送",
+    "fast_shipping_desc": "订单满$50免运费",
+    "payment_options": "支付选项",
+    "payment_options_desc": "信用卡、PayPal、Apple Pay等",
+    "quality_guarantee": "质量保证",
+    "quality_guarantee_desc": "30天退款保证",
+    "happy_customers": "满意客户",
+    "average_rating": "平均评分",
+    "countries_shipped": "配送国家",
+    "customer_support": "客户支持",
+    "based_on": "基于",
+    "reviews": "条评论",
+    "encrypted": "已加密",
+    "compliant": "合规",
+    "free_shipping_over": "订单满{amount}免运费",
+    "secure_payment": "安全支付",
+    "satisfaction_guaranteed": "满意保证"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "文档元数据编辑器",
+      "subtitle": "查看和编辑元数据",
+      "editMetadata": "编辑文档元数据",
+      "description": "上传任何文件以查看和修改其所有属性。完整的PDF元数据编辑功能。",
+      "singleFile": "单个文件",
+      "batch": "批量处理",
+      "loaded": "已加载",
+      "failedToRead": "读取文件失败。",
+      "reading": "正在读取文档...",
+      "reset": "重置"
+    },
+    "driveLens": {
+      "title": "Drive Lens",
+      "subtitle": "AI-powered Google Drive photo manager",
+      "description": "Browse, organize, analyze, and manage your Google Drive photos with AI assistance.",
+      "auth": {
+        "signIn": "Sign in with Google",
+        "signOut": "Sign Out",
+        "connecting": "Connecting...",
+        "welcome": "Welcome to Drive Lens",
+        "loginPrompt": "Sign in with your Google account to access your Drive photos"
+      },
+      "gallery": {
+        "viewMode": "View Mode",
+        "grid": "Grid",
+        "masonry": "Masonry",
+        "list": "List",
+        "sortBy": "Sort By",
+        "name": "Name",
+        "date": "Date",
+        "size": "Size",
+        "ascending": "Ascending",
+        "descending": "Descending",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selected": "selected",
+        "noPhotos": "No photos found",
+        "loading": "Loading photos..."
+      },
+      "viewer": {
+        "previous": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "download": "Download",
+        "delete": "Delete",
+        "move": "Move",
+        "copy": "Copy",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "share": "Share"
+      },
+      "ai": {
+        "title": "AI Analysis",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "description": "Description",
+        "tags": "Suggested Tags",
+        "colors": "Dominant Colors",
+        "objects": "Detected Objects",
+        "scene": "Scene Type",
+        "mood": "Mood",
+        "suggestions": "Creative Suggestions",
+        "applyTags": "Apply Tags",
+        "copyDescription": "Copy Description",
+        "noAnalysis": "No analysis available. Click 'Analyze with AI' to start."
+      },
+      "tags": {
+        "title": "Tags",
+        "addTag": "Add Tag",
+        "createTag": "Create New Tag",
+        "colorTag": "Color Tag",
+        "textTag": "Text Tag",
+        "tagName": "Tag Name",
+        "tagColor": "Tag Color",
+        "noTags": "No tags yet",
+        "remove": "Remove tag"
+      },
+      "batch": {
+        "title": "Batch Operations",
+        "move": "Move",
+        "copy": "Copy",
+        "delete": "Delete",
+        "tag": "Tag",
+        "analyze": "Analyze",
+        "export": "Export to PDF",
+        "processing": "Processing...",
+        "success": "Operation completed successfully",
+        "error": "Operation failed",
+        "confirmDelete": "Are you sure you want to delete {count} photos?"
+      },
+      "folders": {
+        "title": "Folders",
+        "myDrive": "My Drive",
+        "createFolder": "Create Folder",
+        "renameFolder": "Rename Folder",
+        "deleteFolder": "Delete Folder",
+        "folderName": "Folder Name",
+        "noFolders": "No folders"
+      },
+      "settings": {
+        "title": "Settings",
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System",
+        "thumbnailSize": "Thumbnail Size",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "cache": "Cache",
+        "enableCache": "Enable Offline Cache",
+        "cacheSize": "Cache Size Limit (MB)",
+        "clearCache": "Clear Cache",
+        "autoAnalyze": "Auto-analyze New Photos",
+        "showAIPanel": "Show AI Panel by Default"
+      },
+      "errors": {
+        "authFailed": "Authentication failed. Please try again.",
+        "loadFailed": "Failed to load photos. Please try again.",
+        "uploadFailed": "Failed to upload file.",
+        "deleteFailed": "Failed to delete file.",
+        "moveFailed": "Failed to move file.",
+        "copyFailed": "Failed to copy file.",
+        "analysisFailed": "AI analysis failed. Please try again.",
+        "networkError": "Network error. Please check your connection.",
+        "quotaExceeded": "Storage quota exceeded.",
+        "permissionDenied": "Permission denied."
+      }
+    }
+  }
+}

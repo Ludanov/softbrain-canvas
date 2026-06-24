@@ -1,0 +1,315 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "SoftBrain Space API",
+    "version": "1.0.0",
+    "description": "E-commerce API for therapeutic coloring books with Printful integration"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3333/api",
+      "description": "Development server"
+    },
+    {
+      "url": "https://softbrain.space/api",
+      "description": "Production server"
+    }
+  ],
+  "tags": [
+    {"name": "Products", "description": "Product catalog operations"},
+    {"name": "Cart", "description": "Shopping cart operations"},
+    {"name": "Orders", "description": "Order management"},
+    {"name": "Printful", "description": "Print-on-demand integration"},
+    {"name": "Auth", "description": "Authentication"},
+    {"name": "Profile", "description": "User profile management"},
+    {"name": "Health", "description": "System health"}
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": ["Health"],
+        "summary": "Health check",
+        "responses": {
+          "200": {
+            "description": "System is healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {"type": "string", "example": "ok"},
+                    "timestamp": {"type": "string", "format": "date-time"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/products": {
+      "get": {
+        "tags": ["Products"],
+        "summary": "Get all products",
+        "parameters": [
+          {"name": "category", "in": "query", "schema": {"type": "string"}},
+          {"name": "sort", "in": "query", "schema": {"type": "string", "enum": ["price_asc", "price_desc", "name"]}}
+        ],
+        "responses": {
+          "200": {
+            "description": "List of products",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {"$ref": "#/components/schemas/Product"}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/create-payment-intent": {
+      "post": {
+        "tags": ["Orders"],
+        "summary": "Create Stripe payment intent",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "amount": {"type": "number", "example": 2999}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Payment intent created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "clientSecret": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/printful/test": {
+      "get": {
+        "tags": ["Printful"],
+        "summary": "Test Printful API connection",
+        "responses": {
+          "200": {
+            "description": "Connection successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "connected": {"type": "boolean"},
+                    "store": {"type": "object"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/printful/products": {
+      "get": {
+        "tags": ["Printful"],
+        "summary": "Get synced Printful products",
+        "responses": {
+          "200": {
+            "description": "List of Printful products"
+          }
+        }
+      },
+      "post": {
+        "tags": ["Printful"],
+        "summary": "Sync Printful catalog",
+        "responses": {
+          "200": {
+            "description": "Products synced",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "synced": {"type": "number"},
+                    "total": {"type": "number"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/printful/variants": {
+      "get": {
+        "tags": ["Printful"],
+        "summary": "Get product variants",
+        "parameters": [
+          {"name": "productId", "in": "query", "required": true, "schema": {"type": "string"}}
+        ],
+        "responses": {
+          "200": {
+            "description": "List of variants"
+          }
+        }
+      }
+    },
+    "/printful/shipping": {
+      "post": {
+        "tags": ["Printful"],
+        "summary": "Calculate shipping cost",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "address": {"$ref": "#/components/schemas/Address"},
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "variant_id": {"type": "number"},
+                        "quantity": {"type": "number"}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Shipping rates"
+          }
+        }
+      }
+    },
+    "/printful/orders": {
+      "post": {
+        "tags": ["Printful"],
+        "summary": "Submit order to Printful",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "orderId": {"type": "string"},
+                  "confirm": {"type": "boolean"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Order submitted"
+          }
+        }
+      }
+    },
+    "/profile": {
+      "get": {
+        "tags": ["Profile"],
+        "summary": "Get user profile",
+        "security": [{"bearerAuth": []}],
+        "responses": {
+          "200": {
+            "description": "User profile"
+          }
+        }
+      }
+    },
+    "/profile/favorites": {
+      "get": {
+        "tags": ["Profile"],
+        "summary": "Get user favorites",
+        "security": [{"bearerAuth": []}],
+        "responses": {
+          "200": {
+            "description": "List of favorites"
+          }
+        }
+      },
+      "post": {
+        "tags": ["Profile"],
+        "summary": "Add to favorites",
+        "security": [{"bearerAuth": []}],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "productId": {"type": "string"}
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Added to favorites"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Product": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "number"},
+          "title": {"type": "string"},
+          "slug": {"type": "string"},
+          "description": {"type": "string"},
+          "price": {"type": "number"},
+          "category": {"type": "string"},
+          "image": {"type": "string"},
+          "is_printful": {"type": "boolean"}
+        }
+      },
+      "Address": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "line1": {"type": "string"},
+          "city": {"type": "string"},
+          "state": {"type": "string"},
+          "postal_code": {"type": "string"},
+          "country": {"type": "string"}
+        }
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  }
+}

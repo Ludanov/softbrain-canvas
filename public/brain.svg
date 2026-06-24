@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Brain outline with minimalist line-art style -->
+  <g stroke="#000000" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left hemisphere -->
+    <path d="M 150 120 Q 100 140 90 180 Q 85 220 100 260 Q 110 290 130 320 Q 145 345 170 365 Q 190 380 220 390 Q 240 395 256 395" />
+    
+    <!-- Right hemisphere -->
+    <path d="M 362 120 Q 412 140 422 180 Q 427 220 412 260 Q 402 290 382 320 Q 367 345 342 365 Q 322 380 292 390 Q 272 395 256 395" />
+    
+    <!-- Top curves (brain folds) -->
+    <path d="M 180 140 Q 200 120 230 115 Q 256 112 282 115 Q 312 120 332 140" />
+    <path d="M 200 170 Q 220 155 256 152 Q 292 155 312 170" />
+    
+    <!-- Middle curves -->
+    <path d="M 140 220 Q 160 200 190 195 Q 220 192 256 195" />
+    <path d="M 372 220 Q 352 200 322 195 Q 292 192 256 195" />
+    
+    <!-- Lower curves -->
+    <path d="M 150 280 Q 180 265 220 262 Q 240 260 256 262" />
+    <path d="M 362 280 Q 332 265 292 262 Q 272 260 256 262" />
+    
+    <!-- Bottom curves -->
+    <path d="M 170 340 Q 200 325 230 322 Q 243 320 256 322" />
+    <path d="M 342 340 Q 312 325 282 322 Q 269 320 256 322" />
+    
+    <!-- Central division -->
+    <path d="M 256 112 L 256 395" stroke-dasharray="8,8" />
+    
+    <!-- Additional brain fold details -->
+    <path d="M 165 190 Q 185 180 205 178" />
+    <path d="M 347 190 Q 327 180 307 178" />
+    <path d="M 155 250 Q 175 240 195 238" />
+    <path d="M 357 250 Q 337 240 317 238" />
+    <path d="M 180 310 Q 200 300 220 298" />
+    <path d="M 332 310 Q 312 300 292 298" />
+  </g>
+</svg>

@@ -1,0 +1,538 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "store": "Sklep",
+    "gallery": "Galeria",
+    "blog": "Blog",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "contact_us": "Skontaktuj się z nami",
+    "faq": "FAQ",
+    "tools": "Narzędzia artystyczne",
+    "coloring_book": "Kolorowanka",
+    "vector_magic": "Vector Magic",
+    "text_formatter": "Formatter tekstu",
+    "cart": "Koszyk",
+    "sign_in": "Zaloguj się",
+    "sign_up": "Zarejestruj się",
+    "sign_out": "Wyloguj się",
+    "my_profile": "Mój profil",
+    "hello": "Cześć",
+    "user": "Użytkownik",
+    "doc_editor": "Edytor Dokumentów",
+    "my_account": "Moje konto",
+    "drive_lens": "Drive Lens"
+  },
+  "home": {
+    "hero": {
+      "title": "Znajdź swoją kreatywną spokój",
+      "title_part1": "Znajdź swoją kreatywną",
+      "title_part2": "spokój",
+      "subtitle": "Odkryj terapeutyczne kolorowanki z grafiką liniową zaprojektowane na ADHD, ulgę w lęku i ekspresję kreatywną. Poznaj nasze darmowe narzędzia kreatywne: cyfrowe płótno do kolorowania, konwerter wektorów AI, formatowanie tekstu, edytor metadanych dokumentów i menedżer zdjęć Google Drive AI. Zasoby arteterapii oparte na dowodach dla dorosłych i dzieci szukających skupienia, relaksu i uważnej kreatywności.",
+      "description": "Odkryj terapeutyczne kolorowanki z grafiką liniową zaprojektowane na ADHD, ulgę w lęku i ekspresję kreatywną. Poznaj nasze darmowe narzędzia kreatywne: cyfrowe płótno do kolorowania, konwerter wektorów AI, formatowanie tekstu, edytor metadanych dokumentów i menedżer zdjęć Google Drive AI. Zasoby arteterapii oparte na dowodach dla dorosłych i dzieci szukających skupienia, relaksu i uważnej kreatywności.",
+      "cta_store": "Odkryj sklep",
+      "cta_gallery": "Zobacz galerię"
+    },
+    "newsletter": {
+      "title": "Bądź na bieżąco",
+      "description": "Otrzymuj najnowsze kolorowanki, wskazówki artystyczne i ekskluzywne oferty bezpośrednio na swoją skrzynkę pocztową.",
+      "placeholder": "Wprowadź adres e-mail",
+      "subscribe": "Subskrybuj",
+      "subscribing": "Subskrybowanie...",
+      "success": "Dziękujemy za subskrypcję!",
+      "error": "Coś poszło nie tak. Spróbuj ponownie.",
+      "invalidEmail": "Proszę wprowadzić prawidłowy adres e-mail"
+    },
+    "features_title": "Dlaczego SoftBrain Space?",
+    "features": {
+      "art": {
+        "title": "Sztuka terapeutyczna",
+        "description": "Starannie opracowane wzory sztuki liniowej, które wspierają koncentrację i relaks."
+      },
+      "mindful": {
+        "title": "Uważna kreacja",
+        "description": "Każdy projekt wspiera uważność i wyraz kreatywności, pomagając zmniejszyć stres i niepokój."
+      },
+      "quality": {
+        "title": "Wysokiej jakości projekty",
+        "description": "Wysokiej jakości ilustracje czarno-białe, idealne do kolorowania, odpowiednie dla wszystkich poziomów umiejętności."
+      },
+      "digital": {
+        "title": "Natychmiastowe Pliki Cyfrowe",
+        "description": "Uzyskaj natychmiastowy dostęp do zakupów dzięki naszym opcjom pobierania cyfrowego. Drukuj w domu i zacznij kolorować od razu."
+      },
+      "community": {
+        "title": "Rosnąca Społeczność",
+        "description": "Dołącz do tysięcy artystów i entuzjastów kolorowania, którzy dzielą się swoimi dziełami i inspirują nawzajem."
+      },
+      "tools": {
+        "title": "Darmowe Narzędzia Kreatywne",
+        "description": "Uzyskaj dostęp do naszego pakietu darmowych narzędzi online, w tym cyfrowego płótna do kolorowania, konwertera wektorów i formatowania tekstu."
+      }
+    },
+    "art_tools": {
+      "title": "🎨 Wspaniałe narzędzia artystyczne",
+      "description": "Odkryj nasze darmowe kreatywne narzędzia, stworzone, aby wzbogacić Twoją artystyczną podróż",
+      "coloring": {
+        "title": "🖌️ Kolorowanka",
+        "description": "Cyfrowe płótno do kolorowania z pędzlami, warstwami, narzędziami symetrii i nie tylko. Idealne do tworzenia własnych arcydzieł.",
+        "cta": "Wypróbuj za darmo"
+      },
+      "vector": {
+        "title": "✨ Vector Magic",
+        "description": "Konwertuj obrazy rastrowe na skalowalne grafiki wektorowe. Wspierane przez sztuczną inteligencję z kontrolą kolorów, przetwarzaniem wsadowym i wieloma formatami eksportu.",
+        "cta": "Wypróbuj za darmo"
+      },
+      "text": {
+        "title": "📝 Formatter tekstu",
+        "description": "Formatuj i stylizuj swój tekst za pomocą różnych transformacji. Idealne do tworzenia unikalnych projektów.",
+        "cta": "Wypróbuj za darmo"
+      },
+      "docEditor": {
+        "title": "📄 DocMeta Editor",
+        "description": "Przeglądaj i edytuj metadane dokumentów dla plików PDF i innych plików. Idealne do organizowania cyfrowych dokumentów.",
+        "cta": "Wypróbuj za darmo"
+      },
+      "driveLens": {
+        "title": "🔍 Drive Lens",
+        "description": "Menedżer zdjęć Google Drive zasilany AI. Przeglądaj, organizuj, analizuj i zarządzaj swoimi zdjęciami dzięki integracji Gemini AI.",
+        "cta": "Wypróbuj za darmo"
+      }
+    },
+    "cta": {
+      "title": "Rozpocznij swoją kreatywną podróż już dziś",
+      "description": "Odkryj naszą kolekcję terapeutycznych kolorowanek i znajdź idealny projekt dla swoich chwil uważności.",
+      "button": "Przeglądaj kolekcję"
+    },
+    "featured_products": "Polecane produkty",
+    "view_all_products": "Zobacz wszystkie produkty",
+    "title": "SoftBrain Space",
+    "subtitle": "Terapeutyczne Kolorowanki i Narzędzia Kreatywnego Wellness",
+    "description": "Odkryj terapeutyczne kolorowanki z grafiką liniową na ADHD, ulgę w lęku i ekspresję kreatywną. Poznaj nasze darmowe narzędzia kreatywne: cyfrowe płótno do kolorowania, konwerter wektorów AI, formatowanie tekstu, edytor dokumentów i menedżer zdjęć AI.",
+    "shopNow": "Kup teraz",
+    "viewGallery": "Zobacz galerię"
+  },
+  "product": {
+    "price": "Cena",
+    "category": "Kategoria",
+    "description": "Opis",
+    "addToCart": "Dodaj do koszyka",
+    "backToStore": "Wróć do sklepu",
+    "relatedProducts": "Podobne produkty"
+  },
+  "cart": {
+    "title": "Koszyk",
+    "empty": "Twój koszyk jest pusty",
+    "continueShopping": "Kontynuuj zakupy",
+    "subtotal": "Suma częściowa",
+    "shipping": "Wysyłka",
+    "total": "Razem",
+    "checkout": "Przejdź do kasy",
+    "remove": "Usuń",
+    "quantity": "Ilość",
+    "item": "Produkt",
+    "items": "Produkty"
+  },
+  "checkout": {
+    "title": "Kasa",
+    "shippingInfo": "Informacje o wysyłce",
+    "billingInfo": "Informacje rozliczeniowe",
+    "payment": "Płatność",
+    "placeOrder": "Złóż zamówienie",
+    "orderSummary": "Podsumowanie zamówienia",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "address": "Adres",
+    "city": "Miasto",
+    "state": "Województwo",
+    "zip": "Kod pocztowy",
+    "country": "Kraj",
+    "success": {
+      "title": "Dziękujemy za zamówienie!",
+      "description": "Twoje zamówienie zostało pomyślnie przetworzone. E-mail z potwierdzeniem został wysłany.",
+      "orderNumber": "Numer zamówienia",
+      "continueShopping": "Kontynuuj zakupy"
+    },
+    "cancel": {
+      "title": "Płatność anulowana",
+      "description": "Proces płatności został anulowany. Twój koszyk został zachowany.",
+      "tryAgain": "Spróbuj ponownie"
+    }
+  },
+  "store": {
+    "title": "Sklep - SoftBrain Space",
+    "description": "Przeglądaj naszą kolekcję terapeutycznych kolorowanek ze sztuką liniową, bazgrołami i naklejkami.",
+    "header": "Nasza kolekcja",
+    "headerDescription": "Odkryj naszą starannie dobraną selekcję terapeutycznych kolorowanek.",
+    "allProducts": "Wszystkie produkty",
+    "filterByCategory": "Filtruj według kategorii",
+    "sortBy": "Sortuj według",
+    "priceAsc": "Cena: od najniższej",
+    "priceDesc": "Cena: od najwyższej",
+    "nameAsc": "Nazwa: A-Z",
+    "nameDesc": "Nazwa: Z-A",
+    "newest": "Najnowsze",
+    "addToCart": "Dodaj do koszyka",
+    "viewDetails": "Zobacz szczegóły",
+    "noProducts": "Nie znaleziono produktów. Spróbuj ponownie później.",
+    "viewDetailsBtn": "Zobacz szczegóły",
+    "categories": {
+      "all": "Wszystkie produkty",
+      "coloring-book": "Kolorowanki",
+      "doodle": "Bazgroły",
+      "sticker": "Naklejki"
+    },
+    "languages": {
+      "all": "Wszystkie języki",
+      "en": "Angielski",
+      "es": "Hiszpański",
+      "fr": "Francuski",
+      "de": "Niemiecki"
+    },
+    "sort": {
+      "label": "Sortuj według",
+      "default": "Domyślnie",
+      "name": "Nazwa",
+      "price": "Cena",
+      "date": "Data dodania",
+      "ascending": "↑ Rosnąco",
+      "descending": "↓ Malejąco"
+    },
+    "languageLabel": "Język",
+    "productType": {
+      "digital": "📥 Cyfrowy",
+      "printed": "📦 Drukowany"
+    }
+  },
+  "gallery": {
+    "title": "Galeria",
+    "description": "Odkryj naszą kolekcję terapeutycznej sztuki liniowej, kolorowanek i kreacji społeczności.",
+    "all": "Wszystkie",
+    "allArtwork": "Wszystkie prace",
+    "filterByCategory": "Filtruj według kategorii",
+    "viewFullSize": "Zobacz w pełnym rozmiarze",
+    "error": "Błąd podczas ładowania galerii. Spróbuj ponownie później.",
+    "loading": "Ładowanie galerii...",
+    "noItems": "Brak dostępnych elementów galerii."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Odkryj wskazówki dotyczące kolorowania, tutoriale, kreatywną inspirację i historie od SoftBrain Space.",
+    "header": "Blog",
+    "headerDescription": "Odkryj wskazówki dotyczące kolorowania, tutoriale, kreatywną inspirację i historie.",
+    "allPosts": "Wszystkie wpisy",
+    "featuredPosts": "Polecane wpisy",
+    "noPosts": "Nie znaleziono wpisów. Sprawdź ponownie później!",
+    "by": "autor",
+    "types": {
+      "article": "Artykuł",
+      "video": "Wideo",
+      "tutorial": "Tutorial"
+    },
+    "readMore": "Czytaj więcej"
+  },
+  "about": {
+    "title": "O nas",
+    "ourStory": "Nasza historia",
+    "ourMission": "Nasza misja",
+    "description": "SoftBrain Space oferuje terapeutyczną sztukę dla kreatywnego relaksu i koncentracji."
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "sendMessage": "Wyślij nam wiadomość",
+    "sslSecure": "🔒 SSL Bezpieczne",
+    "name": "Imię",
+    "email": "E-mail",
+    "subject": "Temat",
+    "message": "Wiadomość",
+    "send": "Wyślij wiadomość",
+    "sending": "Wysyłanie...",
+    "successTitle": "Wiadomość wysłana!",
+    "successMessage": "Odpowiemy tak szybko, jak to możliwe.",
+    "errorTitle": "Nie udało się wysłać wiadomości",
+    "sendError": "Nie udało się wysłać wiadomości. Spróbuj ponownie.",
+    "networkError": "Błąd sieci. Sprawdź połączenie i spróbuj ponownie.",
+    "fixErrors": "Proszę poprawić powyższe błędy.",
+    "nameRequired": "Imię jest wymagane",
+    "nameTooLong": "Imię musi mieć mniej niż 100 znaków",
+    "emailRequired": "E-mail jest wymagany",
+    "emailInvalid": "Proszę podać prawidłowy adres e-mail",
+    "subjectRequired": "Temat jest wymagany",
+    "subjectTooLong": "Temat musi mieć mniej niż 200 znaków",
+    "messageRequired": "Wiadomość jest wymagana",
+    "messageTooLong": "Wiadomość musi mieć mniej niż 2000 znaków",
+    "getInTouch": "Skontaktuj się",
+    "businessHours": "Godziny pracy",
+    "weekdays": "Poniedziałek - Piątek: 9:00 - 18:00 EST",
+    "weekend": "Sobota - Niedziela: Zamknięte",
+    "responseTime": "Czas odpowiedzi",
+    "responseTimeDescription": "Zazwyczaj odpowiadamy w ciągu 24-48 godzin w dni robocze.",
+    "followUs": "Śledź nas"
+  },
+  "faq": {
+    "title": "Często zadawane pytania",
+    "description": "Znajdź odpowiedzi na często zadawane pytania.",
+    "category_products": "Produkty i zamówienia",
+    "category_shipping": "Wysyłka i zwroty",
+    "category_digital": "Produkty cyfrowe",
+    "category_wholesale": "Hurt i licencjonowanie",
+    "q_therapeutic": "Co to są kolorowanki terapeutyczne?",
+    "a_therapeutic": "Kolorowanki terapeutyczne to specjalnie zaprojektowane ilustracje liniowe, które promują relaks, redukcję stresu i uważność. Złożone wzory pomagają w koncentracji i tworzą spokojny stan poprzez ekspresję kreatywną. Są szczególnie skuteczne dla osób z ADHD lub lękiem.",
+    "q_skill_level": "Jaki poziom umiejętności jest wymagany?",
+    "a_skill_level": "Nasze kolorowanki są odpowiednie dla wszystkich poziomów umiejętności, od początkujących po doświadczonych artystów. Oferujemy różnorodność projektów, od prostych po złożone wzory, abyś mógł wybrać to, co najbardziej odpowiada Twoim preferencjom i doświadczeniu.",
+    "q_materials": "Jakich materiałów powinienem używać?",
+    "a_materials": "Możesz używać dowolnych mediów do kolorowania, które preferujesz – kredki, flamastry, długopisy żelowe, akwarele lub markery. Nasze wydania drukowane używają wysokiej jakości papieru, który przyjmuje różne media.",
+    "q_order": "Jak złożyć zamówienie?",
+    "a_order": "Przeglądaj naszą stronę sklepu, dodaj produkty do koszyka i przejdź do realizacji zamówienia. Możesz wybierać między produktami cyfrowymi i drukowanymi. Nasz bezpieczny proces płatności zapewnia płynne doświadczenie zakupowe.",
+    "q_shipping_time": "Ile trwa wysyłka?",
+    "a_shipping_time": "Produkty drukowane są zazwyczaj wysyłane w ciągu 3-7 dni roboczych po potwierdzeniu zamówienia. Zamówienia międzynarodowe mogą trwać dłużej w zależności od miejsca docelowego. Produkty cyfrowe są dostępne natychmiast po zakupie.",
+    "q_international": "Czy wysyłacie międzynarodowo?",
+    "a_international": "Tak, wysyłamy do wielu krajów na całym świecie. Koszty wysyłki i czas dostawy zależą od miejsca docelowego. Dostępne opcje wysyłki zostaną wyświetlone przy realizacji zamówienia.",
+    "q_returns": "Jaka jest polityka zwrotów?",
+    "a_returns": "Dla produktów drukowanych akceptujemy zwroty tylko dla wadliwych produktów. Prosimy o kontakt w ciągu 7 dni od odbioru. Produkty cyfrowe nie kwalifikują się do zwrotu ze względu na ich naturę, ale oferujemy wsparcie w przypadku problemów z zakupem.",
+    "q_digital": "Jak pobrać produkty cyfrowe?",
+    "a_digital": "Po zakupie produktu cyfrowego otrzymasz e-mail z linkiem do pobrania. Możesz również uzyskać do niego dostęp w dowolnym momencie przez historię zamówień w swoim koncie. Pliki są dostarczane w formacie PDF i mogą być używane na Twoim preferowanym urządzeniu.",
+    "q_print_multiple": "Czy mogę drukować produkty cyfrowe wielokrotnie?",
+    "a_print_multiple": "Tak, możesz drukować zakupione produkty cyfrowe tyle razy, ile chcesz do użytku osobistego. Jednak odsprzedaż, redystrybucja lub udostępnianie plików nie jest dozwolone.",
+    "q_wholesale": "Czy oferujecie ceny hurtowe?",
+    "a_wholesale": "Tak, oferujemy ceny hurtowe dla zamówień od 50 sztuk. Jest to idealne dla sprzedawców detalicznych, sal lekcyjnych lub placówek terapeutycznych. Skontaktuj się z nami w sprawie szczegółowej wyceny.",
+    "q_therapy_use": "Czy mogę używać tego w mojej praktyce terapeutycznej?",
+    "a_therapy_use": "Tak, nasze kolorowanki są często używane w terapii sztuką, terapii zajęciowej i praktyce doradczej. Skontaktuj się z nami w sprawie opcji licencjonowania do użytku profesjonalnego.",
+    "stillQuestions": "Wciąż masz pytania?",
+    "contactPrompt": "Nie znalazłeś szukanego odpowiedzi?",
+    "contactButton": "Skontaktuj się z nami"
+  },
+  "footer": {
+    "description": "Terapeutyczne czarno-białe kolorowanki, bazgroły i naklejki zaprojektowane dla kreatywnego relaksu i koncentracji. Idealne dla dorosłych i dzieci z ADHD.",
+    "quickLinks": "Szybkie linki",
+    "followUs": "Śledź nas",
+    "shopOn": "Kup na",
+    "newsletter": "Zapisz się do newslettera",
+    "newsletterDescription": "Otrzymuj aktualizacje o nowych produktach i ekskluzywnych ofertach.",
+    "copyright": "Wszelkie prawa zastrzeżone.",
+    "softbrainStore": "Sklep SoftBrain",
+    "gumroadStore": "Sklep Gumroad",
+    "payhipStore": "Sklep Payhip"
+  },
+  "auth": {
+    "signIn": "Zaloguj się",
+    "signUp": "Zarejestruj się",
+    "signOut": "Wyloguj się",
+    "email": "E-mail",
+    "password": "Hasło",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "noAccount": "Nie masz konta?",
+    "haveAccount": "Masz już konto?",
+    "createAccount": "Utwórz konto",
+    "resetPassword": "Resetuj hasło",
+    "sendResetLink": "Wyślij link resetujący",
+    "backToSignIn": "Wróć do logowania",
+    "checkEmail": "Sprawdź e-mail",
+    "resetSent": "Instrukcje resetowania hasła zostały wysłane na e-mail."
+  },
+  "profile": {
+    "title": "Mój profil",
+    "orders": "Zamówienia",
+    "favorites": "Ulubione",
+    "settings": "Ustawienia",
+    "orderHistory": "Historia zamówień",
+    "noOrders": "Brak zamówień",
+    "noFavorites": "Brak ulubionych",
+    "addresses": "Adresy"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Błąd",
+    "success": "Sukces",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "confirm": "Potwierdź",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "previous": "Poprzedni",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "sort": "Sortuj",
+    "clear": "Wyczyść",
+    "apply": "Zastosuj",
+    "close": "Zamknij",
+    "open": "Otwórz",
+    "yes": "Tak",
+    "no": "Nie"
+  },
+  "share": {
+    "title": "Udostępnij",
+    "copyLink": "Kopiuj link",
+    "copied": "Skopiowano!",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "pinterest": "Pinterest",
+    "linkedin": "LinkedIn"
+  },
+  "favorites": {
+    "addToFavorites": "Dodaj do ulubionych",
+    "removeFromFavorites": "Usuń z ulubionych",
+    "save": "Zapisz",
+    "saved": "Zapisano"
+  },
+  "language": {
+    "select": "Wybierz język"
+  },
+  "tools": {
+    "docEditor": {
+      "title": "DocMeta Editor",
+      "subtitle": "Przeglądaj i edytuj metadane dokumentów",
+      "editMetadata": "Edytuj metadane dokumentu",
+      "description": "Prześlij dowolny plik, aby przeglądać i modyfikować wszystkie jego właściwości. Pełna edycja metadanych dla PDFów.",
+      "singleFile": "Pojedynczy Plik",
+      "batch": "Wsadowo",
+      "loaded": "wczytano",
+      "failedToRead": "Nie udało się odczytać pliku.",
+      "reading": "Odczytywanie dokumentu...",
+      "reset": "Resetuj"
+    },
+    "driveLens": {
+      "title": "Drive Lens",
+      "subtitle": "AI-powered Google Drive photo manager",
+      "description": "Browse, organize, analyze, and manage your Google Drive photos with AI assistance.",
+      "auth": {
+        "signIn": "Sign in with Google",
+        "signOut": "Sign Out",
+        "connecting": "Connecting...",
+        "welcome": "Welcome to Drive Lens",
+        "loginPrompt": "Sign in with your Google account to access your Drive photos"
+      },
+      "gallery": {
+        "viewMode": "View Mode",
+        "grid": "Grid",
+        "masonry": "Masonry",
+        "list": "List",
+        "sortBy": "Sort By",
+        "name": "Name",
+        "date": "Date",
+        "size": "Size",
+        "ascending": "Ascending",
+        "descending": "Descending",
+        "selectAll": "Select All",
+        "deselectAll": "Deselect All",
+        "selected": "selected",
+        "noPhotos": "No photos found",
+        "loading": "Loading photos..."
+      },
+      "viewer": {
+        "previous": "Previous",
+        "next": "Next",
+        "close": "Close",
+        "download": "Download",
+        "delete": "Delete",
+        "move": "Move",
+        "copy": "Copy",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "share": "Share"
+      },
+      "ai": {
+        "title": "AI Analysis",
+        "analyze": "Analyze with AI",
+        "analyzing": "Analyzing...",
+        "description": "Description",
+        "tags": "Suggested Tags",
+        "colors": "Dominant Colors",
+        "objects": "Detected Objects",
+        "scene": "Scene Type",
+        "mood": "Mood",
+        "suggestions": "Creative Suggestions",
+        "applyTags": "Apply Tags",
+        "copyDescription": "Copy Description",
+        "noAnalysis": "No analysis available. Click 'Analyze with AI' to start."
+      },
+      "tags": {
+        "title": "Tags",
+        "addTag": "Add Tag",
+        "createTag": "Create New Tag",
+        "colorTag": "Color Tag",
+        "textTag": "Text Tag",
+        "tagName": "Tag Name",
+        "tagColor": "Tag Color",
+        "noTags": "No tags yet",
+        "remove": "Remove tag"
+      },
+      "batch": {
+        "title": "Batch Operations",
+        "move": "Move",
+        "copy": "Copy",
+        "delete": "Delete",
+        "tag": "Tag",
+        "analyze": "Analyze",
+        "export": "Export to PDF",
+        "processing": "Processing...",
+        "success": "Operation completed successfully",
+        "error": "Operation failed",
+        "confirmDelete": "Are you sure you want to delete {count} photos?"
+      },
+      "folders": {
+        "title": "Folders",
+        "myDrive": "My Drive",
+        "createFolder": "Create Folder",
+        "renameFolder": "Rename Folder",
+        "deleteFolder": "Delete Folder",
+        "folderName": "Folder Name",
+        "noFolders": "No folders"
+      },
+      "settings": {
+        "title": "Settings",
+        "theme": "Theme",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System",
+        "thumbnailSize": "Thumbnail Size",
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large",
+        "cache": "Cache",
+        "enableCache": "Enable Offline Cache",
+        "cacheSize": "Cache Size Limit (MB)",
+        "clearCache": "Clear Cache",
+        "autoAnalyze": "Auto-analyze New Photos",
+        "showAIPanel": "Show AI Panel by Default"
+      },
+      "errors": {
+        "authFailed": "Authentication failed. Please try again.",
+        "loadFailed": "Failed to load photos. Please try again.",
+        "uploadFailed": "Failed to upload file.",
+        "deleteFailed": "Failed to delete file.",
+        "moveFailed": "Failed to move file.",
+        "copyFailed": "Failed to copy file.",
+        "analysisFailed": "AI analysis failed. Please try again.",
+        "networkError": "Network error. Please check your connection.",
+        "quotaExceeded": "Storage quota exceeded.",
+        "permissionDenied": "Permission denied."
+      }
+    }
+  },
+  "trust": {
+    "secure_checkout": "Bezpieczna Płatność",
+    "secure_checkout_desc": "Szyfrowanie SSL 256-bit chroni Twoje dane",
+    "fast_shipping": "Szybka Wysyłka",
+    "fast_shipping_desc": "Darmowa wysyłka przy zamówieniach powyżej $50",
+    "payment_options": "Opcje Płatności",
+    "payment_options_desc": "Karty kredytowe, PayPal, Apple Pay i więcej",
+    "quality_guarantee": "Gwarancja Jakości",
+    "quality_guarantee_desc": "30-dniowa gwarancja zwrotu pieniędzy",
+    "happy_customers": "Zadowoleni Klienci",
+    "average_rating": "Średnia Ocena",
+    "countries_shipped": "Kraje Wysyłki",
+    "customer_support": "Wsparcie Klienta",
+    "based_on": "na podstawie",
+    "reviews": "opinii",
+    "encrypted": "Szyfrowane",
+    "compliant": "Zgodne",
+    "free_shipping_over": "Darmowa wysyłka przy zamówieniach powyżej {amount}",
+    "secure_payment": "Bezpieczna Płatność",
+    "satisfaction_guaranteed": "Gwarancja Satysfakcji"
+  }
+}
