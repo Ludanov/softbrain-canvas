@@ -10,8 +10,9 @@ COPY --chown=nextjs:nodejs public ./public
 COPY --chown=nextjs:nodejs .next/standalone ./
 COPY --chown=nextjs:nodejs .next/static ./.next/static
 
+ENV PORT=80
 USER nextjs
-EXPOSE 3000
+EXPOSE 80
 ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
 
